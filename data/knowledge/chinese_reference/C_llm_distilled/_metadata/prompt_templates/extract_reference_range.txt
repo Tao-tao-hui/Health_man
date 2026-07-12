@@ -1,0 +1,35 @@
+你是医学数据提取专家。从以下文献片段中提取参考范围数据。
+
+输入文献：
+{literature_text}
+
+请严格按以下 JSON schema 输出：
+{{
+  "indicator_id": "{indicator_id}",
+  "name_cn": "string",
+  "name_en": "string",
+  "unit": "string",
+  "population": {{
+    "region": "CN",
+    "age_range": "string",
+    "gender": "male|female|both"
+  }},
+  "statistics": {{
+    "p5": "number|null",
+    "p25": "number|null",
+    "p50": "number|null",
+    "p75": "number|null",
+    "p95": "number|null",
+    "mean": "number|null",
+    "sd": "number|null",
+    "n_subjects": "integer"
+  }},
+  "source_pmid": "string",
+  "extraction_confidence": "0-1"
+}}
+
+规则：
+1. 只提取明确报告的数字，禁止推断
+2. 若文献未报告某统计量，填 null
+3. 单位必须明确（%、kg/m²、ms 等）
+4. extraction_confidence 自评：清晰=0.9，模糊=0.5
