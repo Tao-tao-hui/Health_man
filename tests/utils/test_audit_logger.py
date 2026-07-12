@@ -63,3 +63,13 @@ def test_log_accepts_extra_fields(tmp_path):
     entry = json.loads((tmp_path / "audit.log").read_text(encoding="utf-8").strip())
     assert entry["user"] == "admin"
     assert entry["bytes"] == 1024
+
+
+def test_load_last_hash_raises_on_missing_hash(tmp_path):
+    """日志最后一行缺 hash 字段必须抛 ValueError（防篡改信号）"""
+    import pytest
+    log_path = tmp_path / "audit.log"
+    # 写一行合法 JSON 但缺 hash 字段
+    log_path.write_text('{"operation": "fake", "target": "x"}\n', encoding="utf-8")
+    with pytest.raises(ValueError, match="缺少 hash 字段"):
+        AuditLogger(log_path=log_path)

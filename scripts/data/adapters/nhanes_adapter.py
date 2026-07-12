@@ -61,12 +61,12 @@ class NHANESAdapter(SourceAdapter):
         dest_dir.mkdir(parents=True, exist_ok=True)
         dest_path = dest_dir / file_meta["filename"]
 
-        # 流式下载（支持大文件）
-        response = requests.get(file_meta["url"], stream=True, timeout=30)
-        response.raise_for_status()
-        with open(dest_path, "wb") as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                f.write(chunk)
+        # 流式下载（支持大文件）；使用 with 确保连接在并发场景下及时释放
+        with requests.get(file_meta["url"], stream=True, timeout=30) as response:
+            response.raise_for_status()
+            with open(dest_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
         return dest_path
 
     def verify_checksum(self, file_path: Path, expected_sha256: str) -> bool:

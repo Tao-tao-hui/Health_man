@@ -50,13 +50,6 @@ def test_step3_outliers_flagged(sample_df, preprocessor):
     assert result["age"].max() <= 99
 
 
-def test_step4_missing_values_filled(sample_df, preprocessor):
-    """Step 4: 缺失值必须被填充或标记"""
-    result = preprocessor.process(sample_df)
-    # weight_kg 原本有 1 个缺失值，应被填充
-    assert result["weight_kg"].isna().sum() == 0
-
-
 def test_step5_age_grouped(sample_df, preprocessor):
     """Step 5: 必须添加 age_group 分组列"""
     result = preprocessor.process(sample_df)

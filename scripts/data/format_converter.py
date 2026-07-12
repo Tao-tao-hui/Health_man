@@ -8,7 +8,7 @@
 设计原则：
 - 单一职责：仅负责格式转换，不做数据清洗
 - 保留原始字段名（标准化由 Preprocessor 负责）
-- 转换后必须校验行数与列数
+- 转换后记录行数与列数到日志（不在此处断言，由 QualityChecker 负责校验）
 """
 import logging
 from pathlib import Path

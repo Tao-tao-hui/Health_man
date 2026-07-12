@@ -7,6 +7,17 @@
 3. 异常值处理：生理范围硬过滤 + IQR 软标记
 4. 缺失值填充：KNN/分层中位数/剔除
 5. 数据标准化：年龄分组、性别编码、单位统一
+
+实现说明：
+当前为 Phase 1-2 简化实现，仅包含：
+- Step 1 字段名标准化
+- Step 3 生理范围硬过滤（删除越界行，保留 NaN 交由 Step 4 处理）
+- Step 4 中位数填充（缺失率 > 0.3 时整列剔除）
+- Step 5 年龄分组
+
+完整的 IQR 软标记 / KNN 填充 / 分层中位数 / 性别编码 / 单位统一
+等规则见 data/knowledge/chinese_reference/_governance/quality_rules.yaml，
+后续 Phase 3+ 再行实现。
 """
 import json
 import logging

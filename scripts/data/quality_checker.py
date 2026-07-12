@@ -37,7 +37,7 @@ class QualityReport:
 class QualityChecker:
     """质量校验器"""
 
-    # 生理范围（与 Preprocessor 一致）
+    # 生理范围（与 Preprocessor.PHYSIOLOGICAL_RANGES 及 quality_rules.yaml 保持一致）
     PHYSIOLOGICAL_RANGES = {
         "bmi": (10, 80),
         "body_fat_pct": (3, 60),
@@ -45,6 +45,8 @@ class QualityChecker:
         "weight_kg": (30, 200),
         "heart_rate": (30, 220),
         "spo2": (70, 100),
+        "perfusion_index": (0, 20),
+        "hrv_rmssd": (5, 150),
         "age": (6, 99),
     }
 
@@ -109,7 +111,10 @@ class QualityChecker:
             if invalid > 0:
                 issues.append(f"{col} 有 {invalid} 个超范围值")
         if total_checked == 0:
-            return 1.0
+            # 无任何生理范围字段可校验时，不应视为"全部合法"，
+            # 否则会使 overall 虚高掩盖数据缺失问题。
+            issues.append("无生理范围字段可校验，validity 降为 0")
+            return 0.0
         return float(valid_count / total_checked)
 
     def _check_consistency(self, df: pd.DataFrame, issues: list[str]) -> float:
