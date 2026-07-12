@@ -1,0 +1,131 @@
+{
+  "standard_id": "ZYYXH_T157_2009",
+  "standard_name": "中医体质分类与判定",
+  "version": "2009",
+  "publisher": "中华中医药学会",
+  "types": {
+    "平和质": {
+      "code": "P01",
+      "features": "体形匀称健壮，面色润泽，精力充沛，睡眠良好，胃纳佳，二便正常",
+      "reference_range": "正常体质",
+      "prevalence_cn": "约 32.8%"
+    },
+    "气虚质": {
+      "code": "P02",
+      "features": "肌肉松软不实，气短懒言，精神不振，易出汗，舌淡红",
+      "reference_range": "易患感冒、内脏下垂",
+      "prevalence_cn": "约 12.7%"
+    },
+    "阳虚质": {
+      "code": "P03",
+      "features": "肌肉不健壮，畏冷，手足不温，喜热饮食，精神不振",
+      "reference_range": "易患腹泻、水肿",
+      "prevalence_cn": "约 9.8%"
+    },
+    "阴虚质": {
+      "code": "P04",
+      "features": "体形偏瘦，手足心热，口燥咽干，鼻微干，喜冷饮",
+      "reference_range": "易患便秘、失眠",
+      "prevalence_cn": "约 8.9%"
+    },
+    "痰湿质": {
+      "code": "P05",
+      "features": "体形肥胖，腹部肥满松软，面部油脂较多，口黏腻",
+      "reference_range": "易患糖尿病、冠心病",
+      "prevalence_cn": "约 6.3%"
+    },
+    "湿热质": {
+      "code": "P06",
+      "features": "形体中等或偏瘦，面垢油光，易生痤疮，口苦口干",
+      "reference_range": "易患黄疸、热淋",
+      "prevalence_cn": "约 4.2%"
+    },
+    "血瘀质": {
+      "code": "P07",
+      "features": "胖瘦均见，肤色晦暗，色素沉着，容易出现瘀斑",
+      "reference_range": "易患冠心病、中风",
+      "prevalence_cn": "约 7.5%"
+    },
+    "气郁质": {
+      "code": "P08",
+      "features": "形体瘦者为多，情感脆弱，舌淡红，苔薄白",
+      "reference_range": "易患失眠、抑郁",
+      "prevalence_cn": "约 5.6%"
+    },
+    "特禀质": {
+      "code": "P09",
+      "features": "过敏体质，常见哮喘、荨麻疹，遗传性疾病",
+      "reference_range": "易患过敏性疾病",
+      "prevalence_cn": "约 4.6%"
+    }
+  },
+  "questions": [
+    {"number": 1, "text": "您精力充沛吗？", "type": "平和质"},
+    {"number": 2, "text": "您容易疲乏吗？", "type": "气虚质"},
+    {"number": 3, "text": "您说话声音低弱无力吗？", "type": "气虚质"},
+    {"number": 4, "text": "您感到闷闷不乐、情绪低沉吗？", "type": "气郁质"},
+    {"number": 5, "text": "您比一般人耐受不了寒冷吗？", "type": "阳虚质"},
+    {"number": 6, "text": "您的手脚发凉吗？", "type": "阳虚质"},
+    {"number": 7, "text": "您胃脘部、背部或腰膝部怕冷吗？", "type": "阳虚质"},
+    {"number": 8, "text": "您感到手脚心发热吗？", "type": "阴虚质"},
+    {"number": 9, "text": "您感觉身体、面部发热吗？", "type": "阴虚质"},
+    {"number": 10, "text": "您皮肤或口唇干吗？", "type": "阴虚质"},
+    {"number": 11, "text": "您口唇的颜色比一般人红吗？", "type": "阴虚质"},
+    {"number": 12, "text": "您面部或鼻部有油腻感或油亮发光吗？", "type": "痰湿质"},
+    {"number": 13, "text": "您易生痤疮吗？", "type": "湿热质"},
+    {"number": 14, "text": "您皮肤容易起荨麻疹吗？", "type": "特禀质"},
+    {"number": 15, "text": "您皮肤在不知不觉中会出现青紫瘀斑吗？", "type": "血瘀质"},
+    {"number": 16, "text": "您两颧部有细微红丝吗？", "type": "血瘀质"},
+    {"number": 17, "text": "您容易忘事吗？", "type": "血瘀质"},
+    {"number": 18, "text": "您腹部肥大松软吗？", "type": "痰湿质"},
+    {"number": 19, "text": "您吃（喝）的东西容易过敏吗？", "type": "特禀质"},
+    {"number": 20, "text": "您闻到异味容易咳嗽吗？", "type": "特禀质"},
+    {"number": 21, "text": "您对花粉、药物、食物容易过敏吗？", "type": "特禀质"},
+    {"number": 22, "text": "您皮肤一抓就红并出现抓痕吗？", "type": "特禀质"},
+    {"number": 23, "text": "您皮肤一抓就红并出现划痕吗？", "type": "特禀质"},
+    {"number": 24, "text": "您嘴唇颜色偏暗吗？", "type": "血瘀质"},
+    {"number": 25, "text": "您牙龈容易出血吗？", "type": "血瘀质"},
+    {"number": 26, "text": "您有黑眼圈吗？", "type": "血瘀质"},
+    {"number": 27, "text": "您身体有硬结或肿块吗？", "type": "血瘀质"},
+    {"number": 28, "text": "您咽部有异物感吗？", "type": "气郁质"},
+    {"number": 29, "text": "您常感到乳房胀痛吗？", "type": "气郁质"},
+    {"number": 30, "text": "您常感到胸闷吗？", "type": "气郁质"},
+    {"number": 31, "text": "您常叹气吗？", "type": "气郁质"},
+    {"number": 32, "text": "您容易失眠吗？", "type": "气郁质"},
+    {"number": 33, "text": "您容易心慌吗？", "type": "气虚质"},
+    {"number": 34, "text": "您容易头晕吗？", "type": "气虚质"},
+    {"number": 35, "text": "您眼睛容易干吗？", "type": "阴虚质"},
+    {"number": 36, "text": "您口干吗？", "type": "阴虚质"},
+    {"number": 37, "text": "您大便干燥吗？", "type": "阴虚质"},
+    {"number": 38, "text": "您小便量少色黄吗？", "type": "湿热质"},
+    {"number": 39, "text": "您小便时尿道有发热感吗？", "type": "湿热质"},
+    {"number": 40, "text": "您带下色黄吗？（女性回答）", "type": "湿热质"},
+    {"number": 41, "text": "您阴囊部位潮湿吗？（男性回答）", "type": "湿热质"},
+    {"number": 42, "text": "您面部容易出油吗？", "type": "痰湿质"},
+    {"number": 43, "text": "您多汗吗？", "type": "气虚质"},
+    {"number": 44, "text": "您口中黏腻吗？", "type": "痰湿质"},
+    {"number": 45, "text": "您平时痰多吗？", "type": "痰湿质"},
+    {"number": 46, "text": "您舌苔厚腻吗？", "type": "痰湿质"},
+    {"number": 47, "text": "您腹部胀满吗？", "type": "痰湿质"},
+    {"number": 48, "text": "您身体沉重吗？", "type": "痰湿质"},
+    {"number": 49, "text": "您喜欢吃肥肉甜食吗？", "type": "痰湿质"},
+    {"number": 50, "text": "您大便不成形吗？", "type": "阳虚质"},
+    {"number": 51, "text": "您大便发黏吗？", "type": "湿热质"},
+    {"number": 52, "text": "您容易腹泻吗？", "type": "阳虚质"},
+    {"number": 53, "text": "您怕热吗？", "type": "湿热质"},
+    {"number": 54, "text": "您容易出汗吗？", "type": "阴虚质"},
+    {"number": 55, "text": "您午后两颧潮红吗？", "type": "阴虚质"},
+    {"number": 56, "text": "您睡眠好吗？", "type": "平和质"},
+    {"number": 57, "text": "您食欲好吗？", "type": "平和质"},
+    {"number": 58, "text": "您性格开朗吗？", "type": "平和质"},
+    {"number": 59, "text": "您适应能力强吗？", "type": "平和质"},
+    {"number": 60, "text": "您容易感冒吗？", "type": "气虚质"}
+  ],
+  "scoring": {
+    "scale": [1, 2, 3, 4, 5],
+    "scale_labels": ["没有（很少）", "很少", "有时", "经常", "总是"],
+    "transformation": "原始分 = (得分和 - 题数) / (题数 * 4) * 100",
+    "threshold": "转化分 >= 60 判定为该型体质",
+    "transformation_formula": "transformed_score = (raw_sum - question_count) / (question_count * 4) * 100"
+  }
+}
