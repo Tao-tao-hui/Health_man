@@ -49,6 +49,31 @@ class PubMedAdapter(SourceAdapter):
             raise RuntimeError("PubMed 适配器熔断中，请稍后重试")
         self.limiter.acquire()
 
+    def _safe_get(self, url: str, params: dict) -> requests.Response:
+        """安全 GET 请求：限流 + 熔断 + 重试由外层装饰器处理
+
+        统一封装 requests.get 调用，消除重复的 try/except 块（DRY）。
+        - 调用 _acquire() 获取令牌并检查熔断状态
+        - 请求成功时记录熔断器成功
+        - 请求异常时记录熔断器失败并向上抛出，由 @retry_with_backoff 处理重试
+
+        Args:
+            url: 请求 URL
+            params: 请求参数
+
+        Returns:
+            requests.Response 对象
+        """
+        self._acquire()
+        try:
+            response = requests.get(url, params=params, headers=self.HEADERS, timeout=30)
+            response.raise_for_status()
+            self.circuit_breaker.record_success()
+            return response
+        except Exception:
+            self.circuit_breaker.record_failure()
+            raise
+
     @retry_with_backoff(max_retries=3, base_delay=1.0, exceptions=(requests.RequestException, RuntimeError))
     def list_files(self) -> list[dict[str, Any]]:
         """使用 esearch + esummary 检索 PubMed 文献
@@ -63,15 +88,7 @@ class PubMedAdapter(SourceAdapter):
             "retmax": str(self.MAX_RESULTS),
             "retmode": "json",
         }
-        self._acquire()
-        try:
-            esearch_resp = requests.get(self.ESEARCH_URL, params=esearch_params,
-                                        headers=self.HEADERS, timeout=30)
-            esearch_resp.raise_for_status()
-            self.circuit_breaker.record_success()
-        except Exception:
-            self.circuit_breaker.record_failure()
-            raise
+        esearch_resp = self._safe_get(self.ESEARCH_URL, esearch_params)
         id_list = esearch_resp.json()["esearchresult"]["idlist"]
 
         if not id_list:
@@ -83,15 +100,7 @@ class PubMedAdapter(SourceAdapter):
             "id": ",".join(id_list),
             "retmode": "json",
         }
-        self._acquire()
-        try:
-            esummary_resp = requests.get(self.ESUMMARY_URL, params=esummary_params,
-                                         headers=self.HEADERS, timeout=30)
-            esummary_resp.raise_for_status()
-            self.circuit_breaker.record_success()
-        except Exception:
-            self.circuit_breaker.record_failure()
-            raise
+        esummary_resp = self._safe_get(self.ESUMMARY_URL, esummary_params)
         result_data = esummary_resp.json()["result"]
 
         files = []
@@ -133,15 +142,7 @@ class PubMedAdapter(SourceAdapter):
             "rettype": "abstract",
             "retmode": "xml",
         }
-        self._acquire()
-        try:
-            response = requests.get(file_meta["url"], params=efetch_params,
-                                     headers=self.HEADERS, timeout=30)
-            response.raise_for_status()
-            self.circuit_breaker.record_success()
-        except Exception:
-            self.circuit_breaker.record_failure()
-            raise
+        response = self._safe_get(file_meta["url"], efetch_params)
         dest_path.write_bytes(response.content)
         return dest_path
 

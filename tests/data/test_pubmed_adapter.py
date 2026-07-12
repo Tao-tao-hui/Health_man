@@ -8,6 +8,7 @@ from pathlib import Path
 from unittest.mock import patch, MagicMock
 
 import pytest
+import requests
 
 from scripts.data.adapters.pubmed_adapter import PubMedAdapter
 
@@ -53,6 +54,11 @@ class TestPubMedAdapter:
         assert "url" in files[0]
         assert "filename" in files[0]
         assert "expected_size_bytes" in files[0]
+        # 验证 authors 和 year 提取逻辑
+        assert files[0]["authors"] == ["Zhang W", "Li X"]
+        assert files[0]["year"] == "2023"
+        assert files[1]["authors"] == ["Wang Y"]
+        assert files[1]["year"] == "2024"
 
     def test_download_fetches_abstract_xml(self, tmp_path):
         """测试 efetch 下载摘要 XML"""
@@ -66,11 +72,17 @@ class TestPubMedAdapter:
         mock_response.status_code = 200
         mock_response.content = b"<PubmedArticle><PMID>34567890</PMID></PubmedArticle>"
         with patch("scripts.data.adapters.pubmed_adapter.requests.get",
-                    return_value=mock_response):
+                    return_value=mock_response) as mock_get:
             result_path = adapter.download(file_meta, tmp_path)
         assert result_path.exists()
         assert result_path.suffix == ".xml"
         assert result_path.read_bytes() == mock_response.content
+        # 验证 efetch 请求参数
+        assert mock_get.call_count == 1
+        call_args = mock_get.call_args
+        assert call_args.kwargs["params"]["id"] == "34567890"
+        assert call_args.kwargs["params"]["retmode"] == "xml"
+        assert call_args.kwargs["params"]["db"] == "pubmed"
 
     def test_verify_checksum_correct(self, tmp_path):
         """测试 SHA256 校验通过"""
@@ -90,3 +102,25 @@ class TestPubMedAdapter:
         assert "license" in meta
         assert meta["region"] == "Global"
         assert "search_query" in meta
+
+    def test_circuit_breaker_records_failure(self, tmp_path):
+        """测试网络失败时熔断器记录失败
+
+        验证安全工具链的失败路径：requests.get 抛出异常时，
+        _safe_get 应调用 circuit_breaker.record_failure()。
+        @retry_with_backoff(max_retries=3) 会重试 3 次（共 4 次尝试），
+        因此 _failure_count 最终为 4（< failure_threshold=5，不会熔断）。
+        """
+        adapter = PubMedAdapter()
+        file_meta = {
+            "pmid": "34567890",
+            "filename": "pubmed_34567890_2023.xml",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+        }
+        # mock requests.get 抛出异常，触发失败路径
+        with patch("scripts.data.adapters.pubmed_adapter.requests.get",
+                    side_effect=requests.RequestException("Network error")):
+            with pytest.raises(requests.RequestException):
+                adapter.download(file_meta, tmp_path)
+        # 熔断器应记录失败（retry_with_backoff 重试 3 次，_failure_count >= 1）
+        assert adapter.circuit_breaker._failure_count >= 1
