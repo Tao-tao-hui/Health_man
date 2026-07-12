@@ -74,12 +74,19 @@ class Preprocessor:
         return df
 
     def _step3_detect_outliers(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Step 3: 异常值检测与处理"""
+        """Step 3: 异常值检测与处理
+
+        生理范围硬过滤：删除越界行。
+        注意：NaN 与任何数值的比较结果均为 False，因此含 NaN 的行
+        会被显式保留，交由 Step 4 缺失值填充处理，避免误删数据。
+        """
         for col, (min_val, max_val) in self.PHYSIOLOGICAL_RANGES.items():
             if col not in df.columns:
                 continue
             before = len(df)
-            df = df[(df[col] >= min_val) & (df[col] <= max_val)]
+            # 保留在生理范围内的行 + 含 NaN 的行（NaN 交由 Step 4 处理）
+            mask = (df[col] >= min_val) & (df[col] <= max_val) | df[col].isna()
+            df = df[mask]
             removed = before - len(df)
             if removed > 0:
                 logger.info(

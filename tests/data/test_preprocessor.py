@@ -72,3 +72,39 @@ def test_process_returns_dataframe(sample_df, preprocessor):
     result = preprocessor.process(sample_df)
     assert isinstance(result, pd.DataFrame)
     assert len(result) > 0
+
+
+def test_step4_missing_value_actually_filled(tmp_path):
+    """Step 4 必须真正填充缺失值（不被 Step 3 误删）
+
+    构造一个仅 weight_kg 单行缺失、其他字段均在生理范围内的样本，
+    验证 Step 3 不会因 NaN 比较为 False 而误删该行，
+    且 Step 4 的 fillna 真正被触发并填充中位数。
+
+    注意：样本需 >=4 行以使缺失率 <=0.3，避免触发 Step 4 的整列剔除分支，
+    从而真正验证 fillna 路径（2 行样本缺失率达 0.5 会导致整列剔除）。
+    """
+    mapping_path = tmp_path / "indicator_mapping.json"
+    mapping_path.write_text(
+        '{"indicator_mapping": {"BMXBMI": "bmi", "BMXWT": "weight_kg", "RIAGENDR": "gender", "RIDAGEYR": "age"}}',
+        encoding="utf-8",
+    )
+    preprocessor = Preprocessor(mapping_path=mapping_path)
+    # 构造：仅 weight_kg 第 2 行缺失，其他字段均在生理范围内
+    df = pd.DataFrame({
+        "SEQN": [1, 2, 3, 4],
+        "BMXBMI": [22.5, 25.0, 28.3, 18.5],   # 均在 10-80 内
+        "RIAGENDR": [1, 0, 1, 0],             # gender 不在生理范围规则中
+        "RIDAGEYR": [25, 35, 45, 55],         # 均在 6-99 内
+        "BMXWT": [70.0, None, 65.0, 80.0],    # weight_kg 第 2 行缺失，其余在 30-200 内
+    })
+    result = preprocessor.process(df)
+    # 4 行全部应保留（无越界行，含 NaN 的行不应被 Step 3 误删）
+    assert len(result) == 4, "含缺失值的行不应被 Step 3 误删"
+    # 缺失率 1/4=0.25 <=0.3，weight_kg 列应被保留并由中位数填充
+    assert "weight_kg" in result.columns, "缺失率 <=0.3 时不应整列剔除"
+    # 第 2 行的 weight_kg 应被中位数（70.0）填充，而非保留为 NaN
+    assert result["weight_kg"].isna().sum() == 0, "缺失值应被 Step 4 填充"
+    # 验证填充值确实是非缺失值的中位数（65, 70, 80 → 中位数 70.0）
+    assert result["weight_kg"].tolist() == [70.0, 70.0, 65.0, 80.0], \
+        "填充值应为非缺失值的中位数 70.0"
