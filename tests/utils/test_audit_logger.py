@@ -37,3 +37,29 @@ def test_log_has_timestamp(tmp_path):
     entry = json.loads((tmp_path / "audit.log").read_text().strip())
     assert "timestamp" in entry
     assert "T" in entry["timestamp"]  # ISO 格式
+
+
+def test_resume_chain_from_existing_log(tmp_path):
+    """重新初始化时必须接续已有链的最后一哈希"""
+    log_path = tmp_path / "audit.log"
+    logger1 = AuditLogger(log_path=log_path)
+    logger1.log("op1", "file1")
+    first_hash = json.loads(log_path.read_text(encoding="utf-8").strip())["hash"]
+
+    # 新实例指向同一文件
+    logger2 = AuditLogger(log_path=log_path)
+    logger2.log("op2", "file2")
+
+    entries = [json.loads(line) for line in log_path.read_text(encoding="utf-8").strip().split("\n")]
+    # 第 2 条的 prev_hash 应等于第 1 条的 hash（断点续链）
+    assert entries[1]["prev_hash"] == first_hash
+    assert entries[1]["prev_hash"] == entries[0]["hash"]
+
+
+def test_log_accepts_extra_fields(tmp_path):
+    """log 必须支持 **extra 扩展字段"""
+    logger = AuditLogger(log_path=tmp_path / "audit.log")
+    logger.log("download", "nhanes.xpt", success=True, user="admin", bytes=1024)
+    entry = json.loads((tmp_path / "audit.log").read_text(encoding="utf-8").strip())
+    assert entry["user"] == "admin"
+    assert entry["bytes"] == 1024

@@ -58,4 +58,7 @@ class AuditLogger:
         if not lines or not lines[0]:
             return self.GENESIS_HASH
         last_entry = json.loads(lines[-1])
-        return last_entry.get("hash", self.GENESIS_HASH)
+        # 缺失 hash 字段视为篡改/损坏信号，抛异常而非静默回退 GENESIS
+        if "hash" not in last_entry:
+            raise ValueError(f"审计日志最后一行缺少 hash 字段，可能被篡改: {self.log_path}")
+        return last_entry["hash"]
