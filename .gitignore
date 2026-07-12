@@ -1,0 +1,76 @@
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# 项目数据文件（大文件不入版本控制，仅保留目录结构与元数据）
+data/knowledge/chinese_reference/A_open_datasets/**/*.XPT
+data/knowledge/chinese_reference/A_open_datasets/**/*.CSV
+data/knowledge/chinese_reference/A_open_datasets/**/*.csv
+data/knowledge/chinese_reference/A_open_datasets/**/*.PDF
+data/knowledge/chinese_reference/A_open_datasets/**/*.pdf
+data/knowledge/chinese_reference/A_open_datasets/**/*.parquet
+data/knowledge/chinese_reference/A_open_datasets/**/*.EDF
+data/knowledge/chinese_reference/A_open_datasets/**/RAW/**
+data/knowledge/chinese_reference/A_open_datasets/**/PROCESSED/**
+data/knowledge/chinese_reference/B_literature/**/*.pdf
+data/knowledge/chinese_reference/C_llm_distilled/**/*.json
+!data/knowledge/chinese_reference/C_llm_distilled/**/*.meta.json
+
+# 归档快照（大文件）
+data/knowledge/chinese_reference/_archive/snapshots/**
+
+# 日志
+logs/
+*.log
+
+# 凭证与密钥（绝不入版本控制）
+*.key
+*.pem
+*.p12
+secrets/
+.env
+.env.local
+.env.*.local
+
+# Superpowers scratch（进度账本等临时文件）
+.superpowers/sdd/
+.superpowers/cache/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
