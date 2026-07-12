@@ -1,0 +1,26 @@
+# 质量校验规则
+grade_thresholds:
+  A: 0.9
+  B: 0.8
+  C: 0.7
+  D: 0.0
+
+physiological_ranges:
+  bmi: {min: 10, max: 80, unit: "kg/m2"}
+  body_fat_pct: {min: 3, max: 60, unit: "%"}
+  height_cm: {min: 120, max: 220, unit: "cm"}
+  weight_kg: {min: 30, max: 200, unit: "kg"}
+  heart_rate: {min: 30, max: 220, unit: "bpm"}
+  spo2: {min: 70, max: 100, unit: "%"}
+  perfusion_index: {min: 0, max: 20, unit: "%"}
+  hrv_rmssd: {min: 5, max: 150, unit: "ms"}
+  age: {min: 6, max: 99, unit: "years"}
+
+required_fields:
+  - age
+  - gender
+  - weight_kg
+  - height_cm
+
+critical_fields_missing_strategy: drop_row
+non_critical_missing_threshold: 0.3

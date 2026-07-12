@@ -1,0 +1,13 @@
+# preprocessing_rules.yaml
+# 5 步预处理规则（详细参数见 config.yaml preprocessing 节）
+steps:
+  - name: clean
+    description: "去除空白、统一编码、字段名标准化"
+  - name: convert
+    description: "格式转换为 Parquet"
+  - name: detect_outliers
+    description: "异常值检测与标记"
+  - name: handle_missing
+    description: "缺失值填充或剔除"
+  - name: standardize
+    description: "年龄分组、性别编码、单位统一"

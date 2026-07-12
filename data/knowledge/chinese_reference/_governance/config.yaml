@@ -1,0 +1,81 @@
+# 数据获取子系统全局配置
+# 所有可变参数集中在此文件，修改无需改代码
+
+datasets:
+  NHANES_2017_2020:
+    enabled: true
+    priority: 1
+    max_concurrent: 3
+    max_size_mb: 200
+    retry:
+      max_attempts: 3
+      backoff: exponential
+      base_delay: 1.0
+    update_check: quarterly
+  KNHANES_2021_2023:
+    enabled: true
+    priority: 2
+    max_concurrent: 2
+    max_size_mb: 100
+    retry:
+      max_attempts: 3
+      backoff: exponential
+      base_delay: 1.0
+    update_check: quarterly
+  CHNS:
+    enabled: true
+    priority: 3
+    max_concurrent: 2
+    max_size_mb: 50
+    retry:
+      max_attempts: 2
+      backoff: exponential
+      base_delay: 1.0
+    update_check: monthly
+  GASC_2025:
+    enabled: true
+    priority: 4
+    max_concurrent: 1
+    max_size_mb: 10
+    retry:
+      max_attempts: 3
+      backoff: exponential
+      base_delay: 1.0
+    update_check: once
+
+preprocessing:
+  outlier_detection:
+    method: iqr
+    multiplier: 1.5
+  missing_value:
+    method: knn
+    knn_k: 5
+    drop_threshold: 0.3
+  dedup:
+    keys: [subject_id, visit_date]
+  standardization:
+    age_groups: ["6-17", "18-39", "40-59", "60+"]
+    gender_encoding: {female: 0, male: 1}
+
+quality:
+  min_completeness: 0.8
+  min_validity: 0.9
+  grade_thresholds:
+    A: 0.9
+    B: 0.8
+    C: 0.7
+    D: 0.0
+
+storage:
+  root_dir: e:/Health_man/data/knowledge/chinese_reference
+  max_total_size_gb: 8
+  max_field_size_mb: 1024
+  max_dataset_size_mb: 500
+  archive_after_days: 30
+  destroy_after_days: 365
+
+security:
+  tls_min_version: "1.3"
+  credential_store: win32_dpapi
+  credential_rotation_days: 90
+  audit_log_enabled: true

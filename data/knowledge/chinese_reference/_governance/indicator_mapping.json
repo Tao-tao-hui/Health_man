@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "indicator_mapping": {
+    "BMI": "bmi",
+    "Body Mass Index": "bmi",
+    "BMXBMI": "bmi",
+    "体脂率": "body_fat_pct",
+    "BodyFatRate": "body_fat_pct",
+    "BMXBFP": "body_fat_pct",
+    "身高": "height_cm",
+    "BMXHT": "height_cm",
+    "体重": "weight_kg",
+    "BMXWT": "weight_kg",
+    "心率": "heart_rate",
+    "HR": "heart_rate",
+    "BPXPLS": "heart_rate",
+    "血氧饱和度": "spo2",
+    "SpO2": "spo2",
+    "PI": "perfusion_index",
+    "RMSSD": "hrv_rmssd",
+    "SDNN": "hrv_sdnn",
+    "BMR": "basal_metabolic_rate",
+    "基础代谢率": "basal_metabolic_rate",
+    "内脏脂肪": "visceral_fat_level",
+    "骨量": "bone_mass",
+    "肌肉量": "muscle_mass",
+    "蛋白质": "protein_pct",
+    "水分": "water_pct"
+  }
+}

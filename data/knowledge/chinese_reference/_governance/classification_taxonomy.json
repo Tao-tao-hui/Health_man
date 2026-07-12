@@ -1,0 +1,8 @@
+{
+  "by_population": ["chinese", "asian", "caucasian", "mixed"],
+  "by_age_group": ["children", "adolescent", "adult", "elderly", "all_age"],
+  "by_measurement": ["BIA", "DEXA", "PPG", "ECG", "questionnaire", "lab_test"],
+  "by_indicator_domain": ["body_composition", "cardiovascular", "metabolic", "respiratory", "tcm"],
+  "by_data_type": ["tabular", "timeseries", "waveform", "text", "image"],
+  "by_confidence": ["high_0.9+", "medium_0.7-0.9", "low_0.5-0.7"]
+}

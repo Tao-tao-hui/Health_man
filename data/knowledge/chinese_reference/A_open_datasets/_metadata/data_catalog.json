@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-12",
+  "datasets": [
+    {
+      "dataset_id": "NHANES_2017_2020",
+      "source": "CDC",
+      "region": "US",
+      "sample_size": 9092,
+      "license": "Public Domain",
+      "status": "pending"
+    }
+  ]
+}

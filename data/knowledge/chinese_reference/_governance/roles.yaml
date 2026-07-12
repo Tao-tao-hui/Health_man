@@ -1,0 +1,22 @@
+# RBAC 角色定义
+roles:
+  - name: reader
+    level: 1
+    description: "只读访问已处理数据"
+    permissions:
+      read: ["unified/", "A_open_datasets/**/PROCESSED/", "A_open_datasets/_metadata/"]
+      write: []
+
+  - name: writer
+    level: 2
+    description: "写入处理后的数据"
+    permissions:
+      read: ["**"]
+      write: ["A_open_datasets/**/PROCESSED/", "B_literature/", "logs/"]
+
+  - name: admin
+    level: 3
+    description: "全部读写权限"
+    permissions:
+      read: ["**"]
+      write: ["**"]
