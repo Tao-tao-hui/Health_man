@@ -47,6 +47,9 @@ data/knowledge/chinese_reference/A_open_datasets/**/*.EDF
 data/knowledge/chinese_reference/A_open_datasets/**/RAW/**
 data/knowledge/chinese_reference/A_open_datasets/**/PROCESSED/**
 data/knowledge/chinese_reference/B_literature/**/*.pdf
+# 运行时产生的提取日志与审计日志（测试副作用，不入版本控制）
+data/knowledge/chinese_reference/B_literature/_logs/*.jsonl
+data/knowledge/chinese_reference/B_literature/_logs/*.csv
 data/knowledge/chinese_reference/C_llm_distilled/**/*.json
 !data/knowledge/chinese_reference/C_llm_distilled/**/*.meta.json
 
