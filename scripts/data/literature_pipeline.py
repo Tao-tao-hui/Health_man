@@ -139,17 +139,12 @@ class LayerBPipeline:
             errors.append(f"日志保存失败: {e}")
 
         # Step 5: 生成元数据
+        # Layer B 文献为 XML/PDF 格式，需后续 PdfTableExtractor 处理才能得到结构化 DataFrame
+        # 此处跳过质量校验（quality_report 保持 None），待提取后由独立流程填充
         quality_report = None
         try:
             adapter_meta = adapter.get_metadata_template()
-            import pandas as pd
-            df = pd.DataFrame()
-            # 空 DataFrame 跳过质量校验（否则总是得到 grade="D" 的假性低质评分）
-            if not df.empty:
-                quality_report = self.quality_checker.check(df)
-            else:
-                # 数据待提取后填充，暂记为 pending 状态
-                logger.info("DataFrame 为空，跳过质量校验（grade=pending_extraction）")
+            logger.info("跳过质量校验：文献数据待 PdfTableExtractor 提取后填充")
             self.metadata_generator.generate_l0(
                 adapter_meta, quality_report,
                 output_path=dest_dir / "_metadata" / "L0_card.json"
