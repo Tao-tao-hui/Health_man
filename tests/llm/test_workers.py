@@ -9,6 +9,7 @@ from scripts.llm.workers import ExtractionWorker
 from scripts.llm.model_adapter import ModelAdapter
 from scripts.llm.prompt_templates import PromptTemplateLibrary
 from scripts.llm.task_types import TaskBrief
+from scripts.llm.validator import DualLayerValidator
 
 
 class FakeModelAdapter(ModelAdapter):
@@ -95,3 +96,53 @@ class TestExtractionWorker:
         result = worker.execute(brief)
         assert result.success is False
         assert len(result.errors) > 0
+
+
+class TestValidationWorker:
+    """ValidationWorker 测试套件"""
+
+    def test_execute_valid_data_returns_accepted(self):
+        """测试合法数据通过验证"""
+        from scripts.llm.workers import ValidationWorker
+        from scripts.llm.task_types import TaskResult
+
+        validator = DualLayerValidator()
+        worker = ValidationWorker(validator)
+
+        result = TaskResult(
+            task_id="task-001",
+            success=True,
+            data={
+                "indicator_id": "IND-01",
+                "name_cn": "体脂率",
+                "unit": "%",
+                "statistics": {
+                    "p5": 10.0, "p25": 15.0, "p50": 20.0,
+                    "p75": 25.0, "p95": 30.0,
+                    "mean": 20.5, "sd": 5.0, "n_subjects": 100,
+                },
+                "extraction_confidence": 0.9,
+            },
+            confidence=0.9,
+        )
+        validated = worker.execute(result, "IND-01")
+        assert validated.success is True
+        assert validated.confidence == 0.9
+
+    def test_execute_invalid_data_returns_rejected(self):
+        """测试非法数据被拒绝"""
+        from scripts.llm.workers import ValidationWorker
+        from scripts.llm.task_types import TaskResult
+
+        validator = DualLayerValidator()
+        worker = ValidationWorker(validator)
+
+        result = TaskResult(
+            task_id="task-002",
+            success=True,
+            data={"indicator_id": "IND-01"},  # 缺少必填字段
+            confidence=0.3,
+        )
+        validated = worker.execute(result, "IND-01")
+        assert validated.success is False
+        assert len(validated.errors) > 0

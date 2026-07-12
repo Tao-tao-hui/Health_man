@@ -90,3 +90,77 @@ class ExtractionWorker:
                 success=False,
                 errors=[error_msg],
             )
+
+
+class ValidationWorker:
+    """验证子代理
+
+    职责：对提取结果执行双层验证（结构化 + 语义）
+    输入：TaskResult（含提取的数据）
+    输出：TaskResult（含验证结果 + 调整后的 confidence）
+    """
+
+    def __init__(
+        self,
+        validator: DualLayerValidator,
+        audit_logger: AuditLogger | None = None,
+    ):
+        self.validator = validator
+        self.audit_logger = audit_logger
+
+    def execute(self, result: TaskResult, indicator_id: str) -> TaskResult:
+        """执行验证任务
+
+        Args:
+            result: 提取子代理返回的结果
+            indicator_id: 指标 ID（用于语义校验范围查找）
+
+        Returns:
+            验证后的任务结果
+        """
+        # 如果提取本身就失败，直接返回
+        if not result.success or result.data is None:
+            return result
+
+        # 执行双层验证
+        validation = self.validator.validate(result.data, indicator_id)
+
+        # 记录审计日志
+        if self.audit_logger:
+            self.audit_logger.log(
+                operation="validation",
+                target=indicator_id,
+                success=validation.is_valid,
+                confidence=validation.confidence,
+                action=validation.action,
+            )
+
+        if validation.is_valid:
+            logger.info(
+                "验证通过: task=%s, confidence=%.2f, action=%s",
+                result.task_id, validation.confidence, validation.action,
+            )
+            return TaskResult(
+                task_id=result.task_id,
+                success=True,
+                data=result.data,
+                confidence=validation.confidence,
+                model_used=result.model_used,
+                tokens_consumed=result.tokens_consumed,
+                latency_ms=result.latency_ms,
+            )
+        else:
+            logger.warning(
+                "验证失败: task=%s, errors=%s",
+                result.task_id, validation.errors,
+            )
+            return TaskResult(
+                task_id=result.task_id,
+                success=False,
+                data=result.data,
+                confidence=validation.confidence,
+                errors=validation.errors,
+                model_used=result.model_used,
+                tokens_consumed=result.tokens_consumed,
+                latency_ms=result.latency_ms,
+            )
