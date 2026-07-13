@@ -247,16 +247,19 @@ class AgentManager:
         result = await agent.execute(task)
 
         # 处理结果：成功结果进入聚合器进行去重 / 评分 / 存储
+        # submit() 为同步文件 I/O，通过 asyncio.to_thread 在线程池执行，
+        # 避免在批量提交等场景下阻塞事件循环
         if result.success:
-            self.result_aggregator.submit(result)
+            await asyncio.to_thread(self.result_aggregator.submit, result)
 
         return result
 
     async def submit_batch(self, tasks: list[ScrapeTask]) -> list[ScrapeResult]:
         """批量提交任务（并行执行）
 
-        使用 asyncio.gather 并行调度所有任务，单任务失败不影响其他任务。
-        返回结果顺序与输入任务顺序一致。
+        使用 asyncio.gather(return_exceptions=True) 并行调度所有任务，
+        单任务抛出的异常被捕获并转为 success=False 的 ScrapeResult，
+        不影响其他任务的结果。返回结果顺序与输入任务顺序一致。
 
         Args:
             tasks: 待执行任务列表
@@ -265,7 +268,20 @@ class AgentManager:
             ScrapeResult 列表，与输入一一对应
         """
         tasks_coroutines = [self.submit_task(task) for task in tasks]
-        results = await asyncio.gather(*tasks_coroutines)
+        raw_results = await asyncio.gather(*tasks_coroutines, return_exceptions=True)
+
+        results: list[ScrapeResult] = []
+        for task, raw in zip(tasks, raw_results):
+            if isinstance(raw, Exception):
+                # 异常任务转为失败结果，保留 task_id / url 便于追溯
+                results.append(ScrapeResult(
+                    task_id=task.task_id,
+                    success=False,
+                    url=task.url,
+                    error=f"批量任务异常: {raw}",
+                ))
+            else:
+                results.append(raw)
         return results
 
     def get_pool_status(self) -> dict:

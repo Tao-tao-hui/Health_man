@@ -99,6 +99,9 @@ class ScrapeAgent:
         self.rate_limiter = rate_limiter
         self.audit_logger = audit_logger
         self.health = AgentHealth()
+        # 初始化 last_active 为当前时间，避免默认 0.0 被 HealthMonitor 误判为
+        # 僵死代理并触发无限替换循环（新代理再次以 0.0 初始化）
+        self.health.last_active = time.monotonic()
         # 滑动窗口：最近 20 次记录用于健康分计算
         self._latency_history: deque[float] = deque(maxlen=20)
         self._success_history: deque[bool] = deque(maxlen=20)
@@ -277,11 +280,17 @@ class ScrapeAgent:
             )
 
     def record_success(self, latency_ms: float) -> None:
-        """记录成功并更新健康分"""
+        """记录成功并更新健康分
+
+        同步通知熔断器记录成功：HALF_OPEN 探测成功后归零 _failure_count 并回到
+        CLOSED，避免熔断器开启后无法恢复。
+        """
         self._success_history.append(True)
         self._latency_history.append(latency_ms)
         self.health.error_count = 0
         self._recalculate_health()
+        # 同步熔断器成功记录，使其能从 HALF_OPEN 正常恢复到 CLOSED
+        self.circuit_breaker.record_success()
 
     def record_failure(self, error: str) -> None:
         """记录失败并更新健康分"""

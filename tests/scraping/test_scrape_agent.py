@@ -9,7 +9,7 @@ from scripts.scraping.scrape_agent import (
     ScrapeResult,
     ScrapeTask,
 )
-from scripts.utils.circuit_breaker import CircuitBreaker
+from scripts.utils.circuit_breaker import CircuitBreaker, CircuitState
 from scripts.utils.rate_limiter import TokenBucketLimiter
 
 
@@ -235,5 +235,64 @@ async def test_scrape_agent_parse_html(source_config, mock_circuit_breaker, mock
     result = await agent.parse(content, {"format": "html", "selector": "h1"})
 
     assert "Test Title" in result["text"]
+
+    await agent.close()
+
+
+# ============================================================
+# 最终审查修复测试
+# ============================================================
+
+
+def test_scrape_agent_record_success_resets_circuit_breaker(
+    source_config, mock_rate_limiter
+):
+    """record_success 同步重置熔断器失败计数
+
+    验证 Critical #1：ScrapeAgent.record_success 必须调用
+    circuit_breaker.record_success，否则熔断器开启后无法恢复
+    （HALF_OPEN 探测成功后无法回到 CLOSED，_failure_count 永不归零）。
+    """
+    cb = CircuitBreaker(failure_threshold=3, recovery_timeout=30.0)
+    # 累计 2 次失败（尚未触发熔断，但 _failure_count=2）
+    cb.record_failure()
+    cb.record_failure()
+    assert cb._failure_count == 2
+
+    agent = ScrapeAgent(
+        agent_id="test_agent",
+        source_config=source_config,
+        circuit_breaker=cb,
+        rate_limiter=mock_rate_limiter,
+    )
+
+    # 成功记录应同步重置熔断器
+    agent.record_success(100.0)
+
+    assert cb._failure_count == 0
+    assert cb.state == CircuitState.CLOSED
+
+
+@pytest.mark.asyncio
+async def test_scrape_agent_init_last_active(source_config, mock_circuit_breaker, mock_rate_limiter):
+    """新建代理 last_active 初始化为当前时间
+
+    验证 Critical #2：ScrapeAgent.__init__ 必须将 health.last_active
+    设为 time.monotonic()，避免默认 0.0 导致 HealthMonitor 误判为僵死
+    并触发无限替换循环。
+    """
+    import time
+
+    before = time.monotonic()
+    agent = ScrapeAgent(
+        agent_id="test_agent",
+        source_config=source_config,
+        circuit_breaker=mock_circuit_breaker,
+        rate_limiter=mock_rate_limiter,
+    )
+    after = time.monotonic()
+
+    # last_active 必须在构造前后时间区间内（而非默认 0.0）
+    assert before <= agent.health.last_active <= after
 
     await agent.close()
