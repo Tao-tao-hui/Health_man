@@ -163,7 +163,8 @@ class ScrapeAgent:
         Returns:
             解析后的字典
         """
-        parser_type = self.source_config.get("parser", "json")
+        # parse_rules["format"] 优先于 source_config["parser"]
+        parser_type = parse_rules.get("format") or self.source_config.get("parser", "json")
 
         if parser_type == "json":
             return json.loads(content)
