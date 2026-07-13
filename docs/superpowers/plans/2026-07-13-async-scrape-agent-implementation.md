@@ -247,11 +247,10 @@ class AgentHealth:
     avg_latency_ms: float = 0.0
     error_count: int = 0
     last_active: float = 0.0
-    state: str = "healthy"
 
     @property
     def state(self) -> str:
-        """根据健康分计算状态"""
+        """根据健康分计算状态（只读属性，不可直接设置）"""
         if self.health_score >= 0.7:
             return "healthy"
         elif self.health_score >= 0.3:
@@ -730,6 +729,7 @@ class ScrapeAgent:
 
         success_rate = sum(self._success_history) / len(self._success_history)
 
+        avg_latency_ms = 0.0
         if self._latency_history:
             avg_latency_ms = sum(self._latency_history) / len(self._latency_history)
             normalized_latency = min(avg_latency_ms / 5000, 1.0)
@@ -739,7 +739,7 @@ class ScrapeAgent:
         error_rate = min(self.health.error_count / 10, 1.0)
 
         self.health.success_rate = success_rate
-        self.health.avg_latency_ms = avg_latency_ms if self._latency_history else 0.0
+        self.health.avg_latency_ms = avg_latency_ms
         self.health.health_score = (
             0.4 * success_rate
             + 0.3 * (1 - normalized_latency)
