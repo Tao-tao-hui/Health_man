@@ -50,6 +50,38 @@ class AuditLogger:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
         self._last_hash = entry["hash"]
 
+    def verify_chain(self) -> bool:
+        """验证审计日志哈希链完整性
+
+        逐条重算每条日志的 SHA256，与日志中记录的 hash 字段比对。
+        同时验证 prev_hash 链式引用是否正确。
+
+        Returns:
+            True 如果所有条目哈希链完整无篡改，False 如果发现任何不一致
+        """
+        if not self.log_path.exists():
+            return True  # 空文件视为完整
+
+        lines = self.log_path.read_text(encoding="utf-8").strip().split("\n")
+        if not lines or not lines[0]:
+            return True  # 空文件视为完整
+
+        prev_hash = self.GENESIS_HASH
+        for i, line in enumerate(lines):
+            entry = json.loads(line)
+            # 验证 prev_hash 链式引用
+            if entry.get("prev_hash") != prev_hash:
+                return False
+            # 重算哈希（排除 hash 字段本身）
+            entry_for_hash = {k: v for k, v in entry.items() if k != "hash"}
+            entry_str = json.dumps(entry_for_hash, sort_keys=True, ensure_ascii=False)
+            expected_hash = hashlib.sha256(entry_str.encode("utf-8")).hexdigest()
+            if entry.get("hash") != expected_hash:
+                return False
+            prev_hash = entry["hash"]
+
+        return True
+
     def _load_last_hash(self) -> str:
         """加载最后一条日志的哈希（用于断点续链）"""
         if not self.log_path.exists():

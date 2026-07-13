@@ -73,3 +73,51 @@ def test_load_last_hash_raises_on_missing_hash(tmp_path):
     log_path.write_text('{"operation": "fake", "target": "x"}\n', encoding="utf-8")
     with pytest.raises(ValueError, match="缺少 hash 字段"):
         AuditLogger(log_path=log_path)
+
+
+def test_verify_chain_returns_true_for_empty_log(tmp_path):
+    """空日志文件应视为完整"""
+    logger = AuditLogger(log_path=tmp_path / "audit.log")
+    assert logger.verify_chain() is True
+
+
+def test_verify_chain_returns_true_for_valid_chain(tmp_path):
+    """合法的多条日志链应通过验证"""
+    logger = AuditLogger(log_path=tmp_path / "audit.log")
+    logger.log("op1", "file1")
+    logger.log("op2", "file2")
+    logger.log("op3", "file3")
+    assert logger.verify_chain() is True
+
+
+def test_verify_chain_returns_false_for_tampered_entry(tmp_path):
+    """篡改某条日志内容后应验证失败"""
+    log_path = tmp_path / "audit.log"
+    logger = AuditLogger(log_path=log_path)
+    logger.log("op1", "file1")
+    logger.log("op2", "file2")
+    # 篡改第一条日志的 target 字段
+    lines = log_path.read_text(encoding="utf-8").strip().split("\n")
+    entry = json.loads(lines[0])
+    entry["target"] = "tampered"
+    lines[0] = json.dumps(entry, ensure_ascii=False)
+    log_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # 重新加载并验证
+    logger2 = AuditLogger(log_path=log_path)
+    assert logger2.verify_chain() is False
+
+
+def test_verify_chain_returns_false_for_broken_link(tmp_path):
+    """prev_hash 链断裂应验证失败"""
+    log_path = tmp_path / "audit.log"
+    logger = AuditLogger(log_path=log_path)
+    logger.log("op1", "file1")
+    logger.log("op2", "file2")
+    # 篡改第二条日志的 prev_hash
+    lines = log_path.read_text(encoding="utf-8").strip().split("\n")
+    entry = json.loads(lines[1])
+    entry["prev_hash"] = "WRONG_HASH"
+    lines[1] = json.dumps(entry, ensure_ascii=False)
+    log_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    logger2 = AuditLogger(log_path=log_path)
+    assert logger2.verify_chain() is False

@@ -65,9 +65,17 @@ logs/
 *.pem
 *.p12
 secrets/
+data/credentials/
 .env
 .env.local
 .env.*.local
+
+# C_llm_distilled 运行时产物
+data/knowledge/chinese_reference/C_llm_distilled/_logs/*.jsonl
+data/knowledge/chinese_reference/C_llm_distilled/_reports/*.json
+
+# B_literature 运行时下载的文献文件
+data/knowledge/chinese_reference/B_literature/pubmed/abstracts/*.xml
 
 # Superpowers scratch（进度账本等临时文件）
 .superpowers/sdd/
