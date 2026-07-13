@@ -1,0 +1,60 @@
+# config/scrape_sources.yaml
+# 子代理架构直接数据抓取方案 - 数据源与代理池配置
+#
+# 数据源类型：
+#   - api:  HTTP API（JSON/XML 响应）
+#   - html: HTML 网页（BeautifulSoup + CSS 选择器解析）
+#
+# rate_limit: 令牌桶限流配置
+#   - capacity:    桶容量（允许的瞬时并发请求数）
+#   - refill_rate: 每秒补充的令牌数（持续速率上限）
+#
+# circuit_breaker: 熔断器配置
+#   - failure_threshold: 触发熔断的连续失败次数
+#   - recovery_timeout:  熔断后尝试半开恢复的等待秒数
+
+sources:
+  - name: pubmed
+    type: api
+    base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+    rate_limit:
+      capacity: 3
+      refill_rate: 3.0
+    circuit_breaker:
+      failure_threshold: 5
+      recovery_timeout: 30.0
+    parser: pubmed_xml
+    enabled: true
+
+  - name: cnki
+    type: html
+    base_url: https://kns.cnki.net/
+    rate_limit:
+      capacity: 1
+      refill_rate: 0.5
+    circuit_breaker:
+      failure_threshold: 3
+      recovery_timeout: 60.0
+    parser: cnki_html
+    headers:
+      User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+      Accept-Language: "zh-CN,zh;q=0.9"
+    enabled: true
+
+  - name: medical_guideline
+    type: html
+    base_url: https://www.cma.org.cn/
+    rate_limit:
+      capacity: 2
+      refill_rate: 1.0
+    circuit_breaker:
+      failure_threshold: 3
+      recovery_timeout: 45.0
+    parser: guideline_html
+    enabled: true
+
+pool:
+  max_agents: 20
+  health_check_interval: 30.0
+  unhealthy_threshold: 3
+  stale_timeout: 300.0
