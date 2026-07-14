@@ -1,0 +1,39 @@
+# HealthMan 大健康检测平台依赖清单
+# 安装命令: pip install -r requirements.txt
+
+# 核心UI框架
+PyQt6>=6.5
+PyQt6-Charts>=6.5
+
+# 串口通信
+pyserial>=3.5
+pyserial-asyncio>=0.6
+
+# 信号处理
+heartpy>=1.2.5
+numpy>=1.24
+
+# 数据可视化
+matplotlib>=3.7
+
+# 数据处理
+pandas>=2.0
+
+# 配置管理
+PyYAML>=6.0
+
+# 项目原有依赖
+pyarrow>=14.0
+pyreadstat>=1.2
+PyMuPDF>=1.23
+requests>=2.31
+aiohttp>=3.9
+cryptography>=42.0
+keyring>=24.0
+APScheduler>=3.10
+scikit-learn>=1.4
+
+# 开发依赖
+pytest>=8.0
+pytest-cov>=4.1
+pytest-asyncio>=0.23

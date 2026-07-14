@@ -1,0 +1,1266 @@
+{
+  "task_id": "esummary_1",
+  "success": true,
+  "data": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "42436425",
+        "42438408",
+        "42439100",
+        "42438173",
+        "42436368",
+        "42437035",
+        "42422437",
+        "42438578",
+        "42433305",
+        "42438636"
+      ],
+      "42436425": {
+        "uid": "42436425",
+        "pubdate": "2026 Jul 11",
+        "epubdate": "2026 Jul 11",
+        "source": "BMC Endocr Disord",
+        "authors": [
+          {
+            "name": "Yanmeng Q",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xiaoyu Z",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xiao W",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xuesong S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Anqi C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xitong J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xueyan H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yan L",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Yan L",
+        "title": "Association between body composition and bone mineral density in young and middle-aged adults.",
+        "sorttitle": "association between body composition and bone mineral density in young and middle aged adults",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101088676",
+        "issn": "",
+        "essn": "1472-6823",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42436425"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1186/s12902-026-02414-8"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1186/s12902-026-02414-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/04/25 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/07/06 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/12 04:10"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/12 04:10"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/11 23:34"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "BMC endocrine disorders",
+        "elocationid": "doi: 10.1186/s12902-026-02414-8",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/11 00:00",
+        "sortfirstauthor": "Yanmeng Q",
+        "vernaculartitle": ""
+      },
+      "42438408": {
+        "uid": "42438408",
+        "pubdate": "2026 Jul 13",
+        "epubdate": "2026 Jul 13",
+        "source": "Br J Nutr",
+        "authors": [
+          {
+            "name": "Drake CE",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gower B",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ashraf A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Alvarez J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bolding M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bril F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cedillo Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Luzuriaga-McPherson A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hanson R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Goss AM",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Goss AM",
+        "title": "Effects of a low-glycemic, moderately-carbohydrate restricted diet on hepatic lipid content and insulin sensitivity in adolescents with MASLD: protocol of a 6-month family-based, randomized controlled trial.",
+        "sorttitle": "effects of a low glycemic moderately carbohydrate restricted diet on hepatic lipid content and insulin sensitivity in adolescents with masld protocol of a 6 month family based randomized controlled trial",
+        "volume": "",
+        "issue": "",
+        "pages": "1-23",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "0372547",
+        "issn": "0007-1145",
+        "essn": "1475-2662",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438408"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1017/S0007114526108058"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0007114526108058"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 03:23"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "The British journal of nutrition",
+        "elocationid": "doi: 10.1017/S0007114526108058",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/13 00:00",
+        "sortfirstauthor": "Drake CE",
+        "vernaculartitle": ""
+      },
+      "42439100": {
+        "uid": "42439100",
+        "pubdate": "2026 Aug 1",
+        "epubdate": "",
+        "source": "J Acquir Immune Defic Syndr",
+        "authors": [
+          {
+            "name": "Hertz JT",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Rahim F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vaidyanathan A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wanda L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sakita FM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mmbaga BT",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kweka GL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mlangi JJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zebedayo R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gwasma F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Prakash T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jafar TH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bosworth HB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Thielman NM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Manavalan P",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Manavalan P",
+        "title": "Optimizing Antihypertensive Care for Tanzanians Living With HIV: Effectiveness Outcomes From the COACH Pilot Trial.",
+        "sorttitle": "optimizing antihypertensive care for tanzanians living with hiv effectiveness outcomes from the coach pilot trial",
+        "volume": "101",
+        "issue": "8",
+        "pages": "896-906",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "100892005",
+        "issn": "1525-4135",
+        "essn": "1944-7884",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "4",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42439100"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1097/QAI.0000000000003874"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "00126334-202608010-00012"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/11/29 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/02/19 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 05:53"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Journal of acquired immune deficiency syndromes (1999)",
+        "elocationid": "doi: 10.1097/QAI.0000000000003874",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/08/01 00:00",
+        "sortfirstauthor": "Hertz JT",
+        "vernaculartitle": ""
+      },
+      "42438173": {
+        "uid": "42438173",
+        "pubdate": "2026 Jul 12",
+        "epubdate": "2026 Jul 12",
+        "source": "J Adv Nurs",
+        "authors": [
+          {
+            "name": "Aqtam I",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shouli M",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Shouli M",
+        "title": "'Trust Is the First Algorithm': A Socio-Technical Framework for Generative AI Integration in a High-Stakes, Resource-Constrained Context.",
+        "sorttitle": "trust is the first algorithm a socio technical framework for generative ai integration in a high stakes resource constrained context",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "7609811",
+        "issn": "0309-2402",
+        "essn": "1365-2648",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438173"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1111/jan.70671"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "revised",
+            "date": "2026/06/29 00:00"
+          },
+          {
+            "pubstatus": "received",
+            "date": "2026/04/08 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/07/06 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 01:22"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Journal of advanced nursing",
+        "elocationid": "doi: 10.1111/jan.70671",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/12 00:00",
+        "sortfirstauthor": "Aqtam I",
+        "vernaculartitle": ""
+      },
+      "42436368": {
+        "uid": "42436368",
+        "pubdate": "2026 Jul 11",
+        "epubdate": "2026 Jul 11",
+        "source": "BMC Genomics",
+        "authors": [
+          {
+            "name": "Zhao Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sun Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wei S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu Q",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ji A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhu B",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Zhu B",
+        "title": "High-efficiency 14-plex cSNP SNaPshot assay for forensic peripheral blood identification.",
+        "sorttitle": "high efficiency 14 plex csnp snapshot assay for forensic peripheral blood identification",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "100965258",
+        "issn": "",
+        "essn": "1471-2164",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42436368"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1186/s12864-026-13173-0"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1186/s12864-026-13173-0"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/03/13 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/07/08 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/12 00:55"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/12 00:55"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/11 23:33"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "BMC genomics",
+        "elocationid": "doi: 10.1186/s12864-026-13173-0",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/11 00:00",
+        "sortfirstauthor": "Zhao Y",
+        "vernaculartitle": ""
+      },
+      "42437035": {
+        "uid": "42437035",
+        "pubdate": "2026",
+        "epubdate": "2026 Jul 8",
+        "source": "PeerJ",
+        "authors": [
+          {
+            "name": "Filz P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Beas-Luna R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Loiseau N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lorda J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Freiwald J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bauer J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Malpica-Cruz L",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Malpica-Cruz L",
+        "title": "Diversity persists while function shifts: post-heatwave reorganization of reef fish communities in Baja California.",
+        "sorttitle": "diversity persists while function shifts post heatwave reorganization of reef fish communities in baja california",
+        "volume": "14",
+        "issue": "",
+        "pages": "e21452",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101603425",
+        "issn": "",
+        "essn": "2167-8359",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42437035"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13355618"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13355618;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.7717/peerj.21452"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "21452"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/01/20 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/05/07 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/12 10:10"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/12 10:09"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/12 04:09"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2026/07/08 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 72,
+        "fulljournalname": "PeerJ",
+        "elocationid": "doi: 10.7717/peerj.21452",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/08 00:00",
+        "sortfirstauthor": "Filz P",
+        "vernaculartitle": ""
+      },
+      "42422437": {
+        "uid": "42422437",
+        "pubdate": "2026",
+        "epubdate": "2026 Jun 24",
+        "source": "Front Endocrinol (Lausanne)",
+        "authors": [
+          {
+            "name": "Tatlı E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kip T",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Kip T",
+        "title": "Serum adropin levels and their association with sarcopenia in patients with diabetic nephropathy: a cross-sectional study.",
+        "sorttitle": "serum adropin levels and their association with sarcopenia in patients with diabetic nephropathy a cross sectional study",
+        "volume": "17",
+        "issue": "",
+        "pages": "1884793",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101555782",
+        "issn": "1664-2392",
+        "essn": "1664-2392",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42422437"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13342695"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13342695;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3389/fendo.2026.1884793"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/05/18 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2026/06/04 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/09 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/09 06:34"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/09 06:33"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/09 04:43"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2026/06/24 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 25,
+        "fulljournalname": "Frontiers in endocrinology",
+        "elocationid": "doi: 10.3389/fendo.2026.1884793",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/24 00:00",
+        "sortfirstauthor": "Tatlı E",
+        "vernaculartitle": ""
+      },
+      "42438578": {
+        "uid": "42438578",
+        "pubdate": "2026 Jul",
+        "epubdate": "2026 Jul 12",
+        "source": "Cureus",
+        "authors": [
+          {
+            "name": "Garrett S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ansari A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Siddada S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sankar S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bishnoi A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Meysami A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hussain S",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Hussain S",
+        "title": "Rapidly Progressive Triple M Overlap Syndrome After Immune Checkpoint Inhibitor Therapy.",
+        "sorttitle": "rapidly progressive triple m overlap syndrome after immune checkpoint inhibitor therapy",
+        "volume": "18",
+        "issue": "7",
+        "pages": "e112508",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101596737",
+        "issn": "2168-8184",
+        "essn": "",
+        "pubtype": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438578"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13356802"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13356802;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.7759/cureus.112508"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "accepted",
+            "date": "2026/07/12 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 03:44"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Cureus",
+        "elocationid": "doi: 10.7759/cureus.112508",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/12 00:00",
+        "sortfirstauthor": "Garrett S",
+        "vernaculartitle": ""
+      },
+      "42433305": {
+        "uid": "42433305",
+        "pubdate": "2026 Dec",
+        "epubdate": "2026 Jul 9",
+        "source": "J Diabetes Metab Disord",
+        "authors": [
+          {
+            "name": "Hazaveh MM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shojaei S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mousavi A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zooravar D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Aghamohamadpour S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yousefifar S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Talebpour M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Radkhah H",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Radkhah H",
+        "title": "Triglyceride-glucose index as a predictor of body composition changes in patients undergoing bariatric surgery.",
+        "sorttitle": "triglyceride glucose index as a predictor of body composition changes in patients undergoing bariatric surgery",
+        "volume": "25",
+        "issue": "2",
+        "pages": "195",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101590741",
+        "issn": "2251-6581",
+        "essn": "2251-6581",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42433305"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13350601"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13350601;embargo-date: 2027/07/09;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s40200-026-02001-7"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "2001"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/05/26 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/27 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/11 06:36"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/11 06:35"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/11 05:05"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2027/07/09 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract",
+          "Embargoed in PMC"
+        ],
+        "pmcrefcount": 63,
+        "fulljournalname": "Journal of diabetes and metabolic disorders",
+        "elocationid": "doi: 10.1007/s40200-026-02001-7",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/09 00:00",
+        "sortfirstauthor": "Hazaveh MM",
+        "vernaculartitle": ""
+      },
+      "42438636": {
+        "uid": "42438636",
+        "pubdate": "2026 Jun",
+        "epubdate": "2026 Jun 11",
+        "source": "Cureus",
+        "authors": [
+          {
+            "name": "Lim ECN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cheng NCL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lim CED",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Lim CED",
+        "title": "Detecting Pseudothrombocytopenia in the Era of Artificial Intelligence: Integration of Automated Hematology, Digital Morphology, and Expert Review.",
+        "sorttitle": "detecting pseudothrombocytopenia in the era of artificial intelligence integration of automated hematology digital morphology and expert review",
+        "volume": "18",
+        "issue": "6",
+        "pages": "e110690",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101596737",
+        "issn": "2168-8184",
+        "essn": "",
+        "pubtype": [
+          "Journal Article",
+          "Review"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438636"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13355945"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13355945;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.7759/cureus.110690"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/11 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 03:45"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Cureus",
+        "elocationid": "doi: 10.7759/cureus.110690",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/11 00:00",
+        "sortfirstauthor": "Lim ECN",
+        "vernaculartitle": ""
+      }
+    }
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42436425,42438408,42439100,42438173,42436368,42437035,42422437,42438578,42433305,42438636&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-13T21:16:21",
+  "latency_ms": 671.9999999986612,
+  "quality_score": 0.4
+}

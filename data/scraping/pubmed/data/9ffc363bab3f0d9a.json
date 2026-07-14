@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_cardiovascular disease risk fa",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"511753\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42440338\",\"42440199\",\"42440185\",\"42440116\",\"42440082\",\"42439912\",\"42439908\",\"42439480\",\"42439216\",\"42439082\"],\"translationset\":[{\"from\":\"cardiovascular disease\",\"to\":\"\\\"cardiovascular diseases\\\"[MeSH Terms] OR (\\\"cardiovascular\\\"[All Fields] AND \\\"diseases\\\"[All Fields]) OR \\\"cardiovascular diseases\\\"[All Fields] OR (\\\"cardiovascular\\\"[All Fields] AND \\\"disease\\\"[All Fields]) OR \\\"cardiovascular disease\\\"[All Fields]\"},{\"from\":\"risk factors\",\"to\":\"\\\"risk factors\\\"[MeSH Terms] OR (\\\"risk\\\"[All Fields] AND \\\"factors\\\"[All Fields]) OR \\\"risk factors\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"cardiovascular diseases\\\"[MeSH Terms] OR (\\\"cardiovascular\\\"[All Fields] AND \\\"diseases\\\"[All Fields]) OR \\\"cardiovascular diseases\\\"[All Fields] OR (\\\"cardiovascular\\\"[All Fields] AND \\\"disease\\\"[All Fields]) OR \\\"cardiovascular disease\\\"[All Fields]) AND (\\\"risk factors\\\"[MeSH Terms] OR (\\\"risk\\\"[All Fields] AND \\\"factors\\\"[All Fields]) OR \\\"risk factors\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cardiovascular disease risk factors&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:20",
+  "latency_ms": 593.0000000007567,
+  "quality_score": 0.4
+}

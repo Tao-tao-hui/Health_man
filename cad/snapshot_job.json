@@ -1,0 +1,16 @@
+{
+  "input": "cad/health_scanner.step",
+  "mode": "view",
+  "outputs": [
+    { "path": "cad/renders/iso.png", "camera": "iso" },
+    { "path": "cad/renders/iso_opposite.png", "camera": { "direction": [-1, 1, -0.8] } },
+    { "path": "cad/renders/top.png", "camera": "top" },
+    { "path": "cad/renders/front.png", "camera": "front" },
+    { "path": "cad/renders/right.png", "camera": "right" }
+  ],
+  "render": {
+    "viewLabels": true,
+    "padding": 0.12,
+    "sizeProfile": "diagnostic"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "task_id": "esearch_chronic kidney disease managem",
+  "success": true,
+  "data": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "46897",
+      "retmax": "10",
+      "retstart": "0",
+      "idlist": [
+        "42440187",
+        "42440116",
+        "42438803",
+        "42438722",
+        "42438056",
+        "42437971",
+        "42437926",
+        "42436784",
+        "42436698",
+        "42435526"
+      ],
+      "translationset": [
+        {
+          "from": "chronic kidney disease",
+          "to": "\"renal insufficiency, chronic\"[MeSH Terms] OR (\"renal\"[All Fields] AND \"insufficiency\"[All Fields] AND \"chronic\"[All Fields]) OR \"chronic renal insufficiency\"[All Fields] OR (\"chronic\"[All Fields] AND \"kidney\"[All Fields] AND \"disease\"[All Fields]) OR \"chronic kidney disease\"[All Fields]"
+        },
+        {
+          "from": "management",
+          "to": "\"manage\"[All Fields] OR \"managed\"[All Fields] OR \"management's\"[All Fields] OR \"managements\"[All Fields] OR \"manager\"[All Fields] OR \"manager's\"[All Fields] OR \"managers\"[All Fields] OR \"manages\"[All Fields] OR \"managing\"[All Fields] OR \"managment\"[All Fields] OR \"organization and administration\"[MeSH Terms] OR (\"organization\"[All Fields] AND \"administration\"[All Fields]) OR \"organization and administration\"[All Fields] OR \"management\"[All Fields] OR \"disease management\"[MeSH Terms] OR (\"disease\"[All Fields] AND \"management\"[All Fields]) OR \"disease management\"[All Fields]"
+        }
+      ],
+      "querytranslation": "(\"renal insufficiency, chronic\"[MeSH Terms] OR (\"renal\"[All Fields] AND \"insufficiency\"[All Fields] AND \"chronic\"[All Fields]) OR \"chronic renal insufficiency\"[All Fields] OR (\"chronic\"[All Fields] AND \"kidney\"[All Fields] AND \"disease\"[All Fields]) OR \"chronic kidney disease\"[All Fields]) AND (\"manage\"[All Fields] OR \"managed\"[All Fields] OR \"management s\"[All Fields] OR \"managements\"[All Fields] OR \"manager\"[All Fields] OR \"manager s\"[All Fields] OR \"managers\"[All Fields] OR \"manages\"[All Fields] OR \"managing\"[All Fields] OR \"managment\"[All Fields] OR \"organization and administration\"[MeSH Terms] OR (\"organization\"[All Fields] AND \"administration\"[All Fields]) OR \"organization and administration\"[All Fields] OR \"management\"[All Fields] OR \"disease management\"[MeSH Terms] OR (\"disease\"[All Fields] AND \"management\"[All Fields]) OR \"disease management\"[All Fields])"
+    }
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=chronic+kidney+disease+management&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:48:15",
+  "latency_ms": 827.9999999995198,
+  "quality_score": 0.4
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_telemedicine healthcare delive",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"61594\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42440360\",\"42438641\",\"42438604\",\"42437895\",\"42437367\",\"42435470\",\"42434370\",\"42433180\",\"42432946\",\"42432788\"],\"translationset\":[{\"from\":\"telemedicine\",\"to\":\"\\\"telemedicine\\\"[MeSH Terms] OR \\\"telemedicine\\\"[All Fields] OR \\\"telemedicine's\\\"[All Fields]\"},{\"from\":\"healthcare delivery\",\"to\":\"\\\"delivery of health care\\\"[MeSH Terms] OR (\\\"delivery\\\"[All Fields] AND \\\"health\\\"[All Fields] AND \\\"care\\\"[All Fields]) OR \\\"delivery of health care\\\"[All Fields] OR (\\\"healthcare\\\"[All Fields] AND \\\"delivery\\\"[All Fields]) OR \\\"healthcare delivery\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"telemedicine\\\"[MeSH Terms] OR \\\"telemedicine\\\"[All Fields] OR \\\"telemedicine s\\\"[All Fields]) AND (\\\"delivery of health care\\\"[MeSH Terms] OR (\\\"delivery\\\"[All Fields] AND \\\"health\\\"[All Fields] AND \\\"care\\\"[All Fields]) OR \\\"delivery of health care\\\"[All Fields] OR (\\\"healthcare\\\"[All Fields] AND \\\"delivery\\\"[All Fields]) OR \\\"healthcare delivery\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=telemedicine healthcare delivery&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:23",
+  "latency_ms": 483.99999999855936,
+  "quality_score": 0.4
+}

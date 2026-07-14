@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_body composition assessment",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"45920\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42440276\",\"42439362\",\"42439332\",\"42438844\",\"42438408\",\"42438224\",\"42437547\",\"42437546\",\"42437098\",\"42437035\"],\"translationset\":[{\"from\":\"body composition\",\"to\":\"\\\"body composition\\\"[MeSH Terms] OR (\\\"body\\\"[All Fields] AND \\\"composition\\\"[All Fields]) OR \\\"body composition\\\"[All Fields]\"},{\"from\":\"assessment\",\"to\":\"\\\"assess\\\"[All Fields] OR \\\"assessed\\\"[All Fields] OR \\\"assessement\\\"[All Fields] OR \\\"assesses\\\"[All Fields] OR \\\"assessing\\\"[All Fields] OR \\\"assessment\\\"[All Fields] OR \\\"assessment's\\\"[All Fields] OR \\\"assessments\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"body composition\\\"[MeSH Terms] OR (\\\"body\\\"[All Fields] AND \\\"composition\\\"[All Fields]) OR \\\"body composition\\\"[All Fields]) AND (\\\"assess\\\"[All Fields] OR \\\"assessed\\\"[All Fields] OR \\\"assessement\\\"[All Fields] OR \\\"assesses\\\"[All Fields] OR \\\"assessing\\\"[All Fields] OR \\\"assessment\\\"[All Fields] OR \\\"assessment s\\\"[All Fields] OR \\\"assessments\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=body composition assessment&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:19",
+  "latency_ms": 484.00000000037835,
+  "quality_score": 0.4
+}

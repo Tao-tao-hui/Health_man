@@ -1,0 +1,1224 @@
+{
+  "task_id": "esummary_3",
+  "success": true,
+  "data": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "42426859",
+        "42438207",
+        "42422424",
+        "42438471",
+        "42426330",
+        "42430799",
+        "42436913",
+        "42438238",
+        "42438844"
+      ],
+      "42426859": {
+        "uid": "42426859",
+        "pubdate": "2026 Jul 9",
+        "epubdate": "2026 Jul 9",
+        "source": "BMC Sports Sci Med Rehabil",
+        "authors": [
+          {
+            "name": "Seyhan S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jourkesh M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Salatin A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Acar G",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bilici MF",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Girginer FG",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bilici OF",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Soylu C",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Soylu C",
+        "title": "The combined effects of whey protein and collagen supplementation on bone mineral density and muscle mass in resistance-trained men: a randomized controlled trial.",
+        "sorttitle": "combined effects of whey protein and collagen supplementation on bone mineral density and muscle mass in resistance trained men a randomized controlled trial",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101605016",
+        "issn": "2052-1847",
+        "essn": "",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42426859"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1186/s13102-026-01846-y"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1186/s13102-026-01846-y"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/10/06 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/29 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/10 06:34"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/10 06:34"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/10 00:19"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "BMC sports science, medicine & rehabilitation",
+        "elocationid": "doi: 10.1186/s13102-026-01846-y",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/09 00:00",
+        "sortfirstauthor": "Seyhan S",
+        "vernaculartitle": ""
+      },
+      "42438207": {
+        "uid": "42438207",
+        "pubdate": "2026 Jul 12",
+        "epubdate": "2026 Jul 12",
+        "source": "Brain Inj",
+        "authors": [
+          {
+            "name": "Torres-Espin A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nielson JL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hawkins BE",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mondello S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Martone ME",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nelson DW",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ercole A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Steyerberg EW",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cifu DX",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Pugh MJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Agyemang AA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dismuke-Greer CE",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Menon DK",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "De Keyser V",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Maas AIR",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vassar M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Markowitz AJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Manley GT",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ferguson AR",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Ferguson AR",
+        "title": "The true costs of data management in the era of data sharing mandates.",
+        "sorttitle": "true costs of data management in the era of data sharing mandates",
+        "volume": "",
+        "issue": "",
+        "pages": "1-8",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "8710358",
+        "issn": "0269-9052",
+        "essn": "1362-301X",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438207"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1080/02699052.2026.2695303"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/13 06:32"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/13 06:32"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 01:43"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Brain injury",
+        "elocationid": "doi: 10.1080/02699052.2026.2695303",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/12 00:00",
+        "sortfirstauthor": "Torres-Espin A",
+        "vernaculartitle": ""
+      },
+      "42422424": {
+        "uid": "42422424",
+        "pubdate": "2026",
+        "epubdate": "2026 Jun 24",
+        "source": "Front Endocrinol (Lausanne)",
+        "authors": [
+          {
+            "name": "Li M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yang X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wen Y",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Wen Y",
+        "title": "Metabolic regulatory mechanisms of Yijinjing exercise in patients with type 2 diabetes mellitus: Insight from the gut microbiota-intestinal barrier- inflammation axis.",
+        "sorttitle": "metabolic regulatory mechanisms of yijinjing exercise in patients with type 2 diabetes mellitus insight from the gut microbiota intestinal barrier inflammation axis",
+        "volume": "17",
+        "issue": "",
+        "pages": "1848478",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101555782",
+        "issn": "1664-2392",
+        "essn": "1664-2392",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42422424"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13341303"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13341303;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3389/fendo.2026.1848478"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/04/06 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2026/06/05 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/05 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/09 06:33"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/09 06:32"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/09 04:42"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2026/06/24 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 32,
+        "fulljournalname": "Frontiers in endocrinology",
+        "elocationid": "doi: 10.3389/fendo.2026.1848478",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/24 00:00",
+        "sortfirstauthor": "Li M",
+        "vernaculartitle": ""
+      },
+      "42438471": {
+        "uid": "42438471",
+        "pubdate": "2026",
+        "epubdate": "2026 Jun 13",
+        "source": "Sleep Adv",
+        "authors": [
+          {
+            "name": "Stepnowsky C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zamora T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Velazquez Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Schmickl CN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cervantes-Gameros C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Owens RL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wojeck BS",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Colvonen P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nokes B",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Nokes B",
+        "title": "Transoral neuromuscular electrical stimulation therapy adherence and intensity levels in veterans with mild OSA.",
+        "sorttitle": "transoral neuromuscular electrical stimulation therapy adherence and intensity levels in veterans with mild osa",
+        "volume": "7",
+        "issue": "3",
+        "pages": "zpag061",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101774029",
+        "issn": "",
+        "essn": "2632-5012",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438471"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13356895"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13356895;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1093/sleepadvances/zpag061"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "zpag061"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/13 06:33"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/13 06:32"
+          },
+          {
+            "pubstatus": "received",
+            "date": "2026/03/17 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2026/05/31 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/08 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 03:43"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Sleep advances : a journal of the Sleep Research Society",
+        "elocationid": "doi: 10.1093/sleepadvances/zpag061",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/13 00:00",
+        "sortfirstauthor": "Stepnowsky C",
+        "vernaculartitle": ""
+      },
+      "42426330": {
+        "uid": "42426330",
+        "pubdate": "2026 Jul 9",
+        "epubdate": "2026 Jul 9",
+        "source": "Sci Rep",
+        "authors": [
+          {
+            "name": "Schilling R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Fiedler J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Krell-Roesch J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Woll A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Schmidt SCE",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Schmidt SCE",
+        "title": "Associations between physical activity, physical fitness, and body composition in adults living in Germany: a cross-sectional replication study.",
+        "sorttitle": "associations between physical activity physical fitness and body composition in adults living in germany a cross sectional replication study",
+        "volume": "16",
+        "issue": "1",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101563288",
+        "issn": "",
+        "essn": "2045-2322",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "3",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42426330"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1038/s41598-026-61611-6"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1038/s41598-026-61611-6"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13350826"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13350826;"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/03/23 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/07/06 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/10 13:18"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/10 00:35"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/09 23:35"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2026/07/09 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 20,
+        "fulljournalname": "Scientific reports",
+        "elocationid": "doi: 10.1038/s41598-026-61611-6",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/09 00:00",
+        "sortfirstauthor": "Schilling R",
+        "vernaculartitle": ""
+      },
+      "42430799": {
+        "uid": "42430799",
+        "pubdate": "2026 Jul 10",
+        "epubdate": "2026 Jul 10",
+        "source": "J Neurosurg Spine",
+        "authors": [
+          {
+            "name": "Semonche A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lazar AA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Scheer JK",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mikula AL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wozny T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kim J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nguyen TH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Deviren V",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Clark AJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ames CP",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Ames CP",
+        "title": "Agreement and reliability analysis of sarcopenia measures based on muscle function, body composition, and imaging in spinal deformity patients.",
+        "sorttitle": "agreement and reliability analysis of sarcopenia measures based on muscle function body composition and imaging in spinal deformity patients",
+        "volume": "",
+        "issue": "",
+        "pages": "1-8",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101223545",
+        "issn": "",
+        "essn": "1547-5646",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "pubstatus": "10",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42430799"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3171/2026.2.SPINE251093"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/07/31 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/02/10 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/10 18:47"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/10 18:47"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/10 17:52"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Journal of neurosurgery. Spine",
+        "elocationid": "doi: 10.3171/2026.2.SPINE251093",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/07/10 00:00",
+        "sortfirstauthor": "Semonche A",
+        "vernaculartitle": ""
+      },
+      "42436913": {
+        "uid": "42436913",
+        "pubdate": "2026",
+        "epubdate": "2026 Jun 30",
+        "source": "Brain Spine",
+        "authors": [
+          {
+            "name": "Kylies J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kylies D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Weisel K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wenzel UO",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Huber TB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Viezens L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Leonhardt LG",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Leonhardt LG",
+        "title": "Multiple myeloma with spinal involvement: Renal dysfunction and albuminuria are associated with progressive sarcopenia in a longitudinal CT morphometric study.",
+        "sorttitle": "multiple myeloma with spinal involvement renal dysfunction and albuminuria are associated with progressive sarcopenia in a longitudinal ct morphometric study",
+        "volume": "6",
+        "issue": "",
+        "pages": "106153",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9918470888906676",
+        "issn": "",
+        "essn": "2772-5294",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42436913"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13355679"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13355679;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.bas.2026.106153"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S2772-5294(26)00229-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2026/03/31 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2026/05/27 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/29 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/12 10:10"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/12 10:09"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/12 04:07"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2026/06/30 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 50,
+        "fulljournalname": "Brain & spine",
+        "elocationid": "doi: 10.1016/j.bas.2026.106153",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/30 00:00",
+        "sortfirstauthor": "Kylies J",
+        "vernaculartitle": ""
+      },
+      "42438238": {
+        "uid": "42438238",
+        "pubdate": "2026",
+        "epubdate": "",
+        "source": "J Nurs Manag",
+        "authors": [
+          {
+            "name": "Gao H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sun X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zheng D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Chen H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yu X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hou J",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Hou J",
+        "title": "Profiles and Networks: A Person-Centered Analysis of Emotional Labor, Burnout, and Change Fatigue Among Chinese Oncology Nurses.",
+        "sorttitle": "profiles and networks a person centered analysis of emotional labor burnout and change fatigue among chinese oncology nurses",
+        "volume": "2026",
+        "issue": "1",
+        "pages": "e4262055",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9306050",
+        "issn": "0966-0429",
+        "essn": "1365-2834",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "4",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438238"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1155/jonm/4262055"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/13 06:34"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/13 06:33"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2026/06/03 00:00"
+          },
+          {
+            "pubstatus": "received",
+            "date": "2026/01/15 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/06/08 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 01:53"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Journal of nursing management",
+        "elocationid": "doi: 10.1155/jonm/4262055",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/01/01 00:00",
+        "sortfirstauthor": "Gao H",
+        "vernaculartitle": ""
+      },
+      "42438844": {
+        "uid": "42438844",
+        "pubdate": "2026 Jun",
+        "epubdate": "2026 Jun 30",
+        "source": "Phys Act Nutr",
+        "authors": [
+          {
+            "name": "Song JH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Choi JH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Beak HJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Park HY",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Park HY",
+        "title": "Effects of 8-week Pilates or yoga intervention on body composition, flexibility, balance, autonomic nervous system function, and mental health in adults with stress.",
+        "sorttitle": "effects of 8 week pilates or yoga intervention on body composition flexibility balance autonomic nervous system function and mental health in adults with stress",
+        "volume": "30",
+        "issue": "2",
+        "pages": "43-52",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101770644",
+        "issn": "",
+        "essn": "2733-7545",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "42438844"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.20463/pan.2026.0019"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "pan.2026.0019"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "medline",
+            "date": "2026/07/13 06:34"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2026/07/13 06:33"
+          },
+          {
+            "pubstatus": "received",
+            "date": "2025/12/12 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2026/02/01 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2026/07/13 03:48"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Physical activity and nutrition",
+        "elocationid": "doi: 10.20463/pan.2026.0019",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2026/06/01 00:00",
+        "sortfirstauthor": "Song JH",
+        "vernaculartitle": ""
+      }
+    }
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42426859,42438207,42422424,42438471,42426330,42430799,42436913,42438238,42438844&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-13T21:16:21",
+  "latency_ms": 639.9999999994179,
+  "quality_score": 0.4
+}

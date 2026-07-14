@@ -1,0 +1,47 @@
+{
+  "task_id": "esearch_postoperative rehabilitation o",
+  "success": true,
+  "data": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "30318",
+      "retmax": "10",
+      "retstart": "0",
+      "idlist": [
+        "42440059",
+        "42440012",
+        "42438832",
+        "42438405",
+        "42437705",
+        "42437668",
+        "42437656",
+        "42437217",
+        "42436504",
+        "42436437"
+      ],
+      "translationset": [
+        {
+          "from": "postoperative",
+          "to": "\"postoperative period\"[MeSH Terms] OR (\"postoperative\"[All Fields] AND \"period\"[All Fields]) OR \"postoperative period\"[All Fields] OR \"postop\"[All Fields] OR \"postoperative\"[All Fields] OR \"postoperatively\"[All Fields] OR \"postoperatives\"[All Fields]"
+        },
+        {
+          "from": "rehabilitation",
+          "to": "\"rehabilitant\"[All Fields] OR \"rehabilitant's\"[All Fields] OR \"rehabilitants\"[All Fields] OR \"rehabilitate\"[All Fields] OR \"rehabilitated\"[All Fields] OR \"rehabilitates\"[All Fields] OR \"rehabilitating\"[All Fields] OR \"rehabilitation\"[MeSH Terms] OR \"rehabilitation\"[All Fields] OR \"rehabilitations\"[All Fields] OR \"rehabilitative\"[All Fields] OR \"rehabilitation\"[Subheading] OR \"rehabilitation's\"[All Fields] OR \"rehabilitational\"[All Fields] OR \"rehabilitator\"[All Fields] OR \"rehabilitators\"[All Fields]"
+        },
+        {
+          "from": "outcomes",
+          "to": "\"outcome\"[All Fields] OR \"outcomes\"[All Fields]"
+        }
+      ],
+      "querytranslation": "(\"postoperative period\"[MeSH Terms] OR (\"postoperative\"[All Fields] AND \"period\"[All Fields]) OR \"postoperative period\"[All Fields] OR \"postop\"[All Fields] OR \"postoperative\"[All Fields] OR \"postoperatively\"[All Fields] OR \"postoperatives\"[All Fields]) AND (\"rehabilitant\"[All Fields] OR \"rehabilitants\"[All Fields] OR \"rehabilitate\"[All Fields] OR \"rehabilitated\"[All Fields] OR \"rehabilitates\"[All Fields] OR \"rehabilitating\"[All Fields] OR \"rehabilitation\"[MeSH Terms] OR \"rehabilitation\"[All Fields] OR \"rehabilitations\"[All Fields] OR \"rehabilitative\"[All Fields] OR \"rehabilitation\"[MeSH Subheading] OR \"rehabilitation s\"[All Fields] OR \"rehabilitational\"[All Fields] OR \"rehabilitator\"[All Fields] OR \"rehabilitators\"[All Fields]) AND (\"outcome\"[All Fields] OR \"outcomes\"[All Fields])"
+    }
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=postoperative+rehabilitation+outcomes&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:48:16",
+  "latency_ms": 530.9999999990396,
+  "quality_score": 0.4
+}

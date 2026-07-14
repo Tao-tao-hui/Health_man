@@ -1,0 +1,217 @@
+/* HealthMan 大健康检测系统 - 全局样式表 */
+
+/* 主窗口背景 */
+QMainWindow {
+    background-color: #F5F7FA;
+}
+
+/* 中央内容区 */
+QWidget#central_widget {
+    background-color: #F5F7FA;
+}
+
+/* 通用卡片样式 */
+QFrame#card_frame {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E0E5EC;
+    padding: 16px;
+    margin: 8px;
+}
+
+QFrame#card_frame:hover {
+    border-color: #1E88E5;
+    box-shadow: 0 4px 12px rgba(30, 136, 229, 0.1);
+}
+
+/* 环形进度卡片 */
+QFrame#score_card_frame {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid #E0E5EC;
+    padding: 24px;
+    margin: 8px;
+}
+
+/* 标题标签 */
+QLabel#title_label {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #37474F;
+    margin-bottom: 8px;
+}
+
+QLabel#section_title_label {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A237E;
+    margin-bottom: 16px;
+}
+
+/* 数值标签 */
+QLabel#value_label {
+    font-family: "Consolas", "Microsoft YaHei", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1A237E;
+}
+
+QLabel#value_label_small {
+    font-family: "Consolas", "Microsoft YaHei", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A237E;
+}
+
+/* 单位标签 */
+QLabel#unit_label {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #78909C;
+}
+
+/* 状态标签 */
+QLabel#status_normal {
+    background-color: #E8F5E9;
+    color: #2E7D32;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+QLabel#status_warning {
+    background-color: #FFF3E0;
+    color: #EF6C00;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+QLabel#status_danger {
+    background-color: #FFEBEE;
+    color: #C62828;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* 趋势标签 */
+QLabel#trend_up {
+    color: #4CAF50;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+QLabel#trend_down {
+    color: #F44336;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+QLabel#trend_stable {
+    color: #78909C;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #1565C0;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+QPushButton#secondary_button {
+    background-color: #ECEFF1;
+    color: #37474F;
+}
+
+QPushButton#secondary_button:hover {
+    background-color: #CFD8DC;
+}
+
+/* 进度条 */
+QProgressBar {
+    border: none;
+    border-radius: 4px;
+    height: 6px;
+    background-color: #E0E5EC;
+}
+
+QProgressBar::chunk {
+    background-color: #1E88E5;
+    border-radius: 4px;
+}
+
+/* 分隔线 */
+QFrame#separator {
+    background-color: #E0E5EC;
+    height: 1px;
+}
+
+/* 滚动条 */
+QScrollBar:vertical {
+    width: 8px;
+    background: #F5F7FA;
+}
+
+QScrollBar::handle:vertical {
+    background: #B0BEC5;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #78909C;
+}
+
+/* 风险预警列表 */
+QListWidget#alert_list {
+    border: none;
+    background-color: transparent;
+}
+
+QListWidgetItem {
+    padding: 12px;
+    border-bottom: 1px solid #E0E5EC;
+}
+
+QListWidgetItem:last-child {
+    border-bottom: none;
+}
+
+/* 健康建议区域 */
+QTextEdit#advice_text {
+    border: none;
+    background-color: #E8F5E9;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 13px;
+    color: #2E7D32;
+}
+
+/* 提示文字 */
+QLabel#hint_text {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 12px;
+    color: #90A4AE;
+    font-style: italic;
+}

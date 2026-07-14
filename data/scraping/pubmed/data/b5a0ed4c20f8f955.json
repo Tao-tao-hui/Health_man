@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_bioelectrical impedance analys",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"4994\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42436425\",\"42433305\",\"42431768\",\"42430799\",\"42430205\",\"42428704\",\"42426859\",\"42426330\",\"42422437\",\"42422424\"],\"translationset\":[{\"from\":\"bioelectrical impedance\",\"to\":\"\\\"electric impedance\\\"[MeSH Terms] OR (\\\"electric\\\"[All Fields] AND \\\"impedance\\\"[All Fields]) OR \\\"electric impedance\\\"[All Fields] OR (\\\"bioelectrical\\\"[All Fields] AND \\\"impedance\\\"[All Fields]) OR \\\"bioelectrical impedance\\\"[All Fields]\"},{\"from\":\"analysis\",\"to\":\"\\\"analysis\\\"[Subheading] OR \\\"analysis\\\"[All Fields]\"},{\"from\":\"health\",\"to\":\"\\\"health\\\"[MeSH Terms] OR \\\"health\\\"[All Fields] OR \\\"health's\\\"[All Fields] OR \\\"healthful\\\"[All Fields] OR \\\"healthfulness\\\"[All Fields] OR \\\"healths\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"electric impedance\\\"[MeSH Terms] OR (\\\"electric\\\"[All Fields] AND \\\"impedance\\\"[All Fields]) OR \\\"electric impedance\\\"[All Fields] OR (\\\"bioelectrical\\\"[All Fields] AND \\\"impedance\\\"[All Fields]) OR \\\"bioelectrical impedance\\\"[All Fields]) AND (\\\"analysis\\\"[MeSH Subheading] OR \\\"analysis\\\"[All Fields]) AND (\\\"health\\\"[MeSH Terms] OR \\\"health\\\"[All Fields] OR \\\"health s\\\"[All Fields] OR \\\"healthful\\\"[All Fields] OR \\\"healthfulness\\\"[All Fields] OR \\\"healths\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=bioelectrical impedance analysis health&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:18",
+  "latency_ms": 1234.0000000003783,
+  "quality_score": 0.4
+}

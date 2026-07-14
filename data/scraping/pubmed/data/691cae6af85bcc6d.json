@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_health management system",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"237932\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42440324\",\"42440265\",\"42440193\",\"42440185\",\"42440116\",\"42440115\",\"42440095\",\"42440039\",\"42440000\",\"42439934\"],\"translationset\":[{\"from\":\"health management\",\"to\":\"\\\"Health Manage\\\"[Journal:__jid9879082] OR (\\\"health\\\"[All Fields] AND \\\"management\\\"[All Fields]) OR \\\"health management\\\"[All Fields]\"},{\"from\":\"system\",\"to\":\"\\\"system\\\"[All Fields] OR \\\"system's\\\"[All Fields] OR \\\"systems\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"health manage\\\"[Journal] OR (\\\"health\\\"[All Fields] AND \\\"management\\\"[All Fields]) OR \\\"health management\\\"[All Fields]) AND (\\\"system\\\"[All Fields] OR \\\"system s\\\"[All Fields] OR \\\"systems\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=health management system&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:19",
+  "latency_ms": 484.9999999987631,
+  "quality_score": 0.4
+}

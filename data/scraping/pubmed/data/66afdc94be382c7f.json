@@ -1,0 +1,43 @@
+{
+  "task_id": "esearch_metabolic syndrome biomarkers",
+  "success": true,
+  "data": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "13890",
+      "retmax": "10",
+      "retstart": "0",
+      "idlist": [
+        "42436519",
+        "42435532",
+        "42434229",
+        "42433775",
+        "42433350",
+        "42431537",
+        "42429374",
+        "42427954",
+        "42426830",
+        "42425734"
+      ],
+      "translationset": [
+        {
+          "from": "metabolic syndrome",
+          "to": "\"metabolic syndrome\"[MeSH Terms] OR (\"metabolic\"[All Fields] AND \"syndrome\"[All Fields]) OR \"metabolic syndrome\"[All Fields]"
+        },
+        {
+          "from": "biomarkers",
+          "to": "\"biomarker's\"[All Fields] OR \"biomarkers\"[Supplementary Concept] OR \"biomarkers\"[All Fields] OR \"biomarker\"[All Fields] OR \"biomarkers\"[MeSH Terms]"
+        }
+      ],
+      "querytranslation": "(\"metabolic syndrome\"[MeSH Terms] OR (\"metabolic\"[All Fields] AND \"syndrome\"[All Fields]) OR \"metabolic syndrome\"[All Fields]) AND (\"biomarker s\"[All Fields] OR \"biomarkers\"[Supplementary Concept] OR \"biomarkers\"[All Fields] OR \"biomarker\"[All Fields] OR \"biomarkers\"[MeSH Terms])"
+    }
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=metabolic+syndrome+biomarkers&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:48:16",
+  "latency_ms": 469.0000000009604,
+  "quality_score": 0.4
+}

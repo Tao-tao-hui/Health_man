@@ -1,0 +1,12 @@
+{
+  "task_id": "esearch_obstructive sleep apnea treatm",
+  "success": true,
+  "data": {
+    "raw": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"29834\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"42439798\",\"42439121\",\"42438973\",\"42438471\",\"42436640\",\"42436103\",\"42435507\",\"42435144\",\"42435083\",\"42433723\"],\"translationset\":[{\"from\":\"obstructive sleep apnea\",\"to\":\"\\\"obstructive sleep apnoea\\\"[All Fields] OR \\\"sleep apnea, obstructive\\\"[MeSH Terms] OR (\\\"sleep\\\"[All Fields] AND \\\"apnea\\\"[All Fields] AND \\\"obstructive\\\"[All Fields]) OR \\\"obstructive sleep apnea\\\"[All Fields] OR (\\\"obstructive\\\"[All Fields] AND \\\"sleep\\\"[All Fields] AND \\\"apnea\\\"[All Fields])\"},{\"from\":\"treatment\",\"to\":\"\\\"therapeutics\\\"[MeSH Terms] OR \\\"therapeutics\\\"[All Fields] OR \\\"treatments\\\"[All Fields] OR \\\"therapy\\\"[Subheading] OR \\\"therapy\\\"[All Fields] OR \\\"treatment\\\"[All Fields] OR \\\"treatment's\\\"[All Fields]\"}],\"querytranslation\":\"(\\\"obstructive sleep apnoea\\\"[All Fields] OR \\\"sleep apnea, obstructive\\\"[MeSH Terms] OR (\\\"sleep\\\"[All Fields] AND \\\"apnea\\\"[All Fields] AND \\\"obstructive\\\"[All Fields]) OR \\\"obstructive sleep apnea\\\"[All Fields] OR (\\\"obstructive\\\"[All Fields] AND \\\"sleep\\\"[All Fields] AND \\\"apnea\\\"[All Fields])) AND (\\\"therapeutics\\\"[MeSH Terms] OR \\\"therapeutics\\\"[All Fields] OR \\\"treatments\\\"[All Fields] OR \\\"therapy\\\"[MeSH Subheading] OR \\\"therapy\\\"[All Fields] OR \\\"treatment\\\"[All Fields] OR \\\"treatment s\\\"[All Fields])\"}}\n"
+  },
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=obstructive sleep apnea treatment&retmax=10&retmode=json",
+  "agent_id": "pubmed_1",
+  "timestamp": "2026-07-14T10:40:22",
+  "latency_ms": 468.99999999914144,
+  "quality_score": 0.4
+}
