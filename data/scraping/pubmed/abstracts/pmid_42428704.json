@@ -1,0 +1,14 @@
+{
+  "pmid": "42428704",
+  "title": "Comparative Utility of Body Fat and Visceral Fat Measured by Bioimpedance Versus BMI and Waist Circumference in Predicting Elevated Cardiovascular Risk Scores.",
+  "abstract": "OBJECTIVES: Obesity is a key modifiable risk factor for cardiovascular disease (CVD), yet the most effective anthropometric index for identifying individuals at elevated cardiovascular risk (CVR) remains debated. Body fat (BF) and visceral fat (VF) measured by bioimpedance may provide greater discriminatory capacity than body mass index (BMI) or waist circumference (WC) when applied to validated CVR scales. To compare the predictive performance of BF and VF with BMI and WC for identifying elevated CVR according to Framingham vascular age, SCORE vascular age, and SCORE2 in a large occupational cohort.\n\nMETHODS: This cross-sectional study included 8,590 Spanish workers (52.2% women) who were evaluated between 2021 and 2023 during routine occupational health assessments. Anthropometric measures included BMI and WC, while BF and VF were obtained through validated bioelectrical impedance analysis. Elevated CVR was defined according to the thresholds of each scale. Predictive capacity was assessed using receiver operating characteristic (ROC) curves and area under the curve (AUC) values with 95% confidence intervals (CIs).\n\nRESULTS: In women, VF showed the highest AUC for Framingham vascular age (0.828; 95% CI: 0.808-0.849) and SCORE vascular age (0.779; 95% CI: 0.755-0.804), whereas WC performed slightly better for SCORE2 (0.647; 95% CI: 0.629-0.666). BF achieved moderate accuracy across all scales (AUC: 0.640-0.794), while BMI consistently yielded the lowest values (AUC: 0.607-0.749). In men, BF had the highest AUC for Framingham vascular age (0.799; 95% CI: 0.775-0.823), VF was superior for SCORE vascular age (0.768; 95% CI: 0.749-0.787), and all indices showed lower discrimination for SCORE2 (AUC range: 0.611-0.624).\n\nCONCLUSION: BF and VF measured by bioimpedance demonstrated higher predictive capacity for elevated CVR than BMI or WC in both sexes, although the best-performing index varied by scale and sex. These findings support the inclusion of direct adiposity measurements in occupational health screening to improve the early detection of cardiovascular risk.",
+  "keywords": [
+    "Body fat",
+    "SCORE2",
+    "body mass index",
+    "cardiovascular risk scales",
+    "vascular age",
+    "visceral fat"
+  ],
+  "abstract_word_count": 303
+}

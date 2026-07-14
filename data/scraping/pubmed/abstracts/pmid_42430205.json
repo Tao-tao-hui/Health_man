@@ -1,0 +1,13 @@
+{
+  "pmid": "42430205",
+  "title": "Association Between Fat-Free Mass and Mortality: A Systematic Review and Meta-Analysis.",
+  "abstract": "BACKGROUND: Body composition is a major determinant of health, yet the role of fat-free mass, a key component of body composition, in mortality remains unclear.\n\nMETHODS: A PRISMA-guided systematic review and meta-analysis (PROSPERO: 321722) of observational cohort studies in community-dwelling adults was conducted. PubMed was searched from inception to 25 October 2025, and Web of Science and Embase were searched from inception to 31 July 2025. Eligible studies assessed fat-free mass using computed tomography, dual-energy X-ray absorptiometry (DXA), bioelectrical impedance analysis (BIA) or anthropometry. Studies involving hospitalized participants were excluded. Maximally adjusted effect estimates were pooled using random-effects models to calculate summary risk ratios (RRs) and 95% confidence intervals (CIs). Publication bias was assessed using graphical and statistical methods; influence analyses evaluated robustness; E-values quantified potential unmeasured confounding; and meta-regression explored between-study heterogeneity.\n\nRESULTS: Of 7741 screened records, 49 studies met the inclusion criteria (1 149 807 participants; 83 798 deaths). Low versus high fat-free mass was associated with higher all-cause mortality (RR: 1.42, 95% CI: 1.30-1.55). Trim-and-fill analysis indicated publication bias (adjusted RR: 1.31, 95% CI: 1.20-1.44). Sensitivity analyses confirmed robustness (leave-one-out RR range: 1.39-1.43; E-value: 2.19). Associations were consistent across age (pdifference; within-study = 0.133), geographic region (pdifference = 0.983) and cause of death (pdifference for cardiovascular diseases; within-study = 0.240, pdifference for cancer; within-study = 0.136). Effect sizes varied by sex (men RR: 1.56, 95% CI: 1.32-1.85; women RR: 1.25, 95% CI: 1.11-1.39; pdifference < 0.0001) and measurement method: strongest for calf circumference (RR: 2.19, 95% CI: 1.50-3.20), moderate for DXA (RR: 1.52, 95% CI: 1.29-1.79) and weakest for BIA (RR: 1.23, 95% CI: 1.07-1.41).\n\nCONCLUSIONS: Low fat-free mass is associated with a 42% higher risk of all-cause mortality in community-dwelling adults. Routinely assessing fat-free mass provides clinical value in identifying high-risk individuals and informing preventive care strategies.",
+  "keywords": [
+    "body composition",
+    "body fat distribution",
+    "leanness",
+    "meta‐analysis",
+    "mortality"
+  ],
+  "abstract_word_count": 301
+}

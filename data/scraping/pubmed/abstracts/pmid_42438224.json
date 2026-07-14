@@ -1,0 +1,13 @@
+{
+  "pmid": "42438224",
+  "title": "Oral and Gut Microbiomes Reveal Potential Physiological Constraints on Release Readiness in Rehabilitating Javan slow lorises.",
+  "abstract": "Illegal wildlife trade and habitat degradation displace thousands of animals annually in Southeast Asia, with many confiscated primates housed in rehabilitation centers that increasingly function as long-term holding environments. In slow lorises, dental clipping associated with the pet trade may generate persistent disruption along the oral-gut axis, potentially undermining physiological readiness for release in ways not captured by conventional screening. Here, we evaluated whether microbiome structure provides an integrative marker of release readiness in rehabilitating Javan slow lorises (Nycticebus javanicus). From June to October 2024, we collected fecal (n = 26) and saliva (n = 18) samples from 19 adults housed at YIARI, including 10 release candidates and 9 non-candidates classified primarily based on tooth loss, medical history, and release suitability. Bacterial communities were characterized using 16S rRNA (V3-V4) amplicon sequencing, with alpha and beta diversity, taxonomic enrichment (LEfSe), and predicted functional profiles (PICRUSt2) assessed. Microbiome composition was strongly compartmentalized by body site, with higher alpha diversity in the gut. Release candidacy was associated with modest gut compositional differences, whereas oral microbiomes showed pronounced divergence between candidates and non-candidates. Non-candidates were enriched in dysbiosis-associated taxa and degradation-oriented functional pathways, while candidates showed enrichment of biosynthetic and central energy metabolism pathways. Gut microbiome structure was stable across pre-release and soft-release phases. These findings indicate that oral and gut microbiomes represent distinct physiological niches and that persistent oral microbiome restructuring may retain signatures of cumulative rehabilitation history. Microbiome-informed approaches may provide complementary insights into physiological variation relevant to rehabilitation and release decisions.",
+  "keywords": [
+    "conservation translocation",
+    "dysbiosis",
+    "nocturnal primates",
+    "oral–gut axis",
+    "physiological resilience"
+  ],
+  "abstract_word_count": 250
+}

@@ -1,0 +1,12 @@
+{
+  "pmid": "42431768",
+  "title": "An EMI-suppressed, high-fidelity Janus bioelectrode with gradient impedance for accurate dual-biosignal-based motion recognition.",
+  "abstract": "Accurate acquisition of bioelectrical signals like electromyography (EMG) and electrocardiography (ECG) is essential for wearable health monitoring and human-machine interaction, yet remains severely compromised by electromagnetic interference (EMI) in ubiquitous electronic environments. To address this, a gradient-impedance Janus bioelectrode is engineered for high-fidelity, EMI-suppressed dual-biosignal sensing. This asymmetric architecture integrates a carbon nanotubes (CNTs)/NiFe2O4/thermoplastic polyurethane (TPU) magnetic-dielectric aerogel with a highly conductive liquid-metal textile, establishing a continuous impedance gradient from the skin interface to the external ambient. This design enables a synergistic absorption-reflection-reabsorption mechanism, yielding an exceptional shielding effectiveness of 64 dB with low reflection (R < 0.24). By stabilizing the local electromagnetic field and minimizing interfacial impedance, the electrode achieves reliable EMG/ECG monitoring with a signal-to-noise ratio of 16.6 dB under strong EMI. Moreover, a machine-learning framework leveraging fused dual-signal features attains 97.7% accuracy in human motion recognition, substantially surpassing single-modality approaches. This work introduces a signal-integrity-driven paradigm that unifies electromagnetic field management with physiological sensing, paving a general way toward EMI-resilient, high-precision bioelectronics.",
+  "keywords": [
+    "EMI Suppression",
+    "Gradient-impedance Janus bioelectrode",
+    "High-fidelity biosignal acquisition",
+    "On-body biosignal recognition"
+  ],
+  "abstract_word_count": 165
+}

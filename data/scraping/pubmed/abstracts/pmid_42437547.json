@@ -1,0 +1,13 @@
+{
+  "pmid": "42437547",
+  "title": "Assessment of body composition in severe obesity: agreement between multifrequency bioelectrical impedance analysis and DXA and contribution of raw impedance data.",
+  "abstract": "OBJECTIVES: This study evaluated the agreement between dual-energy X-ray absorptiometry (DXA) and multifrequency bioelectrical impedance analysis (MF-BIA) to estimate fat mass (FM), fat-free mass (FFM), and appendicular lean soft tissue (ALST). The study also examined the predictive value of raw bioelectrical impedance data to estimate body composition across frequencies in individuals with severe obesity.\n\nMETHODS: Forty-nine adults (39 women; BMI > 40 kg/m²) from the MACRO clinical trial were assessed using DXA and MF-BIA. Agreement between the methods was analyzed using Bland-Altman plots, the concordance correlation coefficient (CCC), and the intraclass correlation coefficient (ICC). Multiple linear regression models were used to evaluate the predictive capacity of the raw impedance data at 5, 50, 300, and 500 kHz for FM, FFM, and ALST.\n\nRESULTS: MF-BIA predictive equations showed no significant differences from DXA for FM (bias: 1.1 kg; limits of agreement [LoA]: -6.9 to 9.0 kg) and FFM (bias: -0.22 kg; LoA: -6.6 to 6.2 kg). The Verdich equation underestimated FFM (bias: -2.9 kg; LoA: -11.4 to 5.6 kg). All MF-BIA equations underestimated the ALST. Raw bioelectrical data strongly predicted FFM and ALST across frequencies (R² > 0.70) but weakly predicted FM (R² < 0.25). Adding age and sex, and especially body mass, markedly improved FM prediction (R² ∼ 0.86; RSE ∼ 4.3 kg).\n\nCONCLUSION: MF-BIA showed good agreement with DXA for FM and FFM in individuals with severe obesity but consistently underestimated ALST. Raw impedance data were strong predictors of FFM and ALST at all frequencies, and FM estimation improved substantially when body mass was included in the predictive models.",
+  "keywords": [
+    "Body composition",
+    "Dual-energy X-ray absorptiometry",
+    "Multifrequency bioelectrical impedance",
+    "Obesity",
+    "Raw bioelectrical impedance"
+  ],
+  "abstract_word_count": 260
+}

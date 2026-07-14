@@ -1,0 +1,18 @@
+{
+  "pmid": "42437546",
+  "title": "The gut-sleep connection: a scoping review into microbiome alterations in sleep-wake and circadian disorders.",
+  "abstract": "Sleep is fundamental to brain, body, mental, and social health. In parallel, the gut microbiome is increasingly recognized as a key regulator of immune, metabolic, endocrine, and neurophysiological processes. This scoping review explored current evidence on gut microbiome alterations in relation to sleep duration and sleep loss, sleep-wake disorders, and circadian rhythm-related phenotypes. Searches of MEDLINE, Embase, and Cochrane were conducted up to February 2024. Of 2059 records identified, 54 studies met the eligibility criteria. Thirty-eight studies were observational, nine interventional, and seven genome-wide association or Mendelian-randomization studies. The most frequently investigated phenotypes were insomnia (15 studies, 28%), obstructive sleep apnea (12 studies, 22%), circadian rhythm or circadian-misalignment phenotypes (10 studies, 19%), and sleep duration or sleep loss/deprivation (9 studies, 17%). Most studies used 16S rRNA gene sequencing to assess gut microbiota composition and diversity, while shotgun metagenomic sequencing and functional analyses were less common. Across disorders, studies reported alterations in microbial diversity, taxonomic composition, short-chain fatty acid-producing taxa, bile acid-related pathways, inflammatory markers, and cardiometabolic or neurophysiological correlates. However, findings were limited by heterogeneous sleep phenotyping, small sample sizes, cross-sectional designs, variable microbiome methods, and inconsistent control of diet, medication use, body mass index, comorbidities, and stool sampling protocols. Current evidence supports an association between sleep-wake and circadian disturbances and gut microbiome alterations, but causality and disorder-specific microbial signatures remain unresolved. Standardized longitudinal and multi-omics studies are needed to clarify mechanisms and therapeutic potential.",
+  "keywords": [
+    "Gut microbiome",
+    "Gut-brain axis",
+    "Hypersomnolence/sleepiness",
+    "Insomnia",
+    "Narcolepsy",
+    "Obstructive sleep apnea",
+    "Sleep",
+    "Sleep disordered breathing",
+    "Sleep duration",
+    "Sleep loss"
+  ],
+  "abstract_word_count": 235
+}

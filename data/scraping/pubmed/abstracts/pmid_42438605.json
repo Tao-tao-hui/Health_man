@@ -1,0 +1,18 @@
+{
+  "pmid": "42438605",
+  "title": "AutoML-driven ensemble learning for intradialytic hypotension prediction.",
+  "abstract": "OBJECTIVE: Intradialytic hypotension (IDH) is a common and serious complication during hemodialysis (HD), associated with increased morbidity and mortality. This study aims to develop an artificial intelligence (AI)-driven early warning system to predict IDH events and recommend real-time dialysis parameter adjustments to enhance patient safety.\n\nMATERIALS AND METHODS: A total of 9,634 HD sessions from 178 patients were collected. Advanced feature engineering techniques were applied, including domain-specific variable generation, Synthetic Minority Oversampling Technique (SMOTE), and Recursive Feature Elimination with Cross-Validation (RFECV). An AutoML pipeline tested 100 hyperparameter combinations per run to tailor hospital-specific models. This approach enables rapid development of customized models optimized for institutional variability.\n\nRESULTS: Among the evaluated models, CatBoost and LightGBM with Extra Trees achieved the highest performance. CatBoost yielded the best results with a ROC-AUC of 0.934 and an F1-macro score of 0.508. Feature selection and SMOTEEEN resampling further enhanced performance, improving the ROC-AUC to 0.949.\n\nCONCLUSION: The implementation of AutoML for large-scale hyperparameter optimization enables the efficient development of hospital-specific AI models with minimal manual input. This approach supports scalable customization across diverse clinical settings. Our findings underscore the value of AI-powered prediction systems in facilitating early identification and management of intradialytic hypotension (IDH), thereby contributing to improved patient safety and hemodialysis outcomes.",
+  "keywords": [
+    "CatBoost",
+    "LightGBM",
+    "Local Interpretable Model-agnostic Explanations (LIME)",
+    "artificial intelligence",
+    "auto machine learning (Auto ML)",
+    "feature engineering",
+    "hemodialysis",
+    "intradialytic hypotension",
+    "machine learning",
+    "recursive feature elimination with cross-validation (RFECV)"
+  ],
+  "abstract_word_count": 208
+}

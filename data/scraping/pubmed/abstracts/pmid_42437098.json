@@ -1,0 +1,14 @@
+{
+  "pmid": "42437098",
+  "title": "Physiological and Skin Microbiome Divergence Among Closely Related Anurans Co-Occurring in Agricultural Wetlands.",
+  "abstract": "Understanding why endangered amphibian species decline while closely related congeners persist remains a central challenge in conservation biology. Host physiological traits and symbiotic microbial assemblages are increasingly recognized as important mediators of species responses to environmental conditions. Unlike broad comparative studies across geographically separated populations, we compared physiological capacity and skin microbiome characteristics among four anuran species, two endangered species and their respective common congeners from two genera (Dryophytes and Pelophylax), at a fine sympatric scale within shared agricultural wetlands in South Korea. Physiological traits, including body size, corticosterone levels, and bacterial killing ability, were structured primarily at the genus level, with species identity explaining 49.6% of multivariate physiological variation. Skin bacterial alpha diversity tended to be higher in common species, although statistically significant differences were not maintained after correction. Skin bacterial community composition also differed significantly among species (PERMANOVA, R 2 = 0.296), whereas Bd prevalence remained comparable across species (75%-85.7%). Microbial network analysis revealed species-specific differences in topology, with highly connected networks in D. japonicus, fragmented structure in D. suweonensis, and intermediate connectivity in both Pelophylax species. Functional prediction analyzes suggested differences in predicted microbial functions among host species. Together, these findings suggest subtle but structured trait differentiation among sympatric species and support integrating physiology, skin microbiomes, Bd infection, and predicted microbial functions as a complementary trait-based framework for amphibian conservation assessment.",
+  "keywords": [
+    "agricultural wetlands",
+    "congeneric comparison",
+    "conservation physiology",
+    "physiological traits",
+    "skin microbiome",
+    "trait‐based conservation"
+  ],
+  "abstract_word_count": 224
+}

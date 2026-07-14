@@ -1,0 +1,13 @@
+{
+  "pmid": "42438636",
+  "title": "Detecting Pseudothrombocytopenia in the Era of Artificial Intelligence: Integration of Automated Hematology, Digital Morphology, and Expert Review.",
+  "abstract": "Pseudothrombocytopenia is an artefactual reduction in platelet count that occurs during laboratory testing, most commonly because ethylenediaminetetraacetic acid (EDTA) induces in vitro platelet aggregation. Although clinically benign, it may lead to unnecessary investigations, treatment, transfusion, referral, procedural delay, and patient anxiety when not recognised. Advances in hematology analyzers, including impedance, optical, fluorescence, digital morphology, and artificial intelligence (AI)-assisted technologies, offer opportunities to improve recognition of platelet aggregation and reduce reporting of artefactual thrombocytopenia. This narrative review summarises literature relating to pseudothrombocytopenia, automated platelet counting, digital morphology systems, and AI applications in hematology. Current evidence indicates that analyzer flags and platelet histograms provide useful screening signals but should not replace peripheral blood smear review. Optical and fluorescence platelet channels can improve platelet counting in selected EDTA-dependent samples, while digital morphology systems facilitate documentation of platelet aggregates and support platelet estimation. Emerging AI-assisted workflows are best understood as workflow-support tools that integrate analyzer data, sample timing, channel discordance, digital images, and expert review; they should not be treated as autonomous diagnostic systems. The strongest practical model combines automated platelet channels, digital morphology, AI-supported triage, clear report communication, and expert clinical oversight. Evidence remains heterogeneous, largely platform-specific, and limited by the lack of direct AI-versus-conventional workflow comparisons. Future research should validate integrated systems across diverse laboratory environments and assess clinically relevant outcomes, including diagnostic accuracy, false-positive and false-negative consequences, workflow efficiency, cost, and patient management.",
+  "keywords": [
+    "artificial intelligence",
+    "automated hematology analyser",
+    "edta",
+    "platelet clumping",
+    "pseudothrombocytopenia"
+  ],
+  "abstract_word_count": 232
+}

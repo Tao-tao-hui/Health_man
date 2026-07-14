@@ -1,0 +1,13 @@
+{
+  "pmid": "42438207",
+  "title": "The true costs of data management in the era of data sharing mandates.",
+  "abstract": "INTRODUCTION: United States (US) and European Union (EU) funders mandate data sharing, joining publishers with deposition requirements. Although funders require data sharing and curation plans be included in grant budgets, costs are difficult to forecast and there is pressing need for guidance.\n\nMETHODS: We estimated costs of data maintenance, ongoing curation, and consultation for shared data from several major US and EU initiatives, providing benchmarks to help researchers, clinicians, administrators, and governmental agencies better forecast hidden costs of biomedical data sharing.\n\nRESULTS: We observe that costs to prepare, deposit, and share data in dynamic, federated environments, may subsume approximately 20% of a traditional operational research budget. The value of sharing these data for secondary analyses and validation/replication is substantial, but difficult to precisely estimate. One estimate suggests that the return on investment of specialized repositories ranges from 2700% to 6500%, measured by the initial cost to acquire their data holdings.\n\nCONCLUSIONS: Academic cultivation and advancement across the range of professionals and their diverse data acquisition, curation, and maintenance skillsets is essential. Close partnership between research community stakeholders paired with government mandates and funding to support data management and sharing standards can facilitate accurate and efficient translation of knowledge into clinical practice.",
+  "keywords": [
+    "AI-ready data",
+    "Data",
+    "data management",
+    "data sharing",
+    "true cost of data"
+  ],
+  "abstract_word_count": 201
+}

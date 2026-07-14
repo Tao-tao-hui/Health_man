@@ -1,0 +1,12 @@
+{
+  "pmid": "42436368",
+  "title": "High-efficiency 14-plex cSNP SNaPshot assay for forensic peripheral blood identification.",
+  "abstract": "The analysis of body fluid stains found at criminal scenes requires not only DNA profiles but also identification of the composition of these stains, particularly in mixed stains. Prior studies have demonstrated that forensic body fluids can be differentiated by their mRNA biomarkers.In this study, we screened a panel including 14 cSNPs located on four peripheral blood mRNA biomarkers (CD3G, ANK1, SPTB, and GYPA) and developed a multiplex assay for forensic blood identification using the SNaPshot method. Particularly, a one-step multiplex reverse transcription PCR (RT-PCR) strategy was used to generate cDNA amplicons from the corresponding mRNA by reverse transcription. The sensitivity, specificity, and capability of the multiplex SNaPshot assay for blood identification were systematically assessed. These results showed that the panel of 14 cSNPs successfully realized peripheral blood identification, including single-source body fluid as well as mixed samples. However, several peripheral blood cSNP markers were detected at low expression levels in menstrual blood and vaginal secretions. The detection sensitivity of the multiplex assay reached 1 ng total RNA input. Furthermore, 14 cSNP loci were genotyped across 19 peripheral blood samples, yielding 100% concordance between DNA- and RNA-derived profiles. Using allele frequencies of 14 cSNP loci in 100 unrelated Han individuals from northern China, the cumulative discrimination power of the 14 cSNPs was calculated to be 0.98303.",
+  "keywords": [
+    "Forensic peripheral blood identification",
+    "SNaPshot assay",
+    "cSNPs",
+    "mRNA"
+  ],
+  "abstract_word_count": 216
+}

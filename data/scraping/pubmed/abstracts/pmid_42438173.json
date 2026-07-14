@@ -1,0 +1,17 @@
+{
+  "pmid": "42438173",
+  "title": "'Trust Is the First Algorithm': A Socio-Technical Framework for Generative AI Integration in a High-Stakes, Resource-Constrained Context.",
+  "abstract": "AIM: Develop a conceptual framework for trust in AI in high-stakes, resource-constrained contexts, using Palestinian nurses as a strategically selected critical case study.\n\nMETHODS: Qualitative descriptive study. Twenty-five nurses without gatekeeper involvement; first author directly approached participants through professional networks. No administrators facilitated recruitment; four declined and were replaced. Face-to-face interviews (45-75 min, Arabic) analysed via reflexive thematic analysis with NVivo 12 solely a data-management tool, not an analytic method. Translation: two bilingual researchers independently translated excerpts, reconciled discrepancies, and a third expert back-checked a random sample. Quotations are literal translations with minimal edits. Transcripts checked against recordings; dialect, pauses, idioms, culturally specific expressions preserved in Arabic analysis and discussed before translation. Credibility with explicit demonstration of how each strategy shaped findings.\n\nRESULTS: Four themes: Explainable Trust, Double-Edged Sword Contextual Intelligence versus Algorithmic Ignorance Co-Design. The four themes correspond to the four domains of the conceptual framework introduced in the theoretical section; however, participant narratives inductively enriched each domain with context-specific subthemes (e.g., 'override mandate'), and the framework was iteratively refined during analysis rather than deductively imposed.\n\nCONCLUSION: Trust is an active socio-technical precondition. The framework offers analytically transferable principles applicable beyond Palestine to any context marked by inequality, professional expertise, and high stakes, while acknowledging local variation. However, given the hypothetical nature of participants' responses (no direct GenAI experience), findings should be treated as formative.\n\nIMPLICATIONS: Nurses must be involved in AI design, training, governance, with autonomy and override authority.\n\nIMPACT: Trust as sequenced 'Algorithm of Trust': explainability, risk-benefit, contextual intelligence, co-design. Informs global stakeholders.\n\nREPORTING METHOD: Adhered to COREQ guidelines.\n\nPATIENT OR PUBLIC CONTRIBUTION: No patient or public involvement. Participants were registered nurse experts.",
+  "keywords": [
+    "Palestine",
+    "generative AI",
+    "implementation",
+    "professional autonomy",
+    "qualitative research",
+    "resource‐constrained settings",
+    "science and technology studies",
+    "socio‐technical systems",
+    "trust"
+  ],
+  "abstract_word_count": 276
+}

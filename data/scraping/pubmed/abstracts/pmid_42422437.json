@@ -1,0 +1,15 @@
+{
+  "pmid": "42422437",
+  "title": "Serum adropin levels and their association with sarcopenia in patients with diabetic nephropathy: a cross-sectional study.",
+  "abstract": "BACKGROUND: Adropin, an endogenous peptide hormone with established roles in energy homeostasis and endothelial function, has been implicated in metabolic disease and chronic kidney disease. However, its relationship with sarcopenia in diabetic nephropathy (DN), an increasingly recognised complication of type 2 diabetes mellitus (T2DM), remains poorly characterised. We evaluated serum adropin in T2DM patients with and without DN compared with a younger healthy control group (with the age difference acknowledged as a major confounder) and assessed whether adropin levels are associated with sarcopenia indices and total antioxidant status (TAS).\n\nMETHODS: This cross-sectional study included 83 participants: 59 patients with T2DM (37 with DN, 21 without DN (1 with missing UACR)) and 24 healthy controls. Sarcopenia evaluation, including body composition by bioelectrical impedance analysis and hand-grip strength using a hand dynamometer, was completed in 31 diabetic patients. Sarcopenia was operationally defined by reduced hand-grip strength according to EWGSOP2 thresholds (<27 kg for men, <16 kg for women). Serum adropin was measured by ELISA; TAS and TOS were measured by the Erel colorimetric method.\n\nRESULTS: Serum adropin was significantly lower in T2DM patients than in controls (197.4 ± 129.1 vs 352.3 ± 240.7 pg/mL, p = 0.011). Within the diabetic cohort, adropin did not differ between DN and non-DN patients (201.4 ± 119.7 vs 193.8 ± 139.1 pg/mL, p = 0.370; ROC AUC 0.574). In the sarcopenia subgroup (n = 31), hand-grip strength was significantly lower in DN than non-DN patients (1st measurement: 18.7 ± 4.7 vs 26.5 ± 9.5 kg, p = 0.012; 3rd measurement: 17.8 ± 4.8 vs 25.1 ± 9.1 kg, p = 0.035), while muscle mass and walking speed did not differ. Patients meeting EWGSOP2 grip criteria for low strength showed numerically lower adropin than non-sarcopenic patients (169.5 ± 73.6 vs 238.9 ± 181.7 pg/mL, p = 0.358). Adropin correlated strongly with TAS (ρ = 0.82, p < 0.001).\n\nCONCLUSION: Serum adropin is markedly reduced in T2DM but does not discriminate DN from non-DN patients in this cohort. Reduced hand-grip strength is the most consistent sarcopenia-related abnormality in DN patients, supporting a functional rather than purely anthropometric muscle deficit. The strong positive correlation between adropin and TAS suggests that adropin tracks the broader oxidative-metabolic milieu of T2DM rather than functioning as an independent clinical biomarker for DN or sarcopenia; longitudinal validation is required before any biomarker role can be considered.",
+  "keywords": [
+    "EWGSOP2",
+    "adropin",
+    "diabetic nephropathy",
+    "hand-grip strength",
+    "sarcopenia",
+    "total antioxidant status",
+    "type 2 diabetes mellitus"
+  ],
+  "abstract_word_count": 392
+}
