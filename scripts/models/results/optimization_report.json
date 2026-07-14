@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-07-12 19:33:20",
+  "dataset": {
+    "n_samples": 1000,
+    "n_train": 800,
+    "n_test": 200,
+    "n_features": 12,
+    "class_distribution": {
+      "train_low": 185,
+      "train_medium": 513,
+      "train_high": 102
+    }
+  },
+  "metrics": {
+    "baseline": {
+      "name": "基线模型(RandomForest)",
+      "accuracy": 0.685,
+      "precision": 0.7053208556149733,
+      "recall": 0.685,
+      "f1": 0.6019874686716793,
+      "inference_time_ms": 0.02860800002963515,
+      "memory_mb": 2.1478652954101562
+    },
+    "hyperparameters": {
+      "name": "超参数调优",
+      "accuracy": 0.7,
+      "precision": 0.6505606758832565,
+      "recall": 0.7,
+      "f1": 0.6173736730360935,
+      "inference_time_ms": 0.025441500001761597,
+      "memory_mb": 2.1749496459960938
+    },
+    "feature_selection": {
+      "name": "特征选择",
+      "accuracy": 0.68,
+      "precision": 0.6652645131086142,
+      "recall": 0.68,
+      "f1": 0.618845403752899,
+      "inference_time_ms": 0.02679950001038378,
+      "memory_mb": 0.0
+    },
+    "compression": {
+      "name": "模型压缩",
+      "accuracy": 0.665,
+      "precision": 0.6501025641025641,
+      "recall": 0.665,
+      "f1": 0.5523426212590299,
+      "inference_time_ms": 0.010292499973729718,
+      "memory_mb": 0.2346038818359375
+    },
+    "ensemble": {
+      "name": "集成学习",
+      "accuracy": 0.685,
+      "precision": 0.6600529100529101,
+      "recall": 0.685,
+      "f1": 0.5949504281207751,
+      "inference_time_ms": 0.03259500001149718,
+      "memory_mb": 2.460479736328125
+    }
+  },
+  "optimization_details": {
+    "hyperparameters": {
+      "best_params": {
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 5,
+        "n_estimators": 100
+      },
+      "cv": 3,
+      "best_score": 0.617183355298675
+    },
+    "feature_selection": {
+      "k": 8,
+      "selected_indices": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "compression": {
+      "original_n_estimators": 100,
+      "compressed_n_estimators": 50,
+      "original_max_depth": 10,
+      "compressed_max_depth": 5
+    },
+    "ensemble": {
+      "estimators": [
+        "random_forest",
+        "gradient_boosting",
+        "extra_trees"
+      ],
+      "voting": "soft",
+      "n_estimators_per_model": 50
+    }
+  },
+  "improvements": {
+    "hyperparameters": {
+      "accuracy_delta": 0.014999999999999902,
+      "f1_delta": 0.01538620436441418,
+      "inference_time_ratio": 0.8893141769926817,
+      "memory_ratio": 1.012609892549507
+    },
+    "feature_selection": {
+      "accuracy_delta": -0.0050000000000000044,
+      "f1_delta": 0.016857935081219688,
+      "inference_time_ratio": 0.9367834166185005,
+      "memory_ratio": 0.0
+    },
+    "compression": {
+      "accuracy_delta": -0.020000000000000018,
+      "f1_delta": -0.04964484741264941,
+      "inference_time_ratio": 0.359776984167634,
+      "memory_ratio": 0.10922653405559009
+    },
+    "ensemble": {
+      "accuracy_delta": 0.0,
+      "f1_delta": -0.00703704055090415,
+      "inference_time_ratio": 1.1393666099598672,
+      "memory_ratio": 1.145546576680579
+    }
+  }
+}
