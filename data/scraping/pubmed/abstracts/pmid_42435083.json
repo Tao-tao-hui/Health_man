@@ -1,0 +1,15 @@
+{
+  "pmid": "42435083",
+  "title": "Sensor-derived wearing time predicts 3D orthodontic side effects during mandibular advancement therapy of obstructive sleep apnea.",
+  "abstract": "OBJECTIVES: Dentally worn mandibular advancement devices (MAD) represent a second-line treatment option in patients with mild to moderate obstructive sleep apnea (OSA). Greater MAD adherence is associated with improved treatment success, but with increasing wearing time (WT) dental side effects might become more pronounced. Thus, objective assessment of WT and sophisticated methods for early detection of resulting adverse effects are necessary.\n\nMATERIALS AND METHODS: In this cross-sectional study 29 patients (8 female and 21 male) showing mild to moderate OSA were treated with Thornton Adjustable Positioners (TAP-T) modified with an intraoral sensor to objectively assess WT. Prior to (T0) and after 12 months of treatment (T1) cephalometric X-rays and intraoral scans (IOS) were obtained. IOS were superimposed by using iterative closest point algorithm to analyze dental changes within specific subregions in relation to individual WT. X-rays were taken to assess potential skeletal changes. Linear mixed-effects modelling (LMM) and Spearman's Rho were utilized for statistical analyses.\n\nRESULTS: The present cohort showed a mean nocturnal WT of 5.52 h (± 1.75 h). Scan superimposition revealed minor dental side effects in all regions, with a greater percentage of adverse effects in the mandible. Along with labial displacement of lower and oral movement of upper incisors, we also found elongations and transverse widening of posterior teeth. WT showed significant influence on the magnitude of dental side effects, whereas Spearman's Rho revealed correlations of specific dental side effects with craniofacial morphology.\n\nCONCLUSIONS: Dental adverse effects increase with treatment duration necessitating early detection. Greater susceptibility might appear in hyperdivergent craniofacial phenotypes, as well as more antero-positioned, horizontally oriented, prognathic mandibles.\n\nCLINICAL RELEVANCE: It is well known that strict case selection and careful MAD titration reduce the risk of dental side effects. However, monitoring of WT enables reliable observation of adherence to treatment instructions, such as reduction of application time or intermittent use, to avoid severe occlusal changes.",
+  "keywords": [
+    "Cephalometry",
+    "Dental side effects",
+    "Intraoral sensor",
+    "Mandibular advancement device",
+    "Objective wearing time",
+    "Obstructive sleep apnea"
+  ],
+  "abstract_word_count": 311,
+  "pubdate": "2026 Jul 11"
+}

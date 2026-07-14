@@ -1,0 +1,16 @@
+{
+  "pmid": "42436640",
+  "title": "Beyond Device Downloads: Residual Sleep Apnea and Hypoxemia Missed by Flow-Based CPAP Monitoring.",
+  "abstract": "STUDY OBJECTIVES: Positive Airway Pressure (PAP) therapy download reports are the currentobjective data standard for assessing sleep apnea treatment success, providing information onusage, leak, and residual apnea-hypopnea index (AHI). However, follow-up parallel testing can offer added value in measuring sleep and respiratory health in patients receiving PAP therapy. This study compares residual PAP-derived AHI (AHIFLOW) with cardiopulmonary coupling (CPC)-derived AHI3% (AHICPC). We specifically examined patients for whom PAP therapy would be considered effective, but follow-up testing indicated potentially significant residual disease.\n\nMETHODS: As part of standard clinical care, patients in our telemedicine sleep program undergo longitudinal home sleep testing using CPC through the SleepImage system. We retrospectively analyzed remote physiological monitoring data from ResMed PAP devices and CPC-based sleep testing on nights with concomitant data.\n\nRESULTS: A total of 465 patients met the inclusion criteria, contributing 24,939 nights of matched PAP and CPC data. Mean AHIFLOW was 2.4 events/hour, while mean AHICPC was 12.1 events/hour. Among nights with AHIFLOW <5 events/hour, 85% of nights had AHICPC ≥5 events/hour, 47.7% had AHICPC ≥10 events/hour; 28.3% had ≥5 minutes with SpO2 <90%, and 10.6% had ≥5 minutes with SpO2 <88%.\n\nCONCLUSIONS: PAP download reports are useful for assessing usage and leak, but mayunderestimate residual respiratory burden. Besides periods of non-use, device-based flow-based metrics alone can miss clinically meaningful residual disease, including hypoxic events during REM sleep. Reliance on PAP-derived AHI as the sole efficacy metric risks overlooking persistent disease.",
+  "keywords": [
+    "Obstructive sleep apnea",
+    "consumer sleep technology",
+    "home testing",
+    "hypoxia",
+    "positive airway pressure",
+    "pulmonary medicine",
+    "sleep disordered breathing"
+  ],
+  "abstract_word_count": 237,
+  "pubdate": "2026 Jul 12"
+}

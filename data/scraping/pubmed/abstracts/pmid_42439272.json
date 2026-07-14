@@ -1,0 +1,14 @@
+{
+  "pmid": "42439272",
+  "title": "SRM Represents a Novel Prognosis Biomarker and Correlates With Inflammation and Immune Infiltration in Hepatocellular Carcinoma.",
+  "abstract": "Hepatocellular carcinoma (HCC) is widely recognized as one of the leading causes of cancer-related deaths worldwide. Although advances in screening, diagnosis, and treatment have been made, reliable biomarkers are urgently needed to monitor the disease. This study aims to investigate the association between spermidine synthase (SRM) and clinicopathological characteristics, inflammatory responses, and immune infiltration in HCC. RNA-seq data and clinical information for liver HCC (LIHC) were obtained from the Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA) databases to assess SRM expression. The correlation between SRM expression and immune infiltration was analyzed using the TIMER algorithm. Comprehensive analyses of immune checkpoints (ICPs), microsatellite instability (MSI), and tumor mutational burden (TMB) were performed using R-based packages. KEGG analysis indicated SRM is involved in the IL-17 signaling pathway. This association was further supported by experimental validation of key markers via qPCR and western blot. Functional studies, including in vivo experiments, are needed to establish a causal relationship. Our results show that SRM expression is significantly elevated in HCC tissues compared to adjacent nontumor tissues and associated with adverse clinicopathological features and poor prognosis. SRM expression was significantly correlated with immune infiltration levels in LIHC, involving 22 immune cell subtypes, particularly tumor-associated macrophages (TAMs; CD86 and IL10). Moreover, SRM expression was closely associated with ICPs, TMB, and MSI. Based on transcriptomic data, KEGG pathway analysis of SRM-associated differentially expressed genes revealed significant enrichment in the IL-17 signaling pathway. These in vitro findings suggest a potential association among SRM, IL-8 expression, and pathways related to tumor progression and immune modulation, although further in vivo studies are required to confirm these observations. However, in vivo studies using animal models are required to evaluate whether targeting SRM has therapeutic effects on HCC and to further validate these mechanistic findings.",
+  "keywords": [
+    "SRM",
+    "bioinformatics",
+    "hepatocellular carcinoma",
+    "immune infiltrate",
+    "inflammation"
+  ],
+  "abstract_word_count": 295,
+  "pubdate": "2026"
+}

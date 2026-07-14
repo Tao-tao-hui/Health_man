@@ -1,0 +1,15 @@
+{
+  "pmid": "42437705",
+  "title": "The Impact of Adjunctive Acupressure on Postoperative Infection and Hospital Stay in Wagner Grade 2-3 Diabetic Foot Ulcers: A Propensity Score-Stratified Cohort Study.",
+  "abstract": "Diabetic foot ulcer (DFU) is a severe complication characterised by poor healing. Although adjunctive therapies like acupressure may improve outcomes, controlled evidence remains limited. This study evaluated whether acupressure reduces postoperative infection rates and hospital stay in patients with Wagner grade 2-3 DFUs. This single-center retrospective cohort study included eligible patients undergoing surgical debridement and moist wound healing between 2018 and 2024. Patients receiving standardised acupressure (ST36, SP6, KI3) were compared to a standard care-only cohort. To control confounders while maximising statistical power and generalizability, we employed an unstratified propensity score subclassification approach, dividing the full cohort into five quintiles. Primary outcomes were postoperative wound infection and hospital stay length. Secondary outcomes included antibiotic duration and re-debridement rate. We analyzed the full cohort of 423 patients (acupressure group: 186; standard care group: 237). After adjusting for propensity score strata, the acupressure group exhibited significantly lower postoperative infection rates (unadjusted 16.7% vs. 32.1%, adjusted p = 0.001) and shorter hospital stays (unadjusted median 10.0 vs. 12.0 days; adjusted mean difference -2.1 days, 95% CI -3.4 to -0.8, p = 0.002). Systemic antibiotic duration was significantly reduced (unadjusted median 6.0 vs. 8.0 days, adjusted p = 0.003), alongside a clinically relevant decrease in re-debridement rates (9.1% vs. 17.3%, adjusted p = 0.057). Doubly robust multivariate regression confirmed adjunctive acupressure as an independent protective factor against postoperative infection (adjusted OR 0.47, 95% CI 0.28-0.80, p = 0.005), with interaction tests demonstrating consistent benefits across all propensity score subclasses. Adjunctive acupressure significantly reduces postoperative infection risk and shortens hospitalisation in Wagner 2-3 DFU patients. Retaining the full cohort via propensity score subclassification strengthens generalizability, suggesting acupressure as a safe, effective, and low-cost complementary therapy for standard wound care.",
+  "keywords": [
+    "acupressure",
+    "cohort study",
+    "diabetic foot ulcer",
+    "length of stay",
+    "postoperative infection",
+    "propensity score subclassification"
+  ],
+  "abstract_word_count": 284,
+  "pubdate": "2026 Jul"
+}

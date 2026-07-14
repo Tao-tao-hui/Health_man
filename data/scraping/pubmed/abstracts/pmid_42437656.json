@@ -1,0 +1,13 @@
+{
+  "pmid": "42437656",
+  "title": "Prediction of Exercise Intolerance in the Recovery Period After Cardiovascular Surgery Using Perioperative Clinical Parameters.",
+  "abstract": "OBJECTIVE: To develop and validate a machine learning model for predicting reduced exercise capacity at 3 months postoperatively using clinical parameters available at hospital discharge in patients undergoing cardiovascular surgery, as prediction of patient-centered functional outcomes remains unexplored in patients with cardiac disease.\n\nDESIGN: Retrospective cohort study conducted in accordance with the Strengthening the Reporting of Observational Studies in Epidemiology statement.\n\nSETTING: A single cardiac center.\n\nPARTICIPANTS: Patients (N = 590) aged ≤ 75 years who underwent cardiovascular surgery between April 2015 and January 2025 and completed cardiopulmonary exercise testing at 3 months postoperatively.\n\nINTERVENTIONS: Not applicable.\n\nMAIN OUTCOME MEASURES: Reduced exercise tolerance was defined as a peak oxygen uptake < 14 mL/min/kg at 3 months postoperatively. The model performance was assessed using the area under the receiver operating characteristic curve (AUC), sensitivity, and specificity.\n\nRESULTS: Of the 590 patients analyzed, 139 (23.6 %) demonstrated reduced exercise tolerance (peak oxygen uptake < 14 mL/min/kg) at 3 months postoperatively. Following multicollinearity assessment, forward feature selection identified nine predictors from the 43 candidate variables. Among the five machine learning algorithms evaluated using five-fold cross-validation, the random forest model achieved the highest AUC (0.855), with a sensitivity of 0.643 and specificity of 0.867. The SHapley Additive exPlanations analysis identified the percentage of isometric knee extension strength, E/e' ratio, and high-density lipoprotein cholesterol level as the primary predictive factors.\n\nCONCLUSIONS: A machine learning model using clinical parameters at hospital discharge can effectively predict postoperative exercise intolerance during the recovery phase. This model enables early risk stratification and might facilitate targeted rehabilitation interventions in patients undergoing cardiovascular surgery.",
+  "keywords": [
+    "Cardiac Rehabilitation",
+    "Cardiovascular Surgical Procedures",
+    "Exercise Tolerance",
+    "Machine Learning"
+  ],
+  "abstract_word_count": 263,
+  "pubdate": "2026 Jul 12"
+}

@@ -1,0 +1,13 @@
+{
+  "pmid": "42436103",
+  "title": "Severe OSA May Be Associated With Endothelial Dysfunction in Patients With Nocturnal Hypertension.",
+  "abstract": "INTRODUCTION: Nocturnal hypertension (NH) is a high-risk, underdiagnosed blood pressure (BP) phenotype strongly associated with cardiovascular morbidity. Obstructive sleep apnea (OSA), which is common in patients with NH, promotes vascular injury through sympathetic activation, inflammation, and endothelial dysfunction; however, the molecular mechanisms underlying this association in patients with NH remain poorly defined. This study explored these mechanisms using targeted proteomics and endothelial cell models.\n\nMETHODS: Adults undergoing polysomnography (PSG) with NH, defined as nighttime BP ≥120/70mmHg at the time of 24-hour ambulatory BP monitoring, were included. Fasting blood samples were collected after PSG. Participants were classified as controls, defined as an apnea-hypopnea index (AHI) <15eventsh-1, or severe OSA, defined as AHI ≥30eventsh-1; patients with moderate OSA, defined as AHI between 15 and 30eventsh-1, were excluded to maximize contrast between groups. Participants were matched for age, sex, BMI, and nocturnal mean arterial pressure. The Olink® platform was used to quantify proteins. Differential abundance was assessed using linear models, and sparse partial least squares discriminant analysis was used to identify OSA-associated protein signatures. Endothelial integrity was assessed in cells exposed to extracellular vesicles derived from a subset of participants (n=8 controls; n=8 severe OSA).\n\nRESULTS: A total of 58 matched participants were included, with 29 participants per group. Overall, 70.7% were men, the median age was 48 years, and the median BMI was 29.5kg/m2. Twenty-one proteins were differentially abundant and were enriched in pathways related to cell adhesion maintenance and extracellular vesicle composition. A 13-protein signature associated with OSA showed interconnectivity and enrichment for endothelial regulatory pathways. Extracellular vesicles from patients with OSA showed a trend toward increased endothelial barrier disruption compared with controls.\n\nCONCLUSIONS: In patients with NH, severe OSA appears to be associated with molecular alterations indicative of endothelial dysfunction, providing preliminary mechanistic insight into elevated cardiovascular risk that may help refine risk stratification.",
+  "keywords": [
+    "Cardiovascular disease",
+    "Hypertension",
+    "Nocturnal blood pressure",
+    "Obstructive sleep apnea"
+  ],
+  "abstract_word_count": 304,
+  "pubdate": "2026 Jul 11"
+}

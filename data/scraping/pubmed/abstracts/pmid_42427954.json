@@ -1,0 +1,14 @@
+{
+  "pmid": "42427954",
+  "title": "Impact of maternal glycemic control during pregnancy on early biomarkers of neonatal metabolic syndrome.",
+  "abstract": "OBJECTIVE: To investigate the effects of maternal glycemic control during pregnancy on early biomarkers of neonatal metabolic syndrome.\n\nMETHODS: We prospectively enrolled 130 pregnant women. Based on glycemic control, they were classified into adequate control group (n = 82, including 59 with normal glucose tolerance and 23 with well-controlled GDM) and poor control group (n = 48, GDM with suboptimal control). Neonatal tyrosine, alanine, total carnitine, C18 acylcarnitine, bilirubin, and hypoglycemia incidence were measured. Multivariable linear regression adjusted for confounders, with Bonferroni correction (α=0.01).\n\nRESULTS: Compared with the adequate glycemic control group, neonates in the poor glycemic control group exhibited significantly lower levels of tyrosine and alanine (all P < 0.05), and significantly higher levels of total carnitine, C18 acylcarnitine, and bilirubin (all P < 0.05). The incidence of neonatal hypoglycemia was also significantly higher (P < 0.05). There were no significant differences between groups in the exact timing of blood sampling for amino acids or bilirubin (P > 0.05). After adjustment for pre-pregnancy body mass index (BMI), gestational age at delivery, mode of delivery, neonatal sex, maternal age, parity, feeding before blood collection, and thyroid dysfunction, poor maternal glycemic control remained independently associated with decreased neonatal tyrosine (β = --0.335, P = 0.009) and alanine (β = -0.289, P = 0.019), as well as increased total carnitine (β = 0.381, P = 0.003), C18 acylcarnitine (β = 0.348, P = 0.006), and bilirubin levels (β = 0.405, P = 0.002). After Bonferroni correction for multiple comparisons (α = 0.01), tyrosine, total carnitine, C18 acylcarnitine, and bilirubin remained statistically significant, while alanine did not.\n\nCONCLUSIONS: Poor glycemic control during pregnancy is associated with multiple abnormalities in early neonatal metabolic biomarkers during the first 72 h after birth. Optimizing glycemic control during pregnancy may help mitigate early metabolic disturbances in the neonatal period. Future long-term follow-up studies are needed to determine whether these early biomarkers predict subsequent metabolic syndrome in later childhood or adulthood.",
+  "keywords": [
+    "early biomarkers",
+    "gestational diabetes mellitus",
+    "maternal glycemic control",
+    "metabolic syndrome",
+    "neonate"
+  ],
+  "abstract_word_count": 323,
+  "pubdate": "2026"
+}

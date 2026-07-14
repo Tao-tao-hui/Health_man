@@ -1,0 +1,15 @@
+{
+  "pmid": "42435532",
+  "title": "Integration of inflammatory and nutritional biomarkers with machine learning enhances prediction of progesterone response in fertility-preserving endometrial carcinoma management.",
+  "abstract": "BACKGROUND: Endometrial carcinoma (EC) and atypical endometrial hyperplasia (AEH) increasingly affect young women, posing challenges for fertility preservation. The inflammatory and nutritional status have been shown to significantly influence disease outcomes, especially in cancer. However, no studies have systematically investigated the predictive value of inflammation and nutrition scores for complete response (CR) in EC.\n\nMETHODS: This retrospective study included 329 EC/AEH patients treated at Peking University People's Hospital from January 2012 to December 2025. We developed a multimodal nomogram integrating 12 inflammatory (NLR, SIRI, PLR, et al.) and 5 nutritional biomarkers (mGNRI, PNI, NRI, ALI, CONUT) via LASSO regression and machine learning. Model validation employed leave-one-out cross-validation (LOOCV), with performance assessed by AUC, calibration curves, and decision curve analysis (DCA).\n\nRESULTS: The combined inflammatory-nutritional score achieved superior predictive accuracy, with AUC values of 0.846 (training cohort) and 0.871 (validation cohort). Besides, our nomogram which was constructed by four clinical variables (BMI, menstrual history, metabolic syndrome, and histological type), inflammatory score and nutritional score exhibited excellent predictive potential, with AUC values of 0.915 (training cohort) and 0.933 (validation cohort), significantly outperforming clinical models. Risk stratification revealed significantly lower CR rates in high-risk patients (log-rank P < 0.001), with decision curve analysis demonstrating a 35% reduction in unnecessary interventions.\n\nCONCLUSIONS: Integrating systemic inflammation and nutritional biomarkers enhances CR prediction in EC/AEH, enabling personalized risk stratification to guide fertility-sparing strategies. This tool addresses a critical clinical gap, though future multicenter studies are warranted to validate generalizability and explore mechanistic pathways.",
+  "keywords": [
+    "Atypical endometrial hyperplasia",
+    "Complete remission",
+    "Endometrial carcinoma",
+    "Inflammatory biomarkers",
+    "Nutritional biomarkers",
+    "Prognostic nomogram"
+  ],
+  "abstract_word_count": 247,
+  "pubdate": "2026 Jul 11"
+}

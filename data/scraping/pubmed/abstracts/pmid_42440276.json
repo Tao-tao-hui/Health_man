@@ -1,0 +1,16 @@
+{
+  "pmid": "42440276",
+  "title": "Duration-Dependent Changes in Body Composition During Prolonged Fasting: A Systematic Review and Meta-Analysis.",
+  "abstract": "CONTEXT: Prolonged fasting has gained increasing attention as a non-pharmacological strategy for weight reduction and metabolic health improvement. However, the magnitude and composition of fasting-induced weight loss remain unclear, particularly regarding the relative contributions of fat mass, fat-free mass, and total body water, as well as the role of fasting duration.\n\nOBJECTIVE: A systematic review and meta-analysis was conducted to quantify the effects of prolonged fasting on body composition outcomes.\n\nMETHODS: The PubMed, Web of Science, and Scopus databases were systematically searched for eligible studies reporting pre-post changes in body composition. Standardized mean changes were calculated as Hedges' g and pooled using random-effects models. Duration effects were evaluated using subgroup analyses (≤3 days vs >3 days) and meta-regression with fasting duration as a continuous moderator. Subgroup analyses were also conducted according to baseline weight status (obese vs. healthy/normal weight) and body composition assessment method.\n\nRESULTS: A total of 49 studies met the inclusion criteria, contributing 150 independent effect sizes across eligible outcomes. Prolonged fasting produced significant reductions in body weight (g = -0.38) and BMI (g = -0.42). Decreases were also observed in fat mass (g = -0.25), fat-free mass (g = -0.51), total body water (g = -0.68), and waist circumference (g = -0.55). Subgroup analyses indicated that body weight reductions were greater in obese participants than in healthy individuals and were more pronounced when fasting duration exceeded 3 days. Meta-regression analyses did not reveal significant duration-response relationships for BMI, fat mass, or fat-free mass, although a non-significant trend toward greater body weight reduction with longer fasting duration was observed.\n\nCONCLUSIONS: Prolonged fasting reduces body weight, BMI, fat mass, and waist circumference but is also associated with substantial losses in fat-free mass and total body water, indicating that fasting-induced weight loss reflects complex changes in body composition rather than isolated fat loss. No clear duration-dependent effects were observed for most outcomes.",
+  "keywords": [
+    "body composition",
+    "body weight",
+    "duration-dependent effects",
+    "meta-analysis",
+    "meta-regression",
+    "waist circumference",
+    "water-only fasting"
+  ],
+  "abstract_word_count": 312,
+  "pubdate": "2026 Jul 13"
+}

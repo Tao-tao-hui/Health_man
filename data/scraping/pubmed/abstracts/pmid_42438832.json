@@ -1,0 +1,16 @@
+{
+  "pmid": "42438832",
+  "title": "Exploratory anchor-derived six-month improvement thresholds for sleep quality and pain after reverse total shoulder arthroplasty.",
+  "abstract": "BACKGROUND: Sleep disturbance is a common patient-reported problem in patients undergoing reverse total shoulder arthroplasty (rTSA). However, clinically interpretable improvement thresholds for sleep quality after rTSA remain unclear. This study aimed to derive exploratory anchor-based 6-month improvement thresholds for sleep quality, assessed using the Pittsburgh Sleep Quality Index (PSQI), and pain, assessed using the visual analog scale (VAS), after rTSA.\n\nMETHODS: Sixty-one patients undergoing primary rTSA with complete pre-operative and 6-month post-operative PSQI, VAS, and global rating of change (GRC) data were retrospectively analyzed. Exploratory receiver-operating characteristic (ROC) curve analyses were performed using the GRC anchor, and Youden-derived thresholds were calculated. Anchor validity was assessed using Spearman correlation analysis between ordinal GRC responses and changes in PSQI and VAS.\n\nRESULTS: rTSA was associated with significant 6-month improvements in both PSQI and VAS scores (both P < .001). Based on the GRC anchor, 54 patients were classified as improved and 7 as not improved, indicating marked imbalance between groups. The GRC anchor demonstrated a weak, nonsignificant association with PSQI change and a moderate association with VAS change. Exploratory ROC analysis yielded approximate improvement thresholds of 7 points for PSQI and 4 points for VAS pain.\n\nCONCLUSION: rTSA was associated with substantial 6-month improvements in sleep quality and pain. In this small retrospective cohort, exploratory anchor-based ROC analyses generated preliminary improvement thresholds of approximately 7 points for PSQI and 4 points for VAS pain. However, the weak PSQI anchor correlation, severe imbalance in anchor-defined groups, and modest ROC discrimination indicate that these estimates should be considered hypothesis-generating rather than definitive Minimal Clinically Important Difference values.",
+  "keywords": [
+    "Anchor-based threshold",
+    "Patient-reported outcome measures",
+    "Pittsburgh sleep quality index",
+    "Reverse total shoulder arthroplasty",
+    "Shoulder pain",
+    "Sleep quality",
+    "Visual analog scale"
+  ],
+  "abstract_word_count": 263,
+  "pubdate": "2026 Sep"
+}

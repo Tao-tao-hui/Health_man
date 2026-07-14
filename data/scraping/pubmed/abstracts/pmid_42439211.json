@@ -1,0 +1,14 @@
+{
+  "pmid": "42439211",
+  "title": "Salvage abdominoperineal resection for anal squamous cell carcinoma: A systematic review and meta-analysis of proportions.",
+  "abstract": "AIM: Salvage abdominoperineal resection (APR) remains the standard treatment for patients with persistent or recurrent anal squamous cell carcinoma after chemoradiotherapy (CRT). This study aimed to evaluate the perioperative and oncological outcomes of salvage abdominoperineal resection.\n\nMETHODS: A systematic review of observational studies including adult patients with persistent or recurrent anal squamous cell carcinoma undergoing salvage APR after failure of CRT was conducted using PubMed, Scopus and Cochrane through March 2026. Binary outcomes were pooled as proportions on the logit scale under random-effects models; a generalized linear mixed model was applied when zero-event studies were present. Continuous outcomes as means with 95% confidence intervals (CIs). Heterogeneity was assessed using the I2 statistic. Sensitivity analyses were performed using leave-one-out methods. All analyses were conducted in R version 4.4.2.\n\nRESULTS: Eighteen observational studies comprising 1,013 patients were included. The pooled 2-year and 5-year overall survival (OS) rates were 68.34% (95% CI: 60.42-75.33; I2 = 65%) and 46.43% (95% CI: 38.03-55.04; I2 = 81%), respectively. The pooled 3-year and 5-year disease-free survival rates (DFS) were 50.36% (95% CI: 20.62-79.85; I2 = 95%) and 41.79% (95% CI: 27.80-57.24; I2 = 90%), respectively. The pooled overall recurrence rate was 44.28% (95% CI: 36.63-52.21; I2 = 79%), including locoregional recurrence of 34.03% (95% CI: 27.22-41.57; I2 = 72%) and distant recurrence of 17.39% (95% CI: 12.24-24.13; I2 = 83%). The pooled R0 and R1 resection rates were 79.71% and 17.08%, respectively. Overall morbidity and major complications (Clavien-Dindo ≥III) were 50.70% and 27.97%, respectively. Thirty-day mortality was 1.18% (95% CI: 0.36-3.85; I2 = 0%). Sensitivity analyses showed stable estimates despite heterogeneity.\n\nCONCLUSION: Salvage APR for anal squamous cell carcinoma demonstrated moderate long-term survival, acceptable R0 resection rates and substantial postoperative morbidity. However, the available evidence remains limited by high heterogeneity, non-standardized outcome definitions and the absence of comparative data.",
+  "keywords": [
+    "anal squamous cell carcinoma",
+    "meta‐analysis",
+    "recurrence",
+    "salvage abdominoperineal resection",
+    "survival"
+  ],
+  "abstract_word_count": 302,
+  "pubdate": "2026 Jul"
+}

@@ -1,0 +1,15 @@
+{
+  "pmid": "42436519",
+  "title": "Integrating untargeted metabolomics and machine learning to reveal an aberration of sphingolipid metabolism in cardiometabolic HFpEF.",
+  "abstract": "BACKGROUND: Cardiometabolic heart failure with preserved ejection fraction (HFpEF) is a high-risk phenotype primarily driven by metabolic syndrome, with a significantly increased incidence and risk of adverse outcomes. A fundamental reason for this is the lack of early clinical diagnosis. As a tool capable of accurately capturing pathophysiological states, metabolomics provides a critical entry point for addressing this issue; however, studies focusing on the metabolic characteristics of this population remain limited.\n\nMETHODS: This study integrated a clinical cohort and untargeted metabolomics to compare serum metabolic profiles between patients with cardiometabolic HFpEF and those with metabolic syndrome (MetS). Baseline characteristics were balanced using propensity score matching (PSM). Differential metabolites were identified by untargeted metabolomics, followed by KEGG pathway enrichment analysis. Machine-learning approaches were further applied to screen candidate metabolites with potential diagnostic efficacy, and weighted gene co-expression network analysis (WGCNA) together with SHapley Additive exPlanations (SHAP) were used to evaluate phenotype association and feature contribution. In an independent clinical cohort, total sphingomyelin (SM) levels were assessed by ELISA as an external evaluation strategy based on clinical applicability.\n\nRESULTS: Differential metabolites between the two groups were mainly enriched in sphingolipid metabolism and glycerophospholipid metabolism pathways. Through multi-method screening, C24:1 Sphingomyelin was identified as a candidate metabolite with potential diagnostic efficacy. The co-expression module containing C24:1 Sphingomyelin was significantly correlated with NT-proBNP, a key biomarker of heart failure, and SHAP analysis indicated that C24:1 Sphingomyelin contributed substantially to the classification model. In the external cohort, total SM levels were associated with disease status, suggesting the potential clinical association of sphingolipid-related signals.\n\nCONCLUSION: This study preliminarily characterized the metabolic features distinguishing cardiometabolic HFpEF from MetS alone, suggesting that sphingolipid dysregulation is associated with the development and progression of this phenotype. Among the identified metabolites, C24:1 Sphingomyelin was identified as a candidate metabolite with potential diagnostic performance, and SM showed potential clinical applicability. These findings provide new clues for biomarker discovery and preliminary clinical translational exploration in cardiometabolic HFpEF.",
+  "keywords": [
+    "Cardiometabolic HFpEF",
+    "Machine learning",
+    "Metabolic syndrome",
+    "Sphingolipid metabolism",
+    "Sphingomyelin",
+    "Untargeted metabolomics"
+  ],
+  "abstract_word_count": 324,
+  "pubdate": "2026 Jul 11"
+}

@@ -1,0 +1,12 @@
+{
+  "pmid": "42439920",
+  "title": "Fibroblast activation protein expression in fibrotic foci is a prognostic marker of fibrotic changes in lung tissue after surgical treatment for cancer.",
+  "abstract": "PURPOSE: We investigated whether fibroblastic foci (FF) and fibroblast activation protein (FAP) expression in background fibrotic lung tissue are associated with the postoperative outcomes.\n\nMETHODS: Background lung specimens with histologically confirmed fibrosis were obtained from 38 patients who underwent curative resection for primary lung cancer (2014 and 2018). The FF and FAP expressions were assessed using histology and immunohistochemistry. Overall survival (OS) was defined as the time from surgery to death from any cause and it was analyzed using Kaplan-Meier and Cox regression models. A Fine-Gray proportional subdistribution hazards model was used to evaluate the association between FAP expression in FF and respiratory events, treating lung cancer-related death as a competing risk.\n\nRESULTS: Fifteen patients had a high FAP expression, while a low expression was observed in 23 patients. The baseline characteristics and pulmonary function were comparable between the groups. Multiple FF were more common in patients with a high FAP expression. A high FAP expression and honeycombing independently predicted a worse OS. A Fine-Gray analysis demonstrated that a high FAP expression in FF was significantly associated with an increased risk of respiratory events.\n\nCONCLUSION: An elevated FAP expression in FF is associated with a poorer respiratory-specific prognosis after lung cancer surgery in patients with coexisting pulmonary fibrosis, suggesting its potential utility for risk stratification and clinical management.",
+  "keywords": [
+    "Fibroblast activation protein",
+    "Interstitial lung diseases",
+    "Non-small-cell lung cancer"
+  ],
+  "abstract_word_count": 218,
+  "pubdate": "2026 Jul 13"
+}

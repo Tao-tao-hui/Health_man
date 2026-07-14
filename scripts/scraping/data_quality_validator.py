@@ -107,15 +107,17 @@ class QualityReport:
 def load_all_json_files(data_dir: Path) -> list[dict[str, Any]]:
     """加载目录下所有 JSON 文件（排除质量报告等非数据文件）"""
     files = []
-    for json_file in sorted(data_dir.rglob("*.json")):
+    scan_dir = data_dir / "pubmed" / "data"
+    for json_file in sorted(scan_dir.glob("*.json")):
         # 排除质量报告等非抓取数据文件
         if json_file.name == "quality_report.json":
             continue
         try:
             with open(json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            data["_file_path"] = str(json_file)
-            files.append(data)
+            if isinstance(data, dict):
+                data["_file_path"] = str(json_file)
+                files.append(data)
         except json.JSONDecodeError as e:
             logger.error("JSON 解析失败 %s: %s", json_file.name, e)
     return files

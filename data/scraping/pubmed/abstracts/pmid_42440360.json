@@ -1,0 +1,14 @@
+{
+  "pmid": "42440360",
+  "title": "A Mobile Health Platform for Heart Failure Self-Management: Feasibility Study on Patient Engagement, Acceptance, and Potential Health Outcomes.",
+  "abstract": "BACKGROUND: Heart failure is a chronic condition that significantly impacts patients' quality of life and increases health care burden. Effective self-monitoring and lifestyle modification are essential components of heart failure management and can support improved health outcomes. Mobile health technologies, such as smartphone apps, are increasingly used to assist patients with heart failure in self-management. However, evidence regarding patient engagement, user experience, and the effectiveness of these mobile health tools remains limited and continues to evolve.\n\nOBJECTIVE: This study aimed to explore the feasibility of a mobile health platform, MoTER-HF, which incorporates a smartphone app and a web-based clinical portal to support self-management in patients with heart failure.\n\nMETHODS: The feasibility study used a single-group pretest-posttest mixed methods design. A total of 23 participants diagnosed with heart failure were recruited to use the app and 2 Bluetooth-enabled measurement devices (a blood pressure monitor and a digital weight scale) over a 12-week period. Participants' engagement and acceptance were assessed using a satisfaction questionnaire, semistructured interviews, and platform usage logs. Potential health and behavioral outcomes were explored using validated instruments administered at baseline and week 12.\n\nRESULTS: Most participants found the MoTER-HF app easy to use and aligned with their routine self-monitoring practices. Daily monitoring features such as blood pressure and weight tracking were used frequently. However, features such as symptom tracking and exercise logging were used less often, reflecting individual preferences and perceived relevance. Participants reported improved self-monitoring practices and valued the ability to visualize and track their data, and the reassurance provided through nurses' oversight in the satisfaction questionnaire and interviews. Changes in health and behavioral outcome measures were not statistically significant, although exploratory changes were observed in the scores of self-care, quality of life, and psychological well-being.\n\nCONCLUSIONS: The MoTER-HF platform has demonstrated potential in supporting self-management among individuals with heart failure, particularly when it incorporates features that participants find engaging. Further research is needed to better understand the platform's impact on health outcomes and the implementation challenges, and to involve clinicians in developing a scalable digital model of care.",
+  "keywords": [
+    "feasibility study",
+    "heart failure",
+    "mobile health",
+    "patient engagement",
+    "self-management"
+  ],
+  "abstract_word_count": 341,
+  "pubdate": "2026 Jul 10"
+}

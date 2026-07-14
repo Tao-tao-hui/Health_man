@@ -1,0 +1,14 @@
+{
+  "pmid": "42440254",
+  "title": "Association between intra- and peritumoral heterogeneity on B-mode ultrasound and overall survival in patients with liver metastases treated with immunotherapy.",
+  "abstract": "OBJECTIVE: Noninvasive prognostic biomarkers are needed for patients receiving immune checkpoint inhibitors (ICIs). We evaluated whether ultrasound-derived spatial heterogeneity indices (SHI) from intra- and peritumoral regions of liver metastases from solid cancers-measured at baseline, at first evaluation, and as longitudinal changes-are associated with overall survival (OS) in patients treated with ICIs.\n\nMATERIALS AND METHODS: This retrospectively included 27 consecutive patients (median age: 58 years) with liver metastases undergoing ICI therapy. B-mode ultrasound was performed at baseline (D0) and day 21. For each time point, voxel intensities within manually segmented intra- and peritumoral regions were clustered using k-means to compute a normalized SHI. Intratumoral, peritumoral, and combined (intra+peri) SHIs were extracted, and relative changes (ΔSHI) were calculated. Associations with overall survival (OS) were tested using univariable and multivariable Cox regression models.\n\nRESULTS: At a median follow-up of 12.3 months, 92.6% patients had died. Baseline SHIs were not associated with OS. However, higher SHIs at D21 were associated with longer OS: intratumoral (hazard ratio (HR) = 0.39, p = 0.030), peritumoral (HR = 0.38, p = 0.029), and combined regions (HR = 0.28, p = 0.007). In contrast, larger decreases in intratumoral ΔSHI (≤ -3.9%) and combined ΔSHI (≤ -3.0%) were associated with worse OS (p = 0.0297 and 0.0339, respectively). In multivariable analysis, only the combined SHI at D21 > median remained independently predictive of longer OS (HR = 0.09, p = 0.021).\n\nCONCLUSION: The combined SHI at D21 was independently associated with OS in patients with liver metastases from ICI-treated solid cancers.\n\nRELEVANCE STATEMENT: In this exploratory study, ultrasound-derived spatial heterogeneity indices estimated on intra- and peritumoral tissue on liver metastases offer a simple, contrast-free tool that was associated with overall survival in patients treated with immunotherapy, suggesting potential value for noninvasive risk stratification, pending validation in larger cohorts.\n\nKEY POINTS: The combined intratumoral and peritumoral ultrasound-based spatial heterogeneity index (SHI) at D21 was independently associated with OS, whereas dimensional metrics did not. Greater intratumoral, peritumoral, and combined SHI at D21, along with smaller decreases (or increases) in ΔSHIcombined and ΔSHIintra, were associated with longer OS.",
+  "keywords": [
+    "Immune checkpoint inhibitors",
+    "Immunotherapy",
+    "Liver neoplasms",
+    "Survival analysis",
+    "Ultrasonography"
+  ],
+  "abstract_word_count": 346,
+  "pubdate": "2026 Jul 13"
+}

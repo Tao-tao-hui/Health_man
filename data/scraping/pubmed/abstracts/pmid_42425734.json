@@ -1,0 +1,11 @@
+{
+  "pmid": "42425734",
+  "title": "Cross-definition GWAS of IBS in 2.8 million individuals reveals cardiometabolic and triglyceride-linked mechanisms.",
+  "abstract": "BACKGROUND: Irritable bowel syndrome (IBS) is a complex disorder of gut-brain interaction, with heterogeneous symptoms, no available biomarkers and limited pathogenetic insight.\n\nOBJECTIVE: To identify genetic risk factors and actionable mechanisms for future clinical translation in IBS.\n\nDESIGN: We conducted a genome-wide association study (GWAS) meta-analysis of IBS in 2 775 539 individuals from 22 biobanks. IBS genetics was studied across multiple ancestries, different case definitions and symptom-related subtypes. Heritability and genetic correlations with other traits were estimated, and Mendelian randomisation was used to test causal relationships. GWAS data were functionally annotated and fine-mapped to prioritise tissues, cell types, pathways, candidate genes, specific mechanisms and druggable targets.\n\nRESULTS: Significant heritability was only detected in individuals of European ancestry, with near-identical genetic architecture across case definitions. Genetic correlations with GI, psychiatric and cardiometabolic traits were observed, including causal relationships with triglyceride (TG) levels. Functional annotation of IBS risk loci highlighted cell types and pathways relevant to brain, enteric neuro-glial and cardiometabolic domains, as well as actionable targets like GCKR, a regulator of TG metabolism. Druggability analyses converged on cardiometabolic mechanisms, including TG modulation. IBS polygenic risk scores were derived and showed a significant association with case status in an independent case-control dataset, supporting further evaluation in external population-based and clinically ascertained cohorts.\n\nCONCLUSIONS: This study provides the most comprehensive assessment of IBS genetics to date, demonstrating reproducible polygenic inheritance. We link IBS risk to convergent neurogastrointestinal and novel cardiometabolic mechanisms, highlight specific biological pathways and actionable mechanisms and outline translational opportunities emerging from integrated computational analyses.",
+  "keywords": [
+    "GENETICS",
+    "IRRITABLE BOWEL SYNDROME"
+  ],
+  "abstract_word_count": 255,
+  "pubdate": "2026 Jul 09"
+}

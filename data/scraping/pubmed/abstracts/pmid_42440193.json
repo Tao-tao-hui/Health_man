@@ -1,0 +1,15 @@
+{
+  "pmid": "42440193",
+  "title": "Generative large language models in the clinical management of Alzheimer's disease and mild cognitive impairment.",
+  "abstract": "BACKGROUND: Dementia affects over 55 million people worldwide. Mild cognitive impairment (MCI) often precedes Alzheimer's disease (AD). Clinical management requires integrating uncertain evidence from neuropsychological testing, neuroimaging, and biomarkers. Large language models (LLMs) also generate probabilistic outputs, but whether they can reliably support diagnostic, therapeutic, or educational tasks in AD and MCI has not been systematically examined.\n\nMETHODS: We searched PubMed, Scopus, and PubMed Central (January 2023 to April 2026) for studies evaluating generative LLMs on clinical tasks in Alzheimer's disease (AD) or mild cognitive impairment (MCI). Risk of bias was assessed using QUADAS-AI and AXIS. Narrative synthesis followed the SWiM guideline.\n\nPROSPERO: CRD420261372436.\n\nRESULTS: Eleven studies were included: diagnosis (n = 3), treatment guidance (n = 2), and patient/caregiver education (n = 8); two studies contributed to multiple domains. Diagnostic models achieved high internal accuracy (0.94-0.97) but declined on external validation; three-way classification accuracy dropped approximately 7% points, and MMSE-prediction R² collapsed from 0.90 to 0.25 on an external dataset. Treatment guidance approached but did not match structured clinical guidelines. Educational outputs were rated moderate to high quality but lacked source attribution and exceeded recommended reading levels; retrieval augmentation improved usability without improving accuracy. Hallucination was quantified in only 2 of 11 studies, and no study evaluated prospective clinical use.\n\nCONCLUSIONS: Current evidence does not support the use of LLMs for diagnosis, treatment selection, or patient education in AD/MCI without clinician oversight. These findings reflect the specific model versions, prompting strategies, and evaluation conditions in place at the time of each study, and are further limited by small heterogeneous evaluations, sparse hallucination measurement, and absence of prospective clinical validation.",
+  "keywords": [
+    "Alzheimer's disease",
+    "Clinical decision support",
+    "Large language models",
+    "Mild cognitive impairment",
+    "Patient education",
+    "Systematic review"
+  ],
+  "abstract_word_count": 270,
+  "pubdate": "2026 Jul 13"
+}

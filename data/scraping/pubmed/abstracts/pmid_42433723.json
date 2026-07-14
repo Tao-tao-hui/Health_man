@@ -1,0 +1,17 @@
+{
+  "pmid": "42433723",
+  "title": "Decrypting network physiology for clinical practice.",
+  "abstract": "Network physiology is a growing and expanding field analysing the exchange of information across body systems. The main goal is to understand and represent the body in a complex network with the hopes that these tools can bring real clinical value. These concepts may seem foreign to most clinicians, but we intuitively understand this in day-to-day practice. The hypoxic patient with asthma presenting with tachycardia or the patient with sepsis presenting with high temperature, low blood pressure and reduced oxygen saturations. Across several disease states, network-based analysis has shown that the loss of healthy variability is a marker of physiological strain. In hypoxic settings alterations in oxygen saturation variability and its relationship with other physiological parameters provides information about an individual's tolerance and adaptivity. In respiratory conditions such as Chronic Obstructive Pulmonary DiseaseOPD, changes in oxygen-saturation variability can help distinguish stable periods from early exacerbations, offering opportunities for earlier intervention in remote-monitoring settings. In parallel, studies of heart-rate variability (HRV) and heart-rate complexity show similarly promising correlations. These findings illustrate a recurring pattern: disease shifts the body from a flexible, adaptive physiological state to one that is more regular and less responsive, a change that can be captured through continuous-signal analysis and network physiology. Looking ahead, expanding access to continuous monitoring through wearables, both in hospital and at home, creates an opportunity to integrate these insights into everyday clinical practice. Network-physiology metrics could enhance risk stratification, support early warning systems, and help personalise treatment decisions and support precision medicine. \"Digital twins\" form part of this future in clinical applications. This overview aims to highlight the current impact and uses for network physiology. This will be a jargon-free entry point into the methods, emphasizing practical interpretation, limitations, and realistic pathways for integrating network physiology into everyday care and future research.",
+  "keywords": [
+    "COPD",
+    "OSA (obstructive sleep apnea)",
+    "chronic obstructive pulmonary disease",
+    "liver cirrhosis",
+    "network physiology",
+    "oxygen saturation variability",
+    "sepsis",
+    "transfer entropy"
+  ],
+  "abstract_word_count": 299,
+  "pubdate": "2026"
+}

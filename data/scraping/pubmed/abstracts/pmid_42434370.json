@@ -1,0 +1,17 @@
+{
+  "pmid": "42434370",
+  "title": "Integration of a tele-dermatology model for Epidermolysis Bullosa improves patient outreach: a before and after observational study.",
+  "abstract": "BACKGROUND: A hub-and-spokes model strengthens care for Epidermolysis Bullosa by combining specialized expertise with community clinics. Genetic and genomic diagnostics power personalized treatment, whilst telemedicine improves access and affordability of patient care. This integrated system delivers equitable and patient-centered care, reducing burden and improving outcomes for individuals with rare genetic diseases.\n\nMETHODS: This was a before-and-after observational study conducted at the Centre for Human Genetics in Bangalore, between January 2020 and August 2025. Patients with confirmed or suspected Epidermolysis Bullosa (EB) were referred, either by spoke-level practitioners or family members, to a teleconsultation with specialized dermatologists. Clinical data, including family history, were securely documented, and a multidisciplinary team was engaged when further intervention was required. Continuity of care was facilitated through a HIPAA-compliant mobile application, enabling families to maintain communication and follow-up. The impact of the program was evaluated by analyzing its geographical reach, patient evaluation, and comparative medical costs before and after implementation.\n\nRESULTS: Developing a standardized diagnostic framework and care pathways for the heterogeneous genetic condition Epidermolysis Bullosa (EB) across a large geographic region addressed a critical gap in the healthcare system. Within our program, 271 patients were enrolled, comprising EB simplex (n = 67), junctional EB (n = 69), dystrophic EB (n = 104), and Kindler syndrome (n = 7). Geographical data, available for 41 patients, demonstrated that most (n = 31, 75.6%) resided within a 600 km radius of the central hub, while the most distant patient was located 3125 km away, underscoring both the initiative's reach and accessibility. Importantly, implementation of the program resulted in a statistically significant reduction in direct medical costs, with a median savings of Rs 2625 (IQR: -1212-9025), as confirmed by a two-tailed Wilcoxon signed rank test (W = 143, n = 32, P = 0.0225). These findings highlight the feasibility and impact of centralized diagnostic and care models in improving access and reducing the economic burden for patients with EB.\n\nCONCLUSION: Patient care for Epidermolysis Bullosa has focused beyond economic benefits; the model demonstrates how technology can enhance equity in healthcare delivery. Telemedicine and genomic technologies bridge critical gaps in specialized care, particularly for complex conditions such as EB across wide geographic regions. A centralized diagnostic and care framework across wide geographic regions allows for statistically significant reductions in direct medical costs.",
+  "keywords": [
+    "India",
+    "accessible care",
+    "cost-analysis",
+    "digital health",
+    "epidermolysis bullosa",
+    "global health",
+    "rare disease",
+    "tele-dermatology"
+  ],
+  "abstract_word_count": 382,
+  "pubdate": "2026"
+}

@@ -1,0 +1,16 @@
+{
+  "pmid": "42432946",
+  "title": "A simulation study on optimizing stationary camera locations for physician-directed telemedical supervision of prehospital advanced life support: Single-versus dual-camera setups.",
+  "abstract": "Prehospital telemedicine, particularly real-time video conferencing, offers significant benefits in prehospital and disaster settings by enabling rapid data transmission. Using a smartphone mounted on a tripod as a stationary camera provides stable footage, comprehensive scene evaluation, and reduced technical complexity, thus complementing smart glasses and built-in cameras. However, the optimal camera location for visualizing key procedures remains unexplored. This study aims to compare the optimal stationary camera location and the effectiveness of single-camera versus dual-camera setups in visualizing key procedures for physician-directed telemedical supervision of prehospital advanced life support (ALS). This prospective, non-randomized simulation study involved 9 advanced emergency medical technicians performing ALS procedures in 20 simulations. Each simulation was recorded simultaneously from 4 stationary camera locations: right head, left head, right leg, and left leg. Reviewers evaluated the visibility of 6 key procedures (airway management, breathing support, chest compressions, intravenous access, electrocardiogram rhythm monitoring, and teamwork) using a 1 to 5 scale. Mixed models and generalized linear mixed models were applied to analyze the visibility scores and compare the effect sizes of the different camera setups. The median visibility scores and proportion of optimal visibility (scores of 4-5) varied significantly across the 4 camera locations for most procedures. However, the mixed model and generalized linear model analyses for overall visibility did not reveal significant differences in effect sizes between individual camera locations. Dual-camera setups showed significant improvement over single-camera setups, with an adjusted odds ratio of 4.89 (95% confidence interval: 1.92-12.4) for the right head + left head combination and 3.74 (95% confidence interval: 1.50-9.32) for the right head + left leg combination. Although no single-camera location provided optimal visualization for all procedures, dual-camera setups were more effective than single cameras in capturing field activity. These findings support the use of dual-camera setups to enhance physician-directed telemedical supervision of prehospital ALS, with potential applicability to disaster settings, and may inform the development of future protocols for prehospital telemedicine.",
+  "keywords": [
+    "advanced life support",
+    "camera",
+    "disaster",
+    "emergency medical services",
+    "prehospital",
+    "simulation",
+    "telemedicine"
+  ],
+  "abstract_word_count": 319,
+  "pubdate": "2026 Jul 10"
+}

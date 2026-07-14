@@ -1,0 +1,13 @@
+{
+  "pmid": "42440338",
+  "title": "Urinary Metabolic Age from High-Resolution NMR Reveals Longitudinal Aging Patterns.",
+  "abstract": "Biological age captures inter-individual heterogeneity in aging process arising from genetic and environmental influences. Metabolites, as the end-products of metabolism, integrate these factors and are therefore well suited for biological age estimation. Urinary metabolomics, in particular, provides a non-invasive and information-rich matrix for assessing systemic metabolic states. We applied different machine learning techniques to develop a biological age score from high-resolution 1H nuclear magnetic resonance (NMR) metabolites measured in urine samples from a large population-based cohort. The derived metabolic age score was applied to evaluate longitudinal trajectories over more than a decade. Cross-sectional associations with age-related clinical phenotypes were examined, and prospective analyses assessed associations with incident diseases and all-cause mortality. Metabolic age progression over time varied between individuals, underscoring inter-individual heterogeneity in metabolic aging. In cross-sectional analyses, the metabolic age score showed biologically plausible associations with a range of age-related clinical phenotypes. Furthermore, metabolic age was predictive of multiple diseases and all-cause mortality independent of chronological age. Our findings highlight the utility of urinary metabolomics as a robust, non-invasive approach for biological age assessment. The characterization of long-term metabolic age trajectories provides novel insight into inter-individual differences in aging and establishes urinary metabolic age as a promising tool for risk stratification and aging research.",
+  "keywords": [
+    "biological age",
+    "high resolution 1H NMR",
+    "machine learning",
+    "urinary metabolomics"
+  ],
+  "abstract_word_count": 205,
+  "pubdate": "2026 Jul 13"
+}
