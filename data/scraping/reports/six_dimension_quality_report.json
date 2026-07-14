@@ -1,0 +1,196 @@
+{
+  "report_generated_at": "2026-07-14T11:03:35.754718",
+  "data_source": "data\\scraping\\pubmed\\abstracts\\all_abstracts.json",
+  "total_articles": 108,
+  "dimensions": {
+    "完整性": {
+      "score": 69,
+      "issues_count": 3,
+      "issues": [
+        {
+          "category": "摘要缺失",
+          "description": "1 篇文献缺失摘要正文",
+          "severity": "Critical",
+          "count": 1,
+          "suggestion": "重新抓取空摘要的文献"
+        },
+        {
+          "category": "摘要过短",
+          "description": "1 篇文献摘要过短（<50字符）",
+          "severity": "Medium",
+          "count": 1,
+          "suggestion": "检查这些文献是否为会议摘要或短讯，考虑重新抓取或标记"
+        },
+        {
+          "category": "关键词缺失",
+          "description": "10 篇文献缺少关键词",
+          "severity": "Low",
+          "count": 10,
+          "suggestion": "关键词缺失不影响核心数据，可考虑从标题/摘要提取"
+        }
+      ]
+    },
+    "准确性": {
+      "score": 99,
+      "issues_count": 1,
+      "issues": [
+        {
+          "category": "摘要缺少结构化段落",
+          "description": "31 篇文献摘要缺少OBJECTIVE/METHODS等结构化标签",
+          "severity": "Low",
+          "count": 31,
+          "suggestion": "这可能是综述或短讯类文章，不影响数据有效性"
+        }
+      ]
+    },
+    "一致性": {
+      "score": 99,
+      "issues_count": 1,
+      "issues": [
+        {
+          "category": "关键词大小写不一致",
+          "description": "70 篇文献关键词大小写格式不统一",
+          "severity": "Low",
+          "count": 70,
+          "suggestion": "统一关键词大小写格式"
+        }
+      ]
+    },
+    "有效性": {
+      "score": 95,
+      "issues_count": 1,
+      "issues": [
+        {
+          "category": "摘要缺少医学术语",
+          "description": "6 篇文献摘要未包含常见医学术语",
+          "severity": "Medium",
+          "count": 6,
+          "suggestion": "检查这些文献是否为非医学内容，考虑过滤"
+        }
+      ]
+    },
+    "唯一性": {
+      "score": 100,
+      "issues_count": 0,
+      "issues": []
+    },
+    "及时性": {
+      "score": 100,
+      "issues_count": 0,
+      "issues": []
+    }
+  },
+  "issues": [
+    {
+      "dimension": "完整性",
+      "category": "摘要缺失",
+      "description": "1 篇文献缺失摘要正文",
+      "severity": "Critical",
+      "count": 1,
+      "affected_pmids": [],
+      "suggestion": "重新抓取空摘要的文献"
+    },
+    {
+      "dimension": "完整性",
+      "category": "摘要过短",
+      "description": "1 篇文献摘要过短（<50字符）",
+      "severity": "Medium",
+      "count": 1,
+      "affected_pmids": [
+        "42436698"
+      ],
+      "suggestion": "检查这些文献是否为会议摘要或短讯，考虑重新抓取或标记"
+    },
+    {
+      "dimension": "完整性",
+      "category": "关键词缺失",
+      "description": "10 篇文献缺少关键词",
+      "severity": "Low",
+      "count": 10,
+      "affected_pmids": [
+        "42429374",
+        "42430799",
+        "42435144",
+        "42437668",
+        "42437926",
+        "42439362",
+        "42439798",
+        "42440000",
+        "42440199",
+        "42440324"
+      ],
+      "suggestion": "关键词缺失不影响核心数据，可考虑从标题/摘要提取"
+    },
+    {
+      "dimension": "准确性",
+      "category": "摘要缺少结构化段落",
+      "description": "31 篇文献摘要缺少OBJECTIVE/METHODS等结构化标签",
+      "severity": "Low",
+      "count": 31,
+      "affected_pmids": [
+        "42426330",
+        "42429374",
+        "42431537",
+        "42431768",
+        "42432946",
+        "42433350",
+        "42434229",
+        "42436698",
+        "42437098",
+        "42437705"
+      ],
+      "suggestion": "这可能是综述或短讯类文章，不影响数据有效性"
+    },
+    {
+      "dimension": "一致性",
+      "category": "关键词大小写不一致",
+      "description": "70 篇文献关键词大小写格式不统一",
+      "severity": "Low",
+      "count": 70,
+      "affected_pmids": [
+        "42422424",
+        "42422437",
+        "42425734",
+        "42427954",
+        "42428704",
+        "42430205",
+        "42431537",
+        "42431768",
+        "42432788",
+        "42432946"
+      ],
+      "suggestion": "统一关键词大小写格式"
+    },
+    {
+      "dimension": "有效性",
+      "category": "摘要缺少医学术语",
+      "description": "6 篇文献摘要未包含常见医学术语",
+      "severity": "Medium",
+      "count": 6,
+      "affected_pmids": [
+        "42431768",
+        "42436698",
+        "42437098",
+        "42438224",
+        "42438604",
+        "42440082"
+      ],
+      "suggestion": "检查这些文献是否为非医学内容，考虑过滤"
+    }
+  ],
+  "severity_summary": {
+    "Critical": 1,
+    "High": 0,
+    "Medium": 2,
+    "Low": 3
+  },
+  "overall_score": 93.66666666666667,
+  "summary": {
+    "total_articles": 108,
+    "total_word_count": 28959,
+    "avg_word_count": 268.1388888888889,
+    "median_word_count": 257,
+    "with_keywords": 98,
+    "without_keywords": 10
+  }
+}
