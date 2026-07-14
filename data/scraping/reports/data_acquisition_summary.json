@@ -1,0 +1,66 @@
+{
+  "report_generated_at": "2026-07-14T10:42:10.045965",
+  "summary": {
+    "total_fetch_operations": 17,
+    "total_records_fetched": 82,
+    "successful_operations": 17,
+    "failed_operations": 0,
+    "total_duration_ms": 11393.000000003667,
+    "hashed_files_count": 80,
+    "records_scanned_for_pii": 79,
+    "records_with_pii": 70
+  },
+  "compliance": {
+    "total_checks": 6,
+    "passed_checks": 5,
+    "failed_checks": 1,
+    "checks": [
+      {
+        "name": "storage_path",
+        "description": "数据存储在指定目录",
+        "passed": true,
+        "details": "data\\scraping\\pubmed\\data"
+      },
+      {
+        "name": "file_count",
+        "description": "至少包含10个JSON数据文件",
+        "passed": true,
+        "details": "实际文件数: 47"
+      },
+      {
+        "name": "privacy_scan",
+        "description": "数据中不含敏感PII信息",
+        "passed": false,
+        "details": "含PII的记录数: 70"
+      },
+      {
+        "name": "integrity_hashes",
+        "description": "所有数据文件已计算完整性哈希",
+        "passed": true,
+        "details": "已哈希文件数: 80"
+      },
+      {
+        "name": "fetch_logs",
+        "description": "数据获取过程有完整日志记录",
+        "passed": true,
+        "details": "日志条目数: 17"
+      },
+      {
+        "name": "json_format",
+        "description": "所有JSON文件格式有效",
+        "passed": true,
+        "details": "无效文件数: 0"
+      }
+    ]
+  },
+  "data_sources": [
+    {
+      "name": "pubmed",
+      "total_records": 82,
+      "total_operations": 17,
+      "total_duration_ms": 11393.000000003667,
+      "avg_duration_per_operation": 670.176470588451
+    }
+  ],
+  "anomalies": []
+}
