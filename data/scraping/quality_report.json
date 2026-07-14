@@ -1,0 +1,69 @@
+{
+  "total_files": 7,
+  "files_by_type": {
+    "esummary": 3,
+    "einfo": 1,
+    "esearch": 3
+  },
+  "unique_pmids": [
+    "42436425",
+    "42438605",
+    "42438578",
+    "42422424",
+    "42438471",
+    "42426330",
+    "42437035",
+    "42430205",
+    "42438224",
+    "42437546",
+    "42437098",
+    "42428704",
+    "42436368",
+    "42438173",
+    "42438207",
+    "42439100",
+    "42438636",
+    "42426859",
+    "42438238",
+    "42431768",
+    "42438472",
+    "42422437",
+    "42436913",
+    "42437547",
+    "42438844",
+    "42433305",
+    "42430799",
+    "42438579",
+    "42438408"
+  ],
+  "total_articles": 29,
+  "missing_rate": 0.0,
+  "missing_fields": {
+    "uid": 0,
+    "pubdate": 0,
+    "source": 0,
+    "authors": 0,
+    "title": 0,
+    "fulljournalname": 0
+  },
+  "error_rate": 0.0086,
+  "format_errors": {
+    "pubdate_format": 1,
+    "issn_format": 0,
+    "authors_format": 0,
+    "uid_mismatch": 0
+  },
+  "relevance_scores": {
+    "bioelectrical impedance analysis health": 0.6259,
+    "body composition assessment": 0.6466,
+    "health management system": 0.6328
+  },
+  "avg_relevance": 0.6351,
+  "passed": true,
+  "failures": [],
+  "thresholds": {
+    "max_missing_rate": 0.15,
+    "max_error_rate": 0.1,
+    "min_relevance_score": 0.5
+  }
+}
