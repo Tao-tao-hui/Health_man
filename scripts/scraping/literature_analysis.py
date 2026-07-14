@@ -28,12 +28,15 @@ OUTPUT_DIR = Path("data/scraping/analysis")
 
 
 def load_all_articles() -> list[dict]:
-    """加载所有 esummary 文章"""
+    """加载所有 esummary 文章（仅扫描 pubmed/data/ 目录，排除分析报告）"""
     articles = []
-    for f in sorted(DATA_DIR.rglob("*.json")):
+    scan_dir = DATA_DIR / "pubmed" / "data"
+    for f in sorted(scan_dir.glob("*.json")):
         if f.name == "quality_report.json":
             continue
         data = json.loads(f.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            continue
         if data.get("data", {}).get("header", {}).get("type") == "esummary":
             result = data.get("data", {}).get("result", {})
             for uid in result.get("uids", []):
@@ -59,7 +62,7 @@ def extract_metadata(articles: list[dict]) -> list[dict]:
         for pt in art.get("pubtype", []):
             pub_types.append(pt)
 
-        # 提取 ISSN/ESSN
+        # 从 articleids 数组提取 DOI/PII（ISSN/ESSN 是文章直接字段，不在此数组中）
         article_ids = {}
         for aid in art.get("articleids", []):
             id_type = aid.get("idtype", "")
@@ -76,8 +79,8 @@ def extract_metadata(articles: list[dict]) -> list[dict]:
             "authors": authors,
             "author_count": len(authors),
             "pub_types": pub_types,
-            "issn": article_ids.get("issn", ""),
-            "essn": article_ids.get("essn", ""),
+            "issn": art.get("issn", ""),
+            "essn": art.get("essn", ""),
             "doi": article_ids.get("doi", ""),
             "volume": art.get("volume", ""),
             "issue": art.get("issue", ""),
