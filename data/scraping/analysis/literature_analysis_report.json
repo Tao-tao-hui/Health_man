@@ -1,0 +1,404 @@
+{
+  "summary": {
+    "total_articles": 29,
+    "total_unique_authors": 204,
+    "total_journals": 26,
+    "avg_authors_per_article": 7.0
+  },
+  "topic_classification": {
+    "body_composition": 12,
+    "lab_methods": 9,
+    "health_management": 8,
+    "bia_impedance": 5,
+    "other": 5,
+    "disease_condition": 4,
+    "exercise_rehabilitation": 3,
+    "bone_health": 2,
+    "nutrition_diet": 2
+  },
+  "journal_distribution": {
+    "Cureus": 3,
+    "Frontiers in endocrinology": 2,
+    "BMC sports science, medicine & rehabilitation": 1,
+    "Brain injury": 1,
+    "Sleep advances : a journal of the Sleep Research Society": 1,
+    "Scientific reports": 1,
+    "Journal of neurosurgery. Spine": 1,
+    "Brain & spine": 1,
+    "Journal of nursing management": 1,
+    "Physical activity and nutrition": 1
+  },
+  "publication_types": {
+    "Journal Article": 29,
+    "Case Reports": 2,
+    "Review": 2,
+    "Systematic Review": 1,
+    "Meta-Analysis": 1
+  },
+  "year_distribution": {
+    "2026": 29
+  },
+  "author_statistics": {
+    "total_unique_authors": 204,
+    "total_author_mentions": 204,
+    "avg_authors_per_article": 7.0344827586206895,
+    "max_authors": 19,
+    "min_authors": 2,
+    "top_authors": {
+      "Seyhan S": 1,
+      "Jourkesh M": 1,
+      "Salatin A": 1,
+      "Acar G": 1,
+      "Bilici MF": 1
+    }
+  },
+  "title_keywords_top20": {
+    "body": 7,
+    "composition": 6,
+    "analysis": 5,
+    "body composition": 5,
+    "patients": 4,
+    "effects": 3,
+    "trial": 3,
+    "data": 3,
+    "gut": 3,
+    "adults": 3,
+    "study": 3,
+    "sarcopenia": 3,
+    "based": 3,
+    "function": 3,
+    "impedance": 3,
+    "association": 3,
+    "fat": 3,
+    "review": 3,
+    "high": 3,
+    "bone": 2
+  },
+  "articles": [
+    {
+      "pmid": "42426859",
+      "title": "The combined effects of whey protein and collagen supplementation on bone mineral density and muscle mass in resistance-trained men: a randomized controlled trial.",
+      "journal": "BMC sports science, medicine & rehabilitation",
+      "pubdate": "2026 Jul 9",
+      "author_count": 8,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1186/s13102-026-01846-y"
+    },
+    {
+      "pmid": "42438207",
+      "title": "The true costs of data management in the era of data sharing mandates.",
+      "journal": "Brain injury",
+      "pubdate": "2026 Jul 12",
+      "author_count": 19,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02699052.2026.2695303"
+    },
+    {
+      "pmid": "42422424",
+      "title": "Metabolic regulatory mechanisms of Yijinjing exercise in patients with type 2 diabetes mellitus: Insight from the gut microbiota-intestinal barrier- inflammation axis.",
+      "journal": "Frontiers in endocrinology",
+      "pubdate": "2026",
+      "author_count": 3,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.3389/fendo.2026.1848478"
+    },
+    {
+      "pmid": "42438471",
+      "title": "Transoral neuromuscular electrical stimulation therapy adherence and intensity levels in veterans with mild OSA.",
+      "journal": "Sleep advances : a journal of the Sleep Research Society",
+      "pubdate": "2026",
+      "author_count": 9,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/sleepadvances/zpag061"
+    },
+    {
+      "pmid": "42426330",
+      "title": "Associations between physical activity, physical fitness, and body composition in adults living in Germany: a cross-sectional replication study.",
+      "journal": "Scientific reports",
+      "pubdate": "2026 Jul 9",
+      "author_count": 5,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41598-026-61611-6"
+    },
+    {
+      "pmid": "42430799",
+      "title": "Agreement and reliability analysis of sarcopenia measures based on muscle function, body composition, and imaging in spinal deformity patients.",
+      "journal": "Journal of neurosurgery. Spine",
+      "pubdate": "2026 Jul 10",
+      "author_count": 10,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.3171/2026.2.SPINE251093"
+    },
+    {
+      "pmid": "42436913",
+      "title": "Multiple myeloma with spinal involvement: Renal dysfunction and albuminuria are associated with progressive sarcopenia in a longitudinal CT morphometric study.",
+      "journal": "Brain & spine",
+      "pubdate": "2026",
+      "author_count": 7,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.bas.2026.106153"
+    },
+    {
+      "pmid": "42438238",
+      "title": "Profiles and Networks: A Person-Centered Analysis of Emotional Labor, Burnout, and Change Fatigue Among Chinese Oncology Nurses.",
+      "journal": "Journal of nursing management",
+      "pubdate": "2026",
+      "author_count": 6,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1155/jonm/4262055"
+    },
+    {
+      "pmid": "42438844",
+      "title": "Effects of 8-week Pilates or yoga intervention on body composition, flexibility, balance, autonomic nervous system function, and mental health in adults with stress.",
+      "journal": "Physical activity and nutrition",
+      "pubdate": "2026 Jun",
+      "author_count": 4,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.20463/pan.2026.0019"
+    },
+    {
+      "pmid": "42438224",
+      "title": "Oral and Gut Microbiomes Reveal Potential Physiological Constraints on Release Readiness in Rehabilitating Javan slow lorises.",
+      "journal": "American journal of primatology",
+      "pubdate": "2026 Jul",
+      "author_count": 10,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ajp.70184"
+    },
+    {
+      "pmid": "42437547",
+      "title": "Assessment of body composition in severe obesity: agreement between multifrequency bioelectrical impedance analysis and DXA and contribution of raw impedance data.",
+      "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+      "pubdate": "2026 Jun 13",
+      "author_count": 4,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.nut.2026.113331"
+    },
+    {
+      "pmid": "42430205",
+      "title": "Association Between Fat-Free Mass and Mortality: A Systematic Review and Meta-Analysis.",
+      "journal": "Journal of cachexia, sarcopenia and muscle",
+      "pubdate": "2026 Aug",
+      "author_count": 7,
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis"
+      ],
+      "doi": "10.1002/jcsm.70331"
+    },
+    {
+      "pmid": "42438579",
+      "title": "Occult Papillary Thyroid Carcinoma With No Identifiable Intrathyroidal Primary: A Case Report and Pooled Analysis of 23 Published Cases.",
+      "journal": "Cureus",
+      "pubdate": "2026 Jul",
+      "author_count": 5,
+      "pub_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "doi": "10.7759/cureus.112518"
+    },
+    {
+      "pmid": "42438472",
+      "title": "Blue-Laser Posterior Nasal Neurolysis via Dual Layer Nerve Modulation for Chronic Rhinitis.",
+      "journal": "Laryngoscope investigative otolaryngology",
+      "pubdate": "2026 Aug",
+      "author_count": 7,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/lio2.70468"
+    },
+    {
+      "pmid": "42431768",
+      "title": "An EMI-suppressed, high-fidelity Janus bioelectrode with gradient impedance for accurate dual-biosignal-based motion recognition.",
+      "journal": "Science bulletin",
+      "pubdate": "2026 Jun 26",
+      "author_count": 9,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.scib.2026.06.046"
+    },
+    {
+      "pmid": "42437546",
+      "title": "The gut-sleep connection: a scoping review into microbiome alterations in sleep-wake and circadian disorders.",
+      "journal": "Sleep medicine",
+      "pubdate": "2026 Jul 10",
+      "author_count": 6,
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1016/j.sleep.2026.109136"
+    },
+    {
+      "pmid": "42438605",
+      "title": "AutoML-driven ensemble learning for intradialytic hypotension prediction.",
+      "journal": "Digital health",
+      "pubdate": "2026 Jan-Dec",
+      "author_count": 5,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1177/20552076261438936"
+    },
+    {
+      "pmid": "42428704",
+      "title": "Comparative Utility of Body Fat and Visceral Fat Measured by Bioimpedance Versus BMI and Waist Circumference in Predicting Elevated Cardiovascular Risk Scores.",
+      "journal": "Sisli Etfal Hastanesi tip bulteni",
+      "pubdate": "2026",
+      "author_count": 6,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.14744/SEMB.2026.34079"
+    },
+    {
+      "pmid": "42437098",
+      "title": "Physiological and Skin Microbiome Divergence Among Closely Related Anurans Co-Occurring in Agricultural Wetlands.",
+      "journal": "Ecology and evolution",
+      "pubdate": "2026 Jul",
+      "author_count": 4,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ece3.73944"
+    },
+    {
+      "pmid": "42436425",
+      "title": "Association between body composition and bone mineral density in young and middle-aged adults.",
+      "journal": "BMC endocrine disorders",
+      "pubdate": "2026 Jul 11",
+      "author_count": 8,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1186/s12902-026-02414-8"
+    },
+    {
+      "pmid": "42438408",
+      "title": "Effects of a low-glycemic, moderately-carbohydrate restricted diet on hepatic lipid content and insulin sensitivity in adolescents with MASLD: protocol of a 6-month family-based, randomized controlled trial.",
+      "journal": "The British journal of nutrition",
+      "pubdate": "2026 Jul 13",
+      "author_count": 10,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1017/S0007114526108058"
+    },
+    {
+      "pmid": "42439100",
+      "title": "Optimizing Antihypertensive Care for Tanzanians Living With HIV: Effectiveness Outcomes From the COACH Pilot Trial.",
+      "journal": "Journal of acquired immune deficiency syndromes (1999)",
+      "pubdate": "2026 Aug 1",
+      "author_count": 16,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1097/QAI.0000000000003874"
+    },
+    {
+      "pmid": "42438173",
+      "title": "'Trust Is the First Algorithm': A Socio-Technical Framework for Generative AI Integration in a High-Stakes, Resource-Constrained Context.",
+      "journal": "Journal of advanced nursing",
+      "pubdate": "2026 Jul 12",
+      "author_count": 2,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1111/jan.70671"
+    },
+    {
+      "pmid": "42436368",
+      "title": "High-efficiency 14-plex cSNP SNaPshot assay for forensic peripheral blood identification.",
+      "journal": "BMC genomics",
+      "pubdate": "2026 Jul 11",
+      "author_count": 7,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1186/s12864-026-13173-0"
+    },
+    {
+      "pmid": "42437035",
+      "title": "Diversity persists while function shifts: post-heatwave reorganization of reef fish communities in Baja California.",
+      "journal": "PeerJ",
+      "pubdate": "2026",
+      "author_count": 7,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.7717/peerj.21452"
+    },
+    {
+      "pmid": "42422437",
+      "title": "Serum adropin levels and their association with sarcopenia in patients with diabetic nephropathy: a cross-sectional study.",
+      "journal": "Frontiers in endocrinology",
+      "pubdate": "2026",
+      "author_count": 2,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.3389/fendo.2026.1884793"
+    },
+    {
+      "pmid": "42438578",
+      "title": "Rapidly Progressive Triple M Overlap Syndrome After Immune Checkpoint Inhibitor Therapy.",
+      "journal": "Cureus",
+      "pubdate": "2026 Jul",
+      "author_count": 7,
+      "pub_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "doi": "10.7759/cureus.112508"
+    },
+    {
+      "pmid": "42433305",
+      "title": "Triglyceride-glucose index as a predictor of body composition changes in patients undergoing bariatric surgery.",
+      "journal": "Journal of diabetes and metabolic disorders",
+      "pubdate": "2026 Dec",
+      "author_count": 8,
+      "pub_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s40200-026-02001-7"
+    },
+    {
+      "pmid": "42438636",
+      "title": "Detecting Pseudothrombocytopenia in the Era of Artificial Intelligence: Integration of Automated Hematology, Digital Morphology, and Expert Review.",
+      "journal": "Cureus",
+      "pubdate": "2026 Jun",
+      "author_count": 3,
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.7759/cureus.110690"
+    }
+  ]
+}
