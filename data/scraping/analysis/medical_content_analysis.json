@@ -1,0 +1,930 @@
+{
+  "summary": {
+    "total_articles": 29,
+    "total_word_count": 8282,
+    "articles_with_quantitative_data": 24,
+    "articles_with_knowledge_types": 29,
+    "total_quantitative_items": 241
+  },
+  "knowledge_type_distribution": {
+    "disease_diagnosis": 25,
+    "treatment_plan": 19,
+    "physiological_index": 16,
+    "study_method": 22,
+    "pathophysiology": 11,
+    "pharmacology": 6
+  },
+  "subdomain_distribution": {
+    "orthopedics": 5,
+    "neurology": 6,
+    "sports_medicine": 11,
+    "nutrition": 5,
+    "public_health": 19,
+    "endocrinology": 8,
+    "gastroenterology": 3,
+    "immunology": 4,
+    "oncology": 5,
+    "cardiology": 5
+  },
+  "quantitative_summary": {
+    "measurements": [
+      "52 m",
+      "30 g",
+      "10 g",
+      "20 %",
+      "2700 %",
+      "6500 %",
+      "42 days",
+      "2 days",
+      "60 days",
+      "82 years",
+      "59.1 %",
+      "67.7 years",
+      "60 m",
+      "25 %",
+      "30 m",
+      "39 years",
+      "21 m",
+      "60 m",
+      "40 kg",
+      "1.1 kg",
+      "9.0 kg",
+      "95 %",
+      "95 %",
+      "95 %",
+      "52 %",
+      "65 %",
+      "26 %",
+      "26.3 %",
+      "3 m",
+      "3 m",
+      "97.7 %",
+      "28 %",
+      "22 %",
+      "19 %",
+      "52.2 %",
+      "95 %",
+      "95 %",
+      "49.6 %",
+      "75 %",
+      "85.7 %",
+      "50 years",
+      "18.5 kg",
+      "24 kg",
+      "25 %",
+      "25 %",
+      "50 %",
+      "6 m",
+      "6 m",
+      "90 mm",
+      "75 m",
+      "1 ng",
+      "100 %",
+      "2016 m",
+      "27 kg",
+      "16 kg",
+      "240.7 pg",
+      "3 m",
+      "6 m"
+    ],
+    "percentages": [
+      "20%",
+      "2700%",
+      "6500%",
+      "59.1%",
+      "25%",
+      "10%",
+      "95%",
+      "95%",
+      "95%",
+      "52%",
+      "65%",
+      "26%",
+      "26.3%",
+      "78.5%",
+      "89.9%",
+      "97.7%",
+      "28%",
+      "22%",
+      "19%",
+      "52.2%",
+      "95%",
+      "95%",
+      "49.6%",
+      "75%",
+      "85.7%",
+      "95%",
+      "95%",
+      "95%",
+      "25%",
+      "25%",
+      "50%",
+      "76%",
+      "14.0%",
+      "95.0%",
+      "100%"
+    ],
+    "statistics": [
+      "p < 0.001",
+      "p < 0.001",
+      "range",
+      "range",
+      "median",
+      "p < .001",
+      "p = .002",
+      "correlation",
+      "median",
+      "p < 0.001",
+      "correlation",
+      "correlation",
+      "confidence interval",
+      "range",
+      "median",
+      "confidence interval",
+      "range",
+      "correlation",
+      "correlation",
+      "range",
+      "p = 0.011",
+      "p = 0.370",
+      "p = 0.012",
+      "p = 0.005",
+      "p = 0.002",
+      "p = 0.005"
+    ],
+    "sample_sizes": [
+      "n = 12",
+      "n = 11",
+      "n = 26",
+      "n = 18",
+      "n: 20",
+      "participants: 59",
+      "n = 31"
+    ],
+    "scores": [],
+    "changes": []
+  },
+  "medical_terms_summary": {
+    "diseases": {
+      "t2dm": 2,
+      "type 2 diabetes": 3,
+      "osa": 1,
+      "sleep apnea": 2,
+      "sarcopenia": 4,
+      "multiple myeloma": 1,
+      "cancer": 3,
+      "obesity": 2,
+      "thyroid carcinoma": 1,
+      "carcinoma": 2,
+      "tumor": 1,
+      "hypertension": 3,
+      "syndrome": 1
+    },
+    "treatments": {
+      "resistance training": 1,
+      "collagen": 1,
+      "whey protein": 2,
+      "pilates": 1,
+      "yoga": 1,
+      "antihypertensive": 2
+    },
+    "tests": {
+      "bioelectrical impedance analysis": 9,
+      "elisa": 2,
+      "bia": 4,
+      "mri": 1
+    },
+    "biomarkers": {
+      "p1np": 1,
+      "crp": 1,
+      "zonulin": 1,
+      "il-10": 1,
+      "insulin": 3,
+      "mfg-e8": 1,
+      "il-8": 1,
+      "il-6": 1,
+      "hba1c": 1
+    },
+    "organs": {
+      "bone": 3,
+      "spine": 2,
+      "muscle": 5,
+      "gut": 4,
+      "kidney": 3,
+      "oral": 1,
+      "cardiovascular": 3,
+      "thyroid": 1,
+      "nasal": 2,
+      "brain": 1,
+      "liver": 2
+    }
+  },
+  "article_details": [
+    {
+      "pmid": "42426859",
+      "title": "The combined effects of whey protein and collagen supplementation on bone mineral density and muscle mass in resistance-trained men: a randomized controlled trial.",
+      "word_count": 481,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method",
+        "pathophysiology",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "orthopedics",
+        "neurology",
+        "sports_medicine",
+        "nutrition",
+        "public_health"
+      ],
+      "quantitative_items": 24,
+      "keywords": [
+        "Bone mineral density",
+        "Bone turnover biomarkers",
+        "Collagen peptides",
+        "Muscle hypertrophy",
+        "Randomized controlled trial"
+      ]
+    },
+    {
+      "pmid": "42438207",
+      "title": "The true costs of data management in the era of data sharing mandates.",
+      "word_count": 201,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "treatment_plan"
+      ],
+      "subdomains": [
+        "public_health"
+      ],
+      "quantitative_items": 8,
+      "keywords": [
+        "AI-ready data",
+        "Data",
+        "data management",
+        "data sharing",
+        "true cost of data"
+      ]
+    },
+    {
+      "pmid": "42422424",
+      "title": "Metabolic regulatory mechanisms of Yijinjing exercise in patients with type 2 diabetes mellitus: Insight from the gut microbiota-intestinal barrier- inflammation axis.",
+      "word_count": 389,
+      "has_knowledge": true,
+      "has_quantitative": false,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "gastroenterology",
+        "sports_medicine",
+        "nutrition",
+        "immunology",
+        "public_health"
+      ],
+      "quantitative_items": 0,
+      "keywords": [
+        "Yijinjing exercise",
+        "glucose homeostasis",
+        "gut microbiota",
+        "inflammatory cytokines",
+        "intestinal mucosal barrier function"
+      ]
+    },
+    {
+      "pmid": "42438471",
+      "title": "Transoral neuromuscular electrical stimulation therapy adherence and intensity levels in veterans with mild OSA.",
+      "word_count": 235,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "treatment_plan"
+      ],
+      "subdomains": [
+        "neurology",
+        "public_health"
+      ],
+      "quantitative_items": 9,
+      "keywords": [
+        "obstructive sleep apnea",
+        "self-management",
+        "transoral neuromuscular electrical stimulation",
+        "treatment adherence"
+      ]
+    },
+    {
+      "pmid": "42426330",
+      "title": "Associations between physical activity, physical fitness, and body composition in adults living in Germany: a cross-sectional replication study.",
+      "word_count": 200,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "sports_medicine"
+      ],
+      "quantitative_items": 3,
+      "keywords": [
+        "Aging",
+        "Bioelectrical impedance analysis",
+        "Muscle strength",
+        "Phase angle"
+      ]
+    },
+    {
+      "pmid": "42430799",
+      "title": "Agreement and reliability analysis of sarcopenia measures based on muscle function, body composition, and imaging in spinal deformity patients.",
+      "word_count": 321,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "orthopedics",
+        "public_health"
+      ],
+      "quantitative_items": 7,
+      "keywords": []
+    },
+    {
+      "pmid": "42436913",
+      "title": "Multiple myeloma with spinal involvement: Renal dysfunction and albuminuria are associated with progressive sarcopenia in a longitudinal CT morphometric study.",
+      "word_count": 293,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "orthopedics",
+        "oncology",
+        "sports_medicine",
+        "public_health"
+      ],
+      "quantitative_items": 7,
+      "keywords": [
+        "Body composition",
+        "Computed tomography morphometry",
+        "Kidney dysfunction",
+        "Multiple myeloma",
+        "Retrospective study"
+      ]
+    },
+    {
+      "pmid": "42438238",
+      "title": "Profiles and Networks: A Person-Centered Analysis of Emotional Labor, Burnout, and Change Fatigue Among Chinese Oncology Nurses.",
+      "word_count": 434,
+      "has_knowledge": true,
+      "has_quantitative": false,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "study_method",
+        "pathophysiology",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "oncology",
+        "sports_medicine",
+        "public_health"
+      ],
+      "quantitative_items": 0,
+      "keywords": [
+        "burnout",
+        "change fatigue",
+        "computational simulated intervention",
+        "emotional labor",
+        "latent profile analysis"
+      ]
+    },
+    {
+      "pmid": "42438844",
+      "title": "Effects of 8-week Pilates or yoga intervention on body composition, flexibility, balance, autonomic nervous system function, and mental health in adults with stress.",
+      "word_count": 224,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "neurology",
+        "sports_medicine"
+      ],
+      "quantitative_items": 8,
+      "keywords": [
+        "Pilates",
+        "autonomic nervous system function",
+        "balance",
+        "flexibility",
+        "mental health"
+      ]
+    },
+    {
+      "pmid": "42438224",
+      "title": "Oral and Gut Microbiomes Reveal Potential Physiological Constraints on Release Readiness in Rehabilitating Javan slow lorises.",
+      "word_count": 250,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "gastroenterology"
+      ],
+      "quantitative_items": 2,
+      "keywords": [
+        "conservation translocation",
+        "dysbiosis",
+        "nocturnal primates",
+        "oral–gut axis",
+        "physiological resilience"
+      ]
+    },
+    {
+      "pmid": "42437547",
+      "title": "Assessment of body composition in severe obesity: agreement between multifrequency bioelectrical impedance analysis and DXA and contribution of raw impedance data.",
+      "word_count": 260,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [],
+      "quantitative_items": 10,
+      "keywords": [
+        "Body composition",
+        "Dual-energy X-ray absorptiometry",
+        "Multifrequency bioelectrical impedance",
+        "Obesity",
+        "Raw bioelectrical impedance"
+      ]
+    },
+    {
+      "pmid": "42430205",
+      "title": "Association Between Fat-Free Mass and Mortality: A Systematic Review and Meta-Analysis.",
+      "word_count": 301,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "cardiology",
+        "oncology"
+      ],
+      "quantitative_items": 20,
+      "keywords": [
+        "body composition",
+        "body fat distribution",
+        "leanness",
+        "meta‐analysis",
+        "mortality"
+      ]
+    },
+    {
+      "pmid": "42438579",
+      "title": "Occult Papillary Thyroid Carcinoma With No Identifiable Intrathyroidal Primary: A Case Report and Pooled Analysis of 23 Published Cases.",
+      "word_count": 272,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "oncology",
+        "public_health"
+      ],
+      "quantitative_items": 12,
+      "keywords": [
+        "braf mutation",
+        "cervical lymphadenopathy",
+        "cystic neck mass",
+        "occult primary",
+        "papillary thyroid carcinoma"
+      ]
+    },
+    {
+      "pmid": "42438472",
+      "title": "Blue-Laser Posterior Nasal Neurolysis via Dual Layer Nerve Modulation for Chronic Rhinitis.",
+      "word_count": 283,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "pathophysiology",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "cardiology",
+        "neurology",
+        "public_health"
+      ],
+      "quantitative_items": 15,
+      "keywords": [
+        "blue laser",
+        "chronic rhinitis",
+        "neurolysis",
+        "posterior nasal nerve",
+        "rTNSS"
+      ]
+    },
+    {
+      "pmid": "42431768",
+      "title": "An EMI-suppressed, high-fidelity Janus bioelectrode with gradient impedance for accurate dual-biosignal-based motion recognition.",
+      "word_count": 165,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "public_health"
+      ],
+      "quantitative_items": 2,
+      "keywords": [
+        "EMI Suppression",
+        "Gradient-impedance Janus bioelectrode",
+        "High-fidelity biosignal acquisition",
+        "On-body biosignal recognition"
+      ]
+    },
+    {
+      "pmid": "42437546",
+      "title": "The gut-sleep connection: a scoping review into microbiome alterations in sleep-wake and circadian disorders.",
+      "word_count": 235,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "gastroenterology",
+        "neurology",
+        "nutrition",
+        "immunology"
+      ],
+      "quantitative_items": 8,
+      "keywords": [
+        "Gut microbiome",
+        "Gut-brain axis",
+        "Hypersomnolence/sleepiness",
+        "Insomnia",
+        "Narcolepsy"
+      ]
+    },
+    {
+      "pmid": "42438605",
+      "title": "AutoML-driven ensemble learning for intradialytic hypotension prediction.",
+      "word_count": 208,
+      "has_knowledge": true,
+      "has_quantitative": false,
+      "knowledge_types": [
+        "treatment_plan",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "sports_medicine",
+        "public_health"
+      ],
+      "quantitative_items": 0,
+      "keywords": [
+        "CatBoost",
+        "LightGBM",
+        "Local Interpretable Model-agnostic Explanations (LIME)",
+        "artificial intelligence",
+        "auto machine learning (Auto ML)"
+      ]
+    },
+    {
+      "pmid": "42428704",
+      "title": "Comparative Utility of Body Fat and Visceral Fat Measured by Bioimpedance Versus BMI and Waist Circumference in Predicting Elevated Cardiovascular Risk Scores.",
+      "word_count": 303,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "cardiology",
+        "sports_medicine"
+      ],
+      "quantitative_items": 16,
+      "keywords": [
+        "Body fat",
+        "SCORE2",
+        "body mass index",
+        "cardiovascular risk scales",
+        "vascular age"
+      ]
+    },
+    {
+      "pmid": "42437098",
+      "title": "Physiological and Skin Microbiome Divergence Among Closely Related Anurans Co-Occurring in Agricultural Wetlands.",
+      "word_count": 224,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "study_method"
+      ],
+      "subdomains": [
+        "immunology",
+        "public_health"
+      ],
+      "quantitative_items": 6,
+      "keywords": [
+        "agricultural wetlands",
+        "congeneric comparison",
+        "conservation physiology",
+        "physiological traits",
+        "skin microbiome"
+      ]
+    },
+    {
+      "pmid": "42436425",
+      "title": "Association between body composition and bone mineral density in young and middle-aged adults.",
+      "word_count": 515,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [
+        "cardiology",
+        "endocrinology",
+        "orthopedics",
+        "neurology",
+        "public_health"
+      ],
+      "quantitative_items": 18,
+      "keywords": [
+        "BMI",
+        "Body composition",
+        "Bone mineral density",
+        "Percent body fat"
+      ]
+    },
+    {
+      "pmid": "42438408",
+      "title": "Effects of a low-glycemic, moderately-carbohydrate restricted diet on hepatic lipid content and insulin sensitivity in adolescents with MASLD: protocol of a 6-month family-based, randomized controlled trial.",
+      "word_count": 243,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "nutrition",
+        "public_health"
+      ],
+      "quantitative_items": 13,
+      "keywords": [
+        "MASLD",
+        "insulin sensitivity",
+        "nutrition",
+        "pediatric"
+      ]
+    },
+    {
+      "pmid": "42439100",
+      "title": "Optimizing Antihypertensive Care for Tanzanians Living With HIV: Effectiveness Outcomes From the COACH Pilot Trial.",
+      "word_count": 272,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "treatment_plan",
+        "study_method"
+      ],
+      "subdomains": [
+        "cardiology",
+        "sports_medicine",
+        "public_health"
+      ],
+      "quantitative_items": 21,
+      "keywords": [
+        "HIV",
+        "Tanzania",
+        "hypertension",
+        "implementation science",
+        "integrated care"
+      ]
+    },
+    {
+      "pmid": "42438173",
+      "title": "'Trust Is the First Algorithm': A Socio-Technical Framework for Generative AI Integration in a High-Stakes, Resource-Constrained Context.",
+      "word_count": 276,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "study_method"
+      ],
+      "subdomains": [
+        "sports_medicine",
+        "public_health"
+      ],
+      "quantitative_items": 1,
+      "keywords": [
+        "Palestine",
+        "generative AI",
+        "implementation",
+        "professional autonomy",
+        "qualitative research"
+      ]
+    },
+    {
+      "pmid": "42436368",
+      "title": "High-efficiency 14-plex cSNP SNaPshot assay for forensic peripheral blood identification.",
+      "word_count": 216,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method"
+      ],
+      "subdomains": [],
+      "quantitative_items": 3,
+      "keywords": [
+        "Forensic peripheral blood identification",
+        "SNaPshot assay",
+        "cSNPs",
+        "mRNA"
+      ]
+    },
+    {
+      "pmid": "42437035",
+      "title": "Diversity persists while function shifts: post-heatwave reorganization of reef fish communities in Baja California.",
+      "word_count": 376,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis"
+      ],
+      "subdomains": [
+        "sports_medicine"
+      ],
+      "quantitative_items": 1,
+      "keywords": [
+        "Alpha diversity",
+        "Fish communities",
+        "Functional resilience",
+        "Kelp forests",
+        "Resilience"
+      ]
+    },
+    {
+      "pmid": "42422437",
+      "title": "Serum adropin levels and their association with sarcopenia in patients with diabetic nephropathy: a cross-sectional study.",
+      "word_count": 392,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "physiological_index",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "orthopedics"
+      ],
+      "quantitative_items": 17,
+      "keywords": [
+        "EWGSOP2",
+        "adropin",
+        "diabetic nephropathy",
+        "hand-grip strength",
+        "sarcopenia"
+      ]
+    },
+    {
+      "pmid": "42438578",
+      "title": "Rapidly Progressive Triple M Overlap Syndrome After Immune Checkpoint Inhibitor Therapy.",
+      "word_count": 223,
+      "has_knowledge": true,
+      "has_quantitative": false,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "pathophysiology",
+        "pharmacology"
+      ],
+      "subdomains": [
+        "oncology",
+        "immunology",
+        "public_health"
+      ],
+      "quantitative_items": 0,
+      "keywords": [
+        "immune checkpoint inhibitor",
+        "immune-related adverse event (irae)",
+        "myasthenia-like syndrome",
+        "myocarditis",
+        "myositis"
+      ]
+    },
+    {
+      "pmid": "42433305",
+      "title": "Triglyceride-glucose index as a predictor of body composition changes in patients undergoing bariatric surgery.",
+      "word_count": 258,
+      "has_knowledge": true,
+      "has_quantitative": true,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "physiological_index",
+        "study_method",
+        "pathophysiology"
+      ],
+      "subdomains": [
+        "endocrinology",
+        "nutrition",
+        "public_health"
+      ],
+      "quantitative_items": 10,
+      "keywords": [
+        "Bariatric surgery",
+        "Body composition",
+        "Insulin resistance",
+        "Triglyceride-glucose index"
+      ]
+    },
+    {
+      "pmid": "42438636",
+      "title": "Detecting Pseudothrombocytopenia in the Era of Artificial Intelligence: Integration of Automated Hematology, Digital Morphology, and Expert Review.",
+      "word_count": 232,
+      "has_knowledge": true,
+      "has_quantitative": false,
+      "knowledge_types": [
+        "disease_diagnosis",
+        "treatment_plan",
+        "study_method"
+      ],
+      "subdomains": [
+        "public_health"
+      ],
+      "quantitative_items": 0,
+      "keywords": [
+        "artificial intelligence",
+        "automated hematology analyser",
+        "edta",
+        "platelet clumping",
+        "pseudothrombocytopenia"
+      ]
+    }
+  ]
+}
